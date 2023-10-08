@@ -9,7 +9,7 @@ public class Enemy_Detection : MonoBehaviour
     [SerializeField] float timeOut;
     float CurrentTime;
     public bool Deteccion;
-    [SerializeField] LayerMask PlayerLayer;
+    public LayerMask PlayerLayer;
 
     bool PlayerInArea()
     {

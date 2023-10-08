@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c394aeae09943f4a9c1155fcb34a4e1
+guid: 5ddc707bade6efb4889f8863f9b48b9a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,11 +44,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 12
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,169 +107,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OrientacionPlayer_0
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 70
-        width: 28
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00afdd36def1ad04c892c39462fcf6f8
-      internalID: -1068225561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_1
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 67
-        width: 50
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cfc938329dc1ab4d9e0976e2f5388f8
-      internalID: -674553799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_2
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 80
-        width: 50
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a39d719b06569fc42ae609f5b6037b9e
-      internalID: 1949157699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_3
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 67
-        width: 50
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6950edad3a3bff14985937aefddb453d
-      internalID: 675529743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_4
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 70
-        width: 28
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20ba1f2ee43a9214a921cf0e7f39164b
-      internalID: 1056002737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_5
+      name: Hidrante_EstadoInicial
       rect:
         serializedVersion: 2
         x: 7
-        y: 3
-        width: 50
-        height: 56
+        y: 86
+        width: 18
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6616aec44fc894d861e278189be3b7
-      internalID: -1235729234
+      spriteID: 383d0bb97343fc049838670c41650918
+      internalID: 1260129553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_6
+      name: Hidrante-Rompiendose1
       rect:
         serializedVersion: 2
-        x: 71
-        y: 16
-        width: 50
-        height: 35
+        x: 20
+        y: 46
+        width: 20
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9f90b1f5fdfd841af79d63f0ca245b
-      internalID: -1946678135
+      spriteID: e407d88344a6ace4799299743c92d5b1
+      internalID: -800512070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_7
+      name: Hidrante-Rompiendose2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 3
-        width: 50
-        height: 56
+        x: 76
+        y: 46
+        width: 28
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c04751b837c804daff96c3b39bd382
-      internalID: 1871515810
+      spriteID: 2eb8b770722c2c6499d2eadf66630d06
+      internalID: -530151354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Rompiendose3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 46
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e333ea9d80761b4eb7b1cb6bea50cb2
+      internalID: 877754708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Rompiendose4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 46
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c530c10fec51ff49a5aff9acb3ef12a
+      internalID: -1316722050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Rompiendose5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 46
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152406626bbcb048a1966c6b5de8677
+      internalID: 1112994948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Rompiendose6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 46
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d1e45ba13f2184b95e4df8621819f6
+      internalID: -531641227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Rompiendose7
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 46
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735c142c80b9a024b867dbb69fb49e0b
+      internalID: -942055803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante_Activo1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc85b48c37536b42a93acdabcdd15fd
+      internalID: 958067094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante_Activo2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 6
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592b7667f5a40a4e8d668c9cae87608
+      internalID: -1153361218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante_Activo3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1c514b151b844448ed4d583dca74d4
+      internalID: -1005043970
       vertices: []
       indices: 
       edges: []
@@ -285,14 +348,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      OrientacionPlayer_0: -1068225561
-      OrientacionPlayer_1: -674553799
-      OrientacionPlayer_2: 1949157699
-      OrientacionPlayer_3: 675529743
-      OrientacionPlayer_4: 1056002737
-      OrientacionPlayer_5: -1235729234
-      OrientacionPlayer_6: -1946678135
-      OrientacionPlayer_7: 1871515810
+      Hidrante-Rompiendose1: -800512070
+      Hidrante-Rompiendose2: -530151354
+      Hidrante-Rompiendose3: 877754708
+      Hidrante-Rompiendose4: -1316722050
+      Hidrante-Rompiendose5: 1112994948
+      Hidrante-Rompiendose6: -531641227
+      Hidrante-Rompiendose7: -942055803
+      Hidrante_Activo1: 958067094
+      Hidrante_Activo2: -1153361218
+      Hidrante_Activo3: -1005043970
+      Hidrante_EstadoInicial: 1260129553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

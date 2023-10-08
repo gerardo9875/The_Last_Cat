@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c394aeae09943f4a9c1155fcb34a4e1
+guid: da7cf8b8098f5de4b93285d31887b01e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,11 +44,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 12
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OrientacionPlayer_0
+      name: perroZombie_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 70
-        width: 28
-        height: 53
+        x: 23
+        y: 57
+        width: 16
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00afdd36def1ad04c892c39462fcf6f8
-      internalID: -1068225561
+      spriteID: 6843cd225b65eae458d91e9888ba7ab7
+      internalID: 582899834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_1
+      name: perroZombie_2
       rect:
         serializedVersion: 2
-        x: 71
-        y: 67
-        width: 50
-        height: 56
+        x: 42
+        y: 61
+        width: 44
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cfc938329dc1ab4d9e0976e2f5388f8
-      internalID: -674553799
+      spriteID: 61c0583228522fe448493f527e973f5b
+      internalID: 63630511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_2
+      name: perroZombie_3
       rect:
         serializedVersion: 2
-        x: 135
-        y: 80
-        width: 50
-        height: 35
+        x: 92
+        y: 55
+        width: 34
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a39d719b06569fc42ae609f5b6037b9e
-      internalID: 1949157699
+      spriteID: 21b614895bae9fb4aa0a0a53122a8c85
+      internalID: -804021500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_3
+      name: perroZombie_4
       rect:
         serializedVersion: 2
-        x: 199
-        y: 67
-        width: 50
-        height: 56
+        x: 134
+        y: 51
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6950edad3a3bff14985937aefddb453d
-      internalID: 675529743
+      spriteID: 04af4d98f9a847b4e81bb73902ffb011
+      internalID: 1185101337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_4
+      name: perroZombie_7
       rect:
         serializedVersion: 2
-        x: 274
-        y: 70
-        width: 28
-        height: 53
+        x: 22
+        y: 11
+        width: 17
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20ba1f2ee43a9214a921cf0e7f39164b
-      internalID: 1056002737
+      spriteID: 3348a9a6ddc5a60419b0ce2b6cea2259
+      internalID: 126160113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OrientacionPlayer_5
+      name: perroZombie_8
       rect:
         serializedVersion: 2
-        x: 7
+        x: 42
+        y: 7
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5f46a9486c6df4dab770629b078f0f
+      internalID: -1115530045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perroZombie_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb1094dd06e529499c9f93603d5d5a7
+      internalID: 979036489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perroZombie_11
+      rect:
+        serializedVersion: 2
+        x: 92
         y: 3
-        width: 50
-        height: 56
+        width: 34
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,50 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6616aec44fc894d861e278189be3b7
-      internalID: -1235729234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_6
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 16
-        width: 50
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b9f90b1f5fdfd841af79d63f0ca245b
-      internalID: -1946678135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OrientacionPlayer_7
-      rect:
-        serializedVersion: 2
-        x: 135
-        y: 3
-        width: 50
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78c04751b837c804daff96c3b39bd382
-      internalID: 1871515810
+      spriteID: 583b605ad62c43849bc3329f9b22ff6c
+      internalID: -1517660168
       vertices: []
       indices: 
       edges: []
@@ -285,14 +285,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      OrientacionPlayer_0: -1068225561
-      OrientacionPlayer_1: -674553799
-      OrientacionPlayer_2: 1949157699
-      OrientacionPlayer_3: 675529743
-      OrientacionPlayer_4: 1056002737
-      OrientacionPlayer_5: -1235729234
-      OrientacionPlayer_6: -1946678135
-      OrientacionPlayer_7: 1871515810
+      perroZombie_0: -1718370988
+      perroZombie_1: 582899834
+      perroZombie_10: 1165279052
+      perroZombie_11: -1517660168
+      perroZombie_12: 1717402110
+      perroZombie_2: 63630511
+      perroZombie_3: -804021500
+      perroZombie_4: 1185101337
+      perroZombie_5: -1027815425
+      perroZombie_6: 935517932
+      perroZombie_7: 126160113
+      perroZombie_8: -1115530045
+      perroZombie_9: 979036489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

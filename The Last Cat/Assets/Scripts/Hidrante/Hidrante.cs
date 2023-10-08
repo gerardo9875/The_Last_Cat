@@ -1,13 +1,17 @@
+using System;
 using System.Collections;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class Hidrante : MonoBehaviour
 {
-    public float radio;
-    public LayerMask capa;
-    public Player_Disparo disparo;
+    [SerializeField] float radio;
+    [SerializeField] LayerMask capa;
+    [SerializeField] LayerMask Activadores;
+    [SerializeField] Player_Disparo disparo;
+    [SerializeField] Animator animator;
 
-    bool broken;
+    [NonSerialized] public bool broken;
 
     bool area()
     {
@@ -16,6 +20,9 @@ public class Hidrante : MonoBehaviour
 
     void Update()
     {
+        animator.SetBool("Activo", broken); //Animacion
+
+        //Recarga del arma secundaria
         if (area() == true && broken && disparo.BetaCurrentAmmo <= disparo.BetaMaxAmmo)
         {
             disparo.BetaCurrentAmmo += Time.deltaTime * 260;
@@ -31,9 +38,9 @@ public class Hidrante : MonoBehaviour
     {
         if (collision.CompareTag("PlayerBullet"))
         {
-            if(!broken) Destroy(collision.gameObject);
+            Destroy(collision.gameObject);
 
-            broken = true;
+            if(!broken) broken = true;
         }
     }
 }

@@ -8,7 +8,7 @@ public class Player_Movement : MonoBehaviour
     [NonSerialized] public Rigidbody2D playerRb;
     private Animator playerAnimator;
 
-    Vector2 moveInput;
+    [NonSerialized] public Vector2 moveInput;
 
     [SerializeField] private float speed;
 
@@ -24,12 +24,12 @@ public class Player_Movement : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-        moveInput = new Vector2(moveX, moveY).normalized;
+        moveInput = new Vector2(moveX, moveY);
 
-        playerAnimator.SetFloat("Horizontal", moveX);
-        playerAnimator.SetFloat("Vertical", moveY);
-        playerAnimator.SetFloat("Diagonal",moveX, moveY, Time.deltaTime);
-        playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
+        //playerAnimator.SetFloat("Horizontal", moveX);
+        //playerAnimator.SetFloat("Vertical", moveY);
+        //playerAnimator.SetFloat("Diagonal",moveX, moveY, Time.deltaTime);
+        //playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
 
     }
 

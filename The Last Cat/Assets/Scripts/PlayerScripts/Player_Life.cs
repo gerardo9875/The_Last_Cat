@@ -5,17 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Player_Life : MonoBehaviour
 {
-    int maxLife = 7;
-    int currentlife;
+    [SerializeField] int maxLife = 7;
+    public int currentlife;
 
     private void Start()
     {
-        currentlife = 1;
-
-        if(currentlife<=0)
+        currentlife = maxLife;
+    }
+    private void Update()
+    {
+        if (currentlife <= 0)
         {
             SceneManager.LoadScene("GameOver1");
         }
-
     }
 }

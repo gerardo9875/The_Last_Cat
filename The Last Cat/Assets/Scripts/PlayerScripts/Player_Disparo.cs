@@ -11,12 +11,12 @@ public class Player_Disparo : MonoBehaviour
 
     [Header("Disparo Principal")]
     [SerializeField] GameObject AlfaBullet;
+    [SerializeField] GameObject luzDisparo;
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
     public float reloadTime = 2.0f;
     public bool isReloading = false;
     bool canShoot = true;
-    [SerializeField] GameObject luzDisparo;
 
     [Header("Disparo Secundario")]
     [SerializeField] GameObject BetaBullet;
@@ -25,10 +25,14 @@ public class Player_Disparo : MonoBehaviour
 
     [Header("Bomba Ratón")]
     [SerializeField] GameObject bombaRaton;
-    public int ratonCount;
     [SerializeField] float RatonVel;
+    public int ratonCount;
 
-    [NonSerialized] public bool armaPrincipal = true; //Posible variable para usar en el codigo del HUD
+    [NonSerialized] public bool armaPrincipal = true;
+
+    public bool isShooting;
+    public float unshootingTime;
+    public float passedTime;
 
     private void Start()
     {
@@ -38,6 +42,16 @@ public class Player_Disparo : MonoBehaviour
     }
     private void Update()
     {
+        if(isShooting && passedTime < unshootingTime)
+        {
+            passedTime += Time.deltaTime;
+        }
+
+        if(passedTime >= unshootingTime)
+        {
+            isShooting = false;
+        }
+
         if (isReloading)
             return;
 
@@ -79,6 +93,9 @@ public class Player_Disparo : MonoBehaviour
         {
             if (AlfaCurrentAmmo > 0 && canShoot) //Si la municion es mayor a 0
             {
+                isShooting = true;
+                passedTime = 0;
+
                 Instantiate(AlfaBullet, transform.position, transform.rotation);
                 AlfaCurrentAmmo--;
 
@@ -104,6 +121,9 @@ public class Player_Disparo : MonoBehaviour
         {
             if (BetaCurrentAmmo > 0)
             {
+                isShooting = true;
+                passedTime = 0;
+
                 Instantiate(BetaBullet, transform.position, transform.rotation);
                 BetaCurrentAmmo--;
             }
