@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
@@ -12,19 +13,27 @@ public class Player_Movement : MonoBehaviour
 
     [SerializeField] private float speed;
 
+    public float distancedash;
+    public float duraciondash;
+    public float cooldowndash;
+    private bool candash = true;
+    private bool isdashing = false;
+
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
 
-       
     }
     
     void Update()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
-        moveInput = new Vector2(moveX, moveY);
+        Movement();
+
+        if(Input.GetKeyDown(KeyCode.V) && candash)
+        {
+            StartCoroutine(Dash());
+        }
 
         //playerAnimator.SetFloat("Horizontal", moveX);
         //playerAnimator.SetFloat("Vertical", moveY);
@@ -35,6 +44,30 @@ public class Player_Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        playerRb.MovePosition(playerRb.position+moveInput *speed * Time.fixedDeltaTime);
+
+        if(!isdashing)
+        {
+            playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
+        }
+        
+    }
+
+    void Movement()
+    {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+        moveInput = new Vector2(moveX, moveY);
+    }
+
+    IEnumerator Dash()
+    {
+        candash = false;
+        isdashing = true;
+        playerRb.velocity = moveInput.normalized * distancedash / duraciondash;
+        yield return new WaitForSeconds(duraciondash);
+        isdashing = false;
+        playerRb.velocity = Vector2.zero;
+        yield return new WaitForSeconds(cooldowndash);
+        candash = true;
     }
 }
