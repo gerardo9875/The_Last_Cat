@@ -4,44 +4,57 @@ using UnityEngine.Rendering;
 
 public class RatonEnemigo : MonoBehaviour
 {
-    public float ContadorTiempo = 3;
-    public Transform player;
-    public GameObject Explosion;
-    bool detector;
-
-    public float velocidad;
-    public float radioExpl;
+    [Header("Detección")]
     public float radioDetec;
-
-    bool canMove = true;
-
+    public Transform player;
     public LayerMask PlayerLayer;
+    private bool detector;
+
+    [Header("Movimiento")]
+    public float velocidad;
+    private bool canMove = true;
+
+    [Header("Explosion")]
+    public GameObject Explosion;
+    public float radioExpl;
+    public float ContadorTiempo;
+
 
     bool PlayerInArea()
     {
         return Physics2D.OverlapCircle(transform.position, radioExpl, PlayerLayer);
     }
+
     bool PlayerDetetion()
     {
         return Physics2D.OverlapCircle(transform.position, radioDetec, PlayerLayer);
     }
+
+
     void Update()
+    {
+
+        Detection();
+
+        if (PlayerInArea()) StartCoroutine(cuentaRegresiva());
+
+    }
+
+
+    private void Detection()
     {
         if (PlayerDetetion())
         {
             detector = true;
-        } 
+        }
 
-        if(detector && canMove)
+        if (detector && canMove)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, velocidad * Time.deltaTime);
         }
-
-        if (PlayerInArea())
-        {
-            StartCoroutine(cuentaRegresiva());
-        }
     }
+
+
     IEnumerator cuentaRegresiva()
     {
         canMove= false;
@@ -56,6 +69,8 @@ public class RatonEnemigo : MonoBehaviour
 
 
     }
+
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

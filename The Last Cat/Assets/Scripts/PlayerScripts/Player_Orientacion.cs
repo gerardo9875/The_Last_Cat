@@ -1,24 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Orientacion : MonoBehaviour
 {
-    [SerializeField] Player_Movement mov;
-    Animator animator;
+    Player_Movement mov;
     Camera cam;
 
-    public Vector2 direccion;
+    [NonSerialized] public Vector2 direccion;
     private Vector2 mousePos;
+    private float anguloDeg;
 
-    int orientacion;
-    public string orientacion2;
-    public float anguloDeg;
 
     private void Awake()
     {
+        mov = GetComponentInParent<Player_Movement>();
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        animator = GetComponentInParent<Animator>();
     }
 
     private void Update()
@@ -33,15 +31,5 @@ public class Player_Orientacion : MonoBehaviour
 
         direccion.Normalize();
 
-        //animator.SetInteger("", direction);
-
-        if (anguloDeg < 70 && anguloDeg > 30) orientacion2 = "UpLeft";
-        else if (anguloDeg < 30 && anguloDeg > -30) orientacion2 = "Up";
-        else if (anguloDeg < -30 && anguloDeg > -70) orientacion2 = "UpRight";
-        else if (anguloDeg < -70 && anguloDeg > -110) orientacion2 = "Right";
-        else if (anguloDeg < -110 && anguloDeg > -150) orientacion2 = "DownRight";
-        else if (anguloDeg < -150 && anguloDeg > -220) orientacion2 = "Down";
-        else if (anguloDeg < -220 && anguloDeg > -250) orientacion2 = "DownLeft";
-        else orientacion2 = "Left";
     }
 }

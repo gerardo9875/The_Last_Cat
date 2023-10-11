@@ -14,17 +14,17 @@ public class PerroZombi_movement : MonoBehaviour
     [SerializeField] float DetectionRadius;
     [SerializeField] float UnfollowDelay;
     [SerializeField] LayerMask playerLayer;
-    float CurrentTime;
-    bool Deteccion;
+    private float CurrentTime;
+    private bool Deteccion;
 
     [Header("Movimiento")]
-    [SerializeField] Vector3 dir;
     [SerializeField] GameObject target;
     [SerializeField] float speed;
     [SerializeField] float minDistance;
-    bool canMove = true;
+    private bool canMove = true;
+    private Vector3 dir;
 
-    [Header("Atack")]
+    [Header("AtaqueMelee")]
     [SerializeField] float attackRadius;
     [SerializeField] Transform attackController;
     [SerializeField] Transform attackRaycastPos;
@@ -52,25 +52,17 @@ public class PerroZombi_movement : MonoBehaviour
 
     private void Update()
     {
+
         animator.SetBool("IsWalking", Deteccion);
 
+        Detection();
+        Movement();
+        Rotation();
 
-        if (PlayerInArea())
-        {
-            Deteccion = true;
-            CurrentTime = UnfollowDelay;
-        }
-        else
-        {
-            CurrentTime -= Time.deltaTime;
-        }
+    }
 
-        if (CurrentTime < 0 && Deteccion)
-        {
-            Deteccion = false;
-        }
-
-
+    private void Movement()
+    {
         if (Deteccion && canMove)
         {
             if (Vector2.Distance(transform.position, target.transform.position) > minDistance)
@@ -88,7 +80,30 @@ public class PerroZombi_movement : MonoBehaviour
                 }
             }
         }
+    }
 
+
+    private void Detection()
+    {
+        if (PlayerInArea())
+        {
+            Deteccion = true;
+            CurrentTime = UnfollowDelay;
+        }
+        else
+        {
+            CurrentTime -= Time.deltaTime;
+        }
+
+        if (CurrentTime < 0 && Deteccion)
+        {
+            Deteccion = false;
+        }
+    }
+
+
+    private void Rotation()
+    {
         if (shouldRotate)
         {
             dir = target.transform.position - transform.position;
@@ -102,6 +117,7 @@ public class PerroZombi_movement : MonoBehaviour
             animator.SetFloat("Y", dir.y);
         }
     }
+
 
     private IEnumerator Attack()
     {
@@ -127,6 +143,7 @@ public class PerroZombi_movement : MonoBehaviour
         yield return new WaitForSeconds(attackDelay);
         canAtack = true;
     }
+
 
     private void OnDrawGizmos()
     {

@@ -15,8 +15,8 @@ public class Player_Disparo : MonoBehaviour
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
     public float reloadTime = 2.0f;
-    public bool isReloading = false;
-    bool canShoot = true;
+    private bool isReloading = false;
+    private bool canShoot = true;
 
     [Header("Disparo Secundario")]
     [SerializeField] GameObject BetaBullet;
@@ -30,6 +30,7 @@ public class Player_Disparo : MonoBehaviour
 
     [NonSerialized] public bool armaPrincipal = true;
 
+    [Header("Verificar cuando dispara")]
     public bool isShooting;
     public float unshootingTime;
     public float passedTime;
@@ -42,20 +43,16 @@ public class Player_Disparo : MonoBehaviour
     }
     private void Update()
     {
-        if(isShooting && passedTime < unshootingTime)
-        {
-            passedTime += Time.deltaTime;
-        }
 
-        if(passedTime >= unshootingTime)
-        {
-            isShooting = false;
-        }
+        shootingBoolDelay();
 
-        if (isReloading)
-            return;
 
-        ShootVoid();
+        if (isReloading) return;
+
+
+        ShootControllerVoid();
+
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             armaPrincipal = !armaPrincipal;
@@ -66,8 +63,23 @@ public class Player_Disparo : MonoBehaviour
         {
             StartCoroutine(Reload());
         }
+
     }
-    public void ShootVoid()
+
+    void shootingBoolDelay()
+    {
+        if (isShooting && passedTime < unshootingTime)
+        {
+            passedTime += Time.deltaTime;
+        }
+
+        if (passedTime >= unshootingTime)
+        {
+            isShooting = false;
+        }
+    }
+
+    void ShootControllerVoid()
     {
         switch (armaPrincipal) //Switch para saber que arma esta seleccionada
         {
@@ -85,6 +97,7 @@ public class Player_Disparo : MonoBehaviour
 
         BombaRatonVoid();
     }
+
 
     void PrincipalShoot()
     {
@@ -104,17 +117,9 @@ public class Player_Disparo : MonoBehaviour
                 Invoke("ShootDelay", 0.18f);
             }
         }
-    }   //Disparo del arma Alfa
-    IEnumerator ShootLight()
-    {
-        luzDisparo.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        luzDisparo.SetActive(false);
     }
-    void ShootDelay()
-    {
-        canShoot = true;
-    }
+
+
     void SecondaryShoot()
     {
         if (Input.GetKey(KeyCode.Mouse0))
@@ -128,7 +133,9 @@ public class Player_Disparo : MonoBehaviour
                 BetaCurrentAmmo--;
             }
         }
-    }   //Disparo del arma Beta
+    }
+
+
     void BombaRatonVoid()
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
@@ -141,8 +148,10 @@ public class Player_Disparo : MonoBehaviour
                 bombaRb.velocity = new Vector2(orientacion.direccion.normalized.x, orientacion.direccion.normalized.y) * RatonVel * Time.deltaTime * 10;
             }
         }
-    }   //Disparo de bomba raton
-    public IEnumerator Reload()     //Void de recarga
+    }
+
+
+    public IEnumerator Reload()
     {
         isReloading = true;
 
@@ -151,4 +160,21 @@ public class Player_Disparo : MonoBehaviour
         AlfaCurrentAmmo = AlfaMaxAmmo;
         isReloading = false;
     }
+
+
+    /////////////////////////////////////////////////
+    //VOIDS AUXILIARES PARA EL DISPARO PRINCIPAL
+    IEnumerator ShootLight()
+    {
+        luzDisparo.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        luzDisparo.SetActive(false);
+    }
+
+
+    void ShootDelay()
+    {
+        canShoot = true;
+    }
+    /////////////////////////////////////////////////
 }

@@ -7,12 +7,12 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     [NonSerialized] public Rigidbody2D playerRb;
-    private Animator playerAnimator;
 
+    [Header("Movimiento")]
+    [SerializeField] private float speed;
     [NonSerialized] public Vector2 moveInput;
 
-    [SerializeField] private float speed;
-
+    [Header("Dash/Rodada")]
     public float distancedash;
     public float duraciondash;
     public float cooldowndash;
@@ -22,8 +22,6 @@ public class Player_Movement : MonoBehaviour
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<Animator>();
-
     }
     
     void Update()
@@ -34,12 +32,6 @@ public class Player_Movement : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
-
-        //playerAnimator.SetFloat("Horizontal", moveX);
-        //playerAnimator.SetFloat("Vertical", moveY);
-        //playerAnimator.SetFloat("Diagonal",moveX, moveY, Time.deltaTime);
-        //playerAnimator.SetFloat("Speed", moveInput.sqrMagnitude);
-
     }
 
     private void FixedUpdate()

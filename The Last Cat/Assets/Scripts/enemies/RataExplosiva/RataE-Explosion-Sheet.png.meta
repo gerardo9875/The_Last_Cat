@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da7cf8b8098f5de4b93285d31887b01e
+guid: 8a34624f2648a8c4ebd40fc229c88afc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,169 +110,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perroZombie_1
+      name: RataE-Explosion-Sheet_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 57
-        width: 18
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6843cd225b65eae458d91e9888ba7ab7
-      internalID: 582899834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_2
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 61
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61c0583228522fe448493f527e973f5b
-      internalID: 63630511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_3
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 55
-        width: 34
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21b614895bae9fb4aa0a0a53122a8c85
-      internalID: -804021500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_4
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 51
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04af4d98f9a847b4e81bb73902ffb011
-      internalID: 1185101337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_7
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 11
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3348a9a6ddc5a60419b0ce2b6cea2259
-      internalID: 126160113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_8
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 7
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc5f46a9486c6df4dab770629b078f0f
-      internalID: -1115530045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: perroZombie_9
-      rect:
-        serializedVersion: 2
-        x: 134
+        x: 0
         y: 0
-        width: 32
-        height: 47
+        width: 142
+        height: 142
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb1094dd06e529499c9f93603d5d5a7
-      internalID: 979036489
+      spriteID: 51e5eece9d328924e9f55b36305d43ed
+      internalID: -1298635843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perroZombie_11
+      name: RataE-Explosion-Sheet_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 3
-        width: 34
-        height: 40
+        x: 142
+        y: 0
+        width: 142
+        height: 142
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 583b605ad62c43849bc3329f9b22ff6c
-      internalID: -1517660168
+      spriteID: 344ed7cad3c17a640a5ab9de6c4b7a5d
+      internalID: 928622796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a600abad2900958489e8775927c36760
+      internalID: -1232818438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d447b04b4159b245a0419e3897f8054
+      internalID: -1507772310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5c4e6555dd50419d2f75afa274ecc
+      internalID: -482266464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cdd2bd30557044485e2489ca379b57
+      internalID: 1825028231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac09d8f73bec05b4aaa688b9be67e027
+      internalID: 834773824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02c16259569b044f95b0f34a2c1c016
+      internalID: 1702749385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e42c24e9f292349b692757164f7eec
+      internalID: -1507996824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RataE-Explosion-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3d96feb93d6084992d8a63b713b01a
+      internalID: -682329737
       vertices: []
       indices: 
       edges: []
@@ -288,19 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      perroZombie_0: -1718370988
-      perroZombie_1: 582899834
-      perroZombie_10: 1165279052
-      perroZombie_11: -1517660168
-      perroZombie_12: 1717402110
-      perroZombie_2: 63630511
-      perroZombie_3: -804021500
-      perroZombie_4: 1185101337
-      perroZombie_5: -1027815425
-      perroZombie_6: 935517932
-      perroZombie_7: 126160113
-      perroZombie_8: -1115530045
-      perroZombie_9: 979036489
+      RataE-Explosion-Sheet_0: -1298635843
+      RataE-Explosion-Sheet_1: 928622796
+      RataE-Explosion-Sheet_2: -1232818438
+      RataE-Explosion-Sheet_3: -1507772310
+      RataE-Explosion-Sheet_4: -482266464
+      RataE-Explosion-Sheet_5: 1825028231
+      RataE-Explosion-Sheet_6: 834773824
+      RataE-Explosion-Sheet_7: 1702749385
+      RataE-Explosion-Sheet_8: -1507996824
+      RataE-Explosion-Sheet_9: -682329737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
