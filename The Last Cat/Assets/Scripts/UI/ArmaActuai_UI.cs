@@ -29,8 +29,8 @@ public class ArmaActuai_UI : MonoBehaviour
             principalAmmoCounter.SetActive(true);
             secondaryAmmoCounter.SetActive(false);
             //Arma Actual
-            Principal.color = white;
-            Secondary.color = gray;
+            Principal.color = Color.white;
+            Secondary.color = Color.gray;
         }
         else
         {
