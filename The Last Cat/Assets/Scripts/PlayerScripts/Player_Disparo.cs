@@ -145,7 +145,8 @@ public class Player_Disparo : MonoBehaviour
                 GameObject bomba = Instantiate(bombaRaton, transform.position, transform.rotation);
                 ratonCount--;
                 Rigidbody2D bombaRb = bomba.GetComponent<Rigidbody2D>();
-                bombaRb.velocity = new Vector2(orientacion.direccion.normalized.x, orientacion.direccion.normalized.y) * RatonVel * Time.deltaTime * 10;
+                orientacion.direccion.Normalize();
+                bombaRb.velocity = new Vector2(orientacion.direccion.x, orientacion.direccion.y) * RatonVel * Time.fixedDeltaTime * 10;
             }
         }
     }

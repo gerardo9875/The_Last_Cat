@@ -8,7 +8,7 @@ public class ExplosionAuto : MonoBehaviour
     public float radioDetec;
     public Transform player;
     public LayerMask PlayerLayer;
-    private bool detector;
+    
 
     [Header("Explosion")]
     public GameObject Explosion;
@@ -21,32 +21,15 @@ public class ExplosionAuto : MonoBehaviour
         return Physics2D.OverlapCircle(transform.position, radioExpl, PlayerLayer);
     }
 
-    bool PlayerDetetion()
-    {
-        return Physics2D.OverlapCircle(transform.position, radioDetec, PlayerLayer);
-    }
+    
 
 
     void Update()
     {
 
-        Detection();
-
         if (PlayerInArea()) StartCoroutine(cuentaRegresiva());
 
     }
-
-
-    private void Detection()
-    {
-        if (PlayerDetetion())
-        {
-            detector = true;
-        }
-
-        
-    }
-
 
     IEnumerator cuentaRegresiva()
     {
