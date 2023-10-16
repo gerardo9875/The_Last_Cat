@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Transactions;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PerroZombi_movement : MonoBehaviour
 {
     [NonSerialized] public Rigidbody2D rgb;
+    NavMeshAgent agent;
 
     [Header("Player Detection")]
     [SerializeField] float DetectionRadius;
@@ -30,7 +32,7 @@ public class PerroZombi_movement : MonoBehaviour
     [SerializeField] float attackDelay;
     [SerializeField] float passedTime;
     bool canAtack = true;
-    [NonSerialized] public bool shouldRotate = true;
+    [NonSerialized] public bool canRotate = true;
     [NonSerialized] public bool isAttacking;
 
     [Header("Movimiento aleatorio")]
@@ -60,13 +62,23 @@ public class PerroZombi_movement : MonoBehaviour
         SetNewDestination();
 
     }
+    private void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
+        agent.speed = RunSpeed;
+
+    }
 
     private void Update()
     {
         if (!Deteccion)
         {
-            transform.position = Vector2.MoveTowards(transform.position, wayPoint, patrolSpeed * Time.deltaTime);
-            if (Vector2.Distance(transform.position, wayPoint) == 0)
+            agent.SetDestination(wayPoint);
+
+            if (Vector2.Distance(transform.position, wayPoint) < range)
             {
                 if(!patrolStay)
                 {
@@ -79,10 +91,26 @@ public class PerroZombi_movement : MonoBehaviour
 
             }
         }
+        else
+        {
+            if (Vector2.Distance(transform.position, target.transform.position) > minDistance && canMove)
+            {
+                agent.SetDestination(target.transform.position);
+            }
+            else
+            {
+                agent.SetDestination(transform.position);
+
+                if (canAtack && Attack() != null)
+                {
+                    StartCoroutine(Attack());
+                }
+            }
+        }
 
 
         Detection();
-        Movement();
+        //Movement();
         Rotation();
 
 
@@ -92,17 +120,17 @@ public class PerroZombi_movement : MonoBehaviour
     {
         if (Deteccion && canMove)
         {
-            if (Vector2.Distance(transform.position, target.transform.position) > minDistance)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, RunSpeed * Time.deltaTime);
-            }
-            else
-            {
+            //if (Vector2.Distance(transform.position, target.transform.position) > minDistance)
+            //{
+                agent.SetDestination(target.transform.position);
+            //}
+            //else
+            //{
                 if (canAtack && Attack() != null)
                 {
                     StartCoroutine(Attack());
                 }
-            }
+            //}
         }
     }
 
@@ -138,7 +166,7 @@ public class PerroZombi_movement : MonoBehaviour
 
     private void Rotation()
     {
-        if (shouldRotate)
+        if (canRotate)
         {
             dir = target.transform.position - transform.position;
 
@@ -154,7 +182,7 @@ public class PerroZombi_movement : MonoBehaviour
     {
         isAttacking = true;
         canAtack = false;
-        shouldRotate = false;
+        canRotate = false;
         canMove = false;
 
         yield return new WaitForSeconds(passedTime);
@@ -165,6 +193,7 @@ public class PerroZombi_movement : MonoBehaviour
             life.currentlife--;
             Debug.Log("Ataque");
         }
+
 
         yield return new WaitForSeconds(attackDelay);
         canAtack = true;
