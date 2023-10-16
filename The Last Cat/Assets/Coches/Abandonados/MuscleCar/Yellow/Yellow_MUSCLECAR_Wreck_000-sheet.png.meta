@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 42825cd1eb6038041934458cb374e750
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6458997435156620874
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_0
+  - first:
+      213: -7404222898699258731
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_1
+  - first:
+      213: -8754526102703261049
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_2
+  - first:
+      213: 1083725268569231660
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_3
+  - first:
+      213: -3191244724882538023
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_4
+  - first:
+      213: 94926261289897077
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_5
+  - first:
+      213: 399217792178922064
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_6
+  - first:
+      213: 5101079694168945609
+    second: Yellow_MUSCLECAR_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 225
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a466baf22f7f2a950800000000000000
+      internalID: 6458997435156620874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 212
+        width: 71
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594b73db08aee3990800000000000000
+      internalID: -7404222898699258731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 211
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78abc7f94eca18680800000000000000
+      internalID: -8754526102703261049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 114
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c211f23d36a2a0f00800000000000000
+      internalID: 1083725268569231660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 125
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d18906a4db66b3d0800000000000000
+      internalID: -3191244724882538023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 112
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c4a048eee315100800000000000000
+      internalID: 94926261289897077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05227d2877e4a8500800000000000000
+      internalID: 399217792178922064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_MUSCLECAR_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 14
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3f5e584fcaac640800000000000000
+      internalID: 5101079694168945609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Yellow_MUSCLECAR_Wreck_000-sheet_0: 6458997435156620874
+      Yellow_MUSCLECAR_Wreck_000-sheet_1: -7404222898699258731
+      Yellow_MUSCLECAR_Wreck_000-sheet_2: -8754526102703261049
+      Yellow_MUSCLECAR_Wreck_000-sheet_3: 1083725268569231660
+      Yellow_MUSCLECAR_Wreck_000-sheet_4: -3191244724882538023
+      Yellow_MUSCLECAR_Wreck_000-sheet_5: 94926261289897077
+      Yellow_MUSCLECAR_Wreck_000-sheet_6: 399217792178922064
+      Yellow_MUSCLECAR_Wreck_000-sheet_7: 5101079694168945609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

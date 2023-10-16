@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 5a026f5f717080e4e88c055304995ca4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7833059772502475098
+    second: White_LUXURY_Wreck_000-sheet_0
+  - first:
+      213: -3648495335950622568
+    second: White_LUXURY_Wreck_000-sheet_1
+  - first:
+      213: 2839706802440993724
+    second: White_LUXURY_Wreck_000-sheet_2
+  - first:
+      213: -8102533695035249929
+    second: White_LUXURY_Wreck_000-sheet_3
+  - first:
+      213: 2228353391660606937
+    second: White_LUXURY_Wreck_000-sheet_4
+  - first:
+      213: 4596645257757394901
+    second: White_LUXURY_Wreck_000-sheet_5
+  - first:
+      213: 978344018832496074
+    second: White_LUXURY_Wreck_000-sheet_6
+  - first:
+      213: 5949787027024171986
+    second: White_LUXURY_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 94
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51896c9c5e94bc60800000000000000
+      internalID: 7833059772502475098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 210
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8906eff82d0fd5dc0800000000000000
+      internalID: -3648495335950622568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 207
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb71c99a4aa86720800000000000000
+      internalID: 2839706802440993724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 108
+        width: 79
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa6ace88840e8f80800000000000000
+      internalID: -8102533695035249929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 124
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5a7f77a93bcee10800000000000000
+      internalID: 2228353391660606937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 110
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d70d1302809acf30800000000000000
+      internalID: 4596645257757394901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac593ae93b6c39d00800000000000000
+      internalID: 978344018832496074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: White_LUXURY_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 8
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3d00b17c3e19250800000000000000
+      internalID: 5949787027024171986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      White_LUXURY_Wreck_000-sheet_0: 7833059772502475098
+      White_LUXURY_Wreck_000-sheet_1: -3648495335950622568
+      White_LUXURY_Wreck_000-sheet_2: 2839706802440993724
+      White_LUXURY_Wreck_000-sheet_3: -8102533695035249929
+      White_LUXURY_Wreck_000-sheet_4: 2228353391660606937
+      White_LUXURY_Wreck_000-sheet_5: 4596645257757394901
+      White_LUXURY_Wreck_000-sheet_6: 978344018832496074
+      White_LUXURY_Wreck_000-sheet_7: 5949787027024171986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

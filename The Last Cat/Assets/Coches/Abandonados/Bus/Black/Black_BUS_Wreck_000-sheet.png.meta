@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 114a333a1c28ed047a7ee8465b1d76c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4917759731372735938
+    second: Black_BUS_Wreck_000-sheet_0
+  - first:
+      213: 3561208684328366253
+    second: Black_BUS_Wreck_000-sheet_1
+  - first:
+      213: 3860415437690475075
+    second: Black_BUS_Wreck_000-sheet_2
+  - first:
+      213: 430557783245975550
+    second: Black_BUS_Wreck_000-sheet_3
+  - first:
+      213: -238047966124010937
+    second: Black_BUS_Wreck_000-sheet_4
+  - first:
+      213: -7587954768332051320
+    second: Black_BUS_Wreck_000-sheet_5
+  - first:
+      213: -8976013983380099764
+    second: Black_BUS_Wreck_000-sheet_6
+  - first:
+      213: -3691083611320657236
+    second: Black_BUS_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 498
+        width: 155
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32cec8649b90cbb0800000000000000
+      internalID: -4917759731372735938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 470
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0bd682e64fb6130800000000000000
+      internalID: 3561208684328366253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 463
+        width: 54
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34299f02363f29530800000000000000
+      internalID: 3860415437690475075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 255
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effe7adc506a9f500800000000000000
+      internalID: 430557783245975550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 288
+        width: 155
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7429ca3d2a842bcf0800000000000000
+      internalID: -238047966124010937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 259
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c26d5475b22b690800000000000000
+      internalID: -7587954768332051320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 47
+        width: 52
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da0bdc6dace6380800000000000000
+      internalID: -8976013983380099764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_BUS_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 47
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa57fef203a6ccc0800000000000000
+      internalID: -3691083611320657236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Black_BUS_Wreck_000-sheet_0: -4917759731372735938
+      Black_BUS_Wreck_000-sheet_1: 3561208684328366253
+      Black_BUS_Wreck_000-sheet_2: 3860415437690475075
+      Black_BUS_Wreck_000-sheet_3: 430557783245975550
+      Black_BUS_Wreck_000-sheet_4: -238047966124010937
+      Black_BUS_Wreck_000-sheet_5: -7587954768332051320
+      Black_BUS_Wreck_000-sheet_6: -8976013983380099764
+      Black_BUS_Wreck_000-sheet_7: -3691083611320657236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

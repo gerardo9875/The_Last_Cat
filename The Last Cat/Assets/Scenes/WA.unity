@@ -750,15 +750,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbce1ef608bf07e4994ce65b753ca4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radioDetec: 11
-  player: {fileID: 1839912797}
-  PlayerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  velocidad: 10
-  Explosion: {fileID: 150440942453995628, guid: 84e480aa62522d243819cdcac818feed, type: 3}
-  radioExpl: 0.8
-  ContadorTiempo: 0.3
 --- !u!4 &320525339
 Transform:
   m_ObjectHideFlags: 0
@@ -961,7 +952,6 @@ GameObject:
   - component: {fileID: 425292997}
   - component: {fileID: 425292999}
   - component: {fileID: 425292998}
-  - component: {fileID: 425292994}
   m_Layer: 0
   m_Name: GatoZombiPrueba
   m_TagString: Untagged
@@ -969,31 +959,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &425292994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425292993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a097ab6206c9f5847bf7fbbb4914ec8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radio: 10
-  timeOut: 4
-  PlayerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  balaenemigo: {fileID: 0}
-  controlador: {fileID: 0}
-  player: {fileID: 1839912795}
-  speed: 3.5
-  minDistance: 4.5
-  speedE: 0
-  range: 0
-  maxDistance: 0
 --- !u!4 &425292997
 Transform:
   m_ObjectHideFlags: 0
@@ -1472,23 +1437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370547b45e585a041b0d9ad2492418dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DetectionRadius: 5
-  UnfollowDelay: 2
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  target: {fileID: 0}
-  RunSpeed: 5.5
-  minDistance: 1.5
-  attackRadius: 1
-  attackController: {fileID: 1059594179}
-  attackRaycastPos: {fileID: 1678427144}
-  attackDelay: 1.2
-  passedTime: 0.3
-  patrolSpeed: 3
-  range: 0.1
-  movSprite: {fileID: 642514209}
-  waitTime: 0
 --- !u!50 &764366275
 Rigidbody2D:
   serializedVersion: 4
@@ -1603,7 +1551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}
-  AttackMaterial: {fileID: 2100000, guid: cb5b901892d9c1c42ad811a82b9f1dff, type: 2}
+  AttackMaterial: {fileID: 0}
 --- !u!1 &919988424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,7 +2270,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1068225561, guid: 2c394aeae09943f4a9c1155fcb34a4e1, type: 3}
+  m_Sprite: {fileID: -1068225561, guid: 8f1d30509a2cb0046ba07b61d8c7d366, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

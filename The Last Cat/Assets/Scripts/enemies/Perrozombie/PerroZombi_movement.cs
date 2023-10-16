@@ -98,7 +98,7 @@ public class PerroZombi_movement : MonoBehaviour
             }
             else
             {
-                if (AttackRaycast() && canAtack && Attack() != null)
+                if (canAtack && Attack() != null)
                 {
                     StartCoroutine(Attack());
                 }

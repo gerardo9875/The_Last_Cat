@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 9b3a10c9857fcd6408cf7f55133d3aa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3442441846742975676
+    second: Magenta_SEDAN_Wreck_000-sheet_0
+  - first:
+      213: 1534452578347644922
+    second: Magenta_SEDAN_Wreck_000-sheet_1
+  - first:
+      213: -1544952743931450550
+    second: Magenta_SEDAN_Wreck_000-sheet_2
+  - first:
+      213: -5939104273746842350
+    second: Magenta_SEDAN_Wreck_000-sheet_3
+  - first:
+      213: 4059241328273406390
+    second: Magenta_SEDAN_Wreck_000-sheet_4
+  - first:
+      213: -4087241965413253437
+    second: Magenta_SEDAN_Wreck_000-sheet_5
+  - first:
+      213: -8311460996329002187
+    second: Magenta_SEDAN_Wreck_000-sheet_6
+  - first:
+      213: -4863046395306999821
+    second: Magenta_SEDAN_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 220
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bf1f4116df930d0800000000000000
+      internalID: -3442441846742975676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7f7197d787b4510800000000000000
+      internalID: 1534452578347644922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 209
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b63373aa93f8ae0800000000000000
+      internalID: -1544952743931450550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 110
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21da0573120149da0800000000000000
+      internalID: -5939104273746842350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 121
+        width: 92
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b932553b72555830800000000000000
+      internalID: 4059241328273406390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 110
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce397c66133747c0800000000000000
+      internalID: -4087241965413253437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 10
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bab458242c7ac80800000000000000
+      internalID: -8311460996329002187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magenta_SEDAN_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 8
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff7b79a11df28cb0800000000000000
+      internalID: -4863046395306999821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Magenta_SEDAN_Wreck_000-sheet_0: -3442441846742975676
+      Magenta_SEDAN_Wreck_000-sheet_1: 1534452578347644922
+      Magenta_SEDAN_Wreck_000-sheet_2: -1544952743931450550
+      Magenta_SEDAN_Wreck_000-sheet_3: -5939104273746842350
+      Magenta_SEDAN_Wreck_000-sheet_4: 4059241328273406390
+      Magenta_SEDAN_Wreck_000-sheet_5: -4087241965413253437
+      Magenta_SEDAN_Wreck_000-sheet_6: -8311460996329002187
+      Magenta_SEDAN_Wreck_000-sheet_7: -4863046395306999821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 43597f83aed738248b3c70e35595dc0d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8746053651414510508
+    second: Yellow_COUPE_Wreck_000-sheet_0
+  - first:
+      213: 5850890570555278298
+    second: Yellow_COUPE_Wreck_000-sheet_1
+  - first:
+      213: -2219516990656813045
+    second: Yellow_COUPE_Wreck_000-sheet_2
+  - first:
+      213: -1586265570842745417
+    second: Yellow_COUPE_Wreck_000-sheet_3
+  - first:
+      213: -5110283559151664922
+    second: Yellow_COUPE_Wreck_000-sheet_4
+  - first:
+      213: 3139485730094015210
+    second: Yellow_COUPE_Wreck_000-sheet_5
+  - first:
+      213: 348968143105192089
+    second: Yellow_COUPE_Wreck_000-sheet_6
+  - first:
+      213: -3267037456955420434
+    second: Yellow_COUPE_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 92
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4541ee8ea86cf9680800000000000000
+      internalID: -8746053651414510508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 210
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad341ad79f9823150800000000000000
+      internalID: 5850890570555278298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 212
+        width: 48
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08e4f67e01b231e0800000000000000
+      internalID: -2219516990656813045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 112
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b56c722ed37cf9e0800000000000000
+      internalID: -1586265570842745417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 125
+        width: 92
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e00f3bad20a419b0800000000000000
+      internalID: -5110283559151664922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 109
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae269a743a1b19b20800000000000000
+      internalID: 3139485730094015210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 9
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99076bf5da8c7d400800000000000000
+      internalID: 348968143105192089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow_COUPE_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 9
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0d64e0eb629a2d0800000000000000
+      internalID: -3267037456955420434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Yellow_COUPE_Wreck_000-sheet_0: -8746053651414510508
+      Yellow_COUPE_Wreck_000-sheet_1: 5850890570555278298
+      Yellow_COUPE_Wreck_000-sheet_2: -2219516990656813045
+      Yellow_COUPE_Wreck_000-sheet_3: -1586265570842745417
+      Yellow_COUPE_Wreck_000-sheet_4: -5110283559151664922
+      Yellow_COUPE_Wreck_000-sheet_5: 3139485730094015210
+      Yellow_COUPE_Wreck_000-sheet_6: 348968143105192089
+      Yellow_COUPE_Wreck_000-sheet_7: -3267037456955420434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 337f7287a5c251a4b9292b7701cb69f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3376611947596030906
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_0
+  - first:
+      213: -8845408424479856239
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_1
+  - first:
+      213: 6277861961885649012
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_2
+  - first:
+      213: 7588337956944078187
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_3
+  - first:
+      213: -1282585848619032390
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_4
+  - first:
+      213: 189455829188927632
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_5
+  - first:
+      213: 7352333177405898947
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_6
+  - first:
+      213: 6012009048604046555
+    second: Green_MEDIUMTRUCK_Wreck_000-sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab32dc02da22cde20800000000000000
+      internalID: 3376611947596030906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 302
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19961a527ebce3580800000000000000
+      internalID: -8845408424479856239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 301
+        width: 53
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478812b51327f1750800000000000000
+      internalID: 6277861961885649012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 165
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65e347ca213f4960800000000000000
+      internalID: 7588337956944078187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 184
+        width: 126
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0ae1357f6533ee0800000000000000
+      internalID: -1282585848619032390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 166
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090ee67a21511a200800000000000000
+      internalID: 189455829188927632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 25
+        width: 51
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0099d021cb80660800000000000000
+      internalID: 7352333177405898947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_MEDIUMTRUCK_Wreck_000-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 25
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd47a707062fe6350800000000000000
+      internalID: 6012009048604046555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Green_MEDIUMTRUCK_Wreck_000-sheet_0: 3376611947596030906
+      Green_MEDIUMTRUCK_Wreck_000-sheet_1: -8845408424479856239
+      Green_MEDIUMTRUCK_Wreck_000-sheet_2: 6277861961885649012
+      Green_MEDIUMTRUCK_Wreck_000-sheet_3: 7588337956944078187
+      Green_MEDIUMTRUCK_Wreck_000-sheet_4: -1282585848619032390
+      Green_MEDIUMTRUCK_Wreck_000-sheet_5: 189455829188927632
+      Green_MEDIUMTRUCK_Wreck_000-sheet_6: 7352333177405898947
+      Green_MEDIUMTRUCK_Wreck_000-sheet_7: 6012009048604046555
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
