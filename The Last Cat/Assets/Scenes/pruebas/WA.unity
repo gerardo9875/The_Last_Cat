@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 320525339}
   - component: {fileID: 320525340}
   - component: {fileID: 320525342}
-  - component: {fileID: 320525337}
+  - component: {fileID: 320525343}
   - component: {fileID: 320525341}
   m_Layer: 0
   m_Name: RataExplosivaPrueba
@@ -737,28 +737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &320525337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320525336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbce1ef608bf07e4994ce65b753ca4f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radioDetec: 11
-  player: {fileID: 1839912797}
-  PlayerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  velocidad: 10
-  Explosion: {fileID: 150440942453995628, guid: 84e480aa62522d243819cdcac818feed, type: 3}
-  radioExpl: 0.8
-  ContadorTiempo: 0.3
+  m_IsActive: 1
 --- !u!4 &320525339
 Transform:
   m_ObjectHideFlags: 0
@@ -875,6 +854,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &320525343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320525336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29daf3775a586af479587179c5d7fe11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radioDetec: 10
+  player: {fileID: 0}
+  PlayerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  velocidad: 8
+  Explosion: {fileID: 150440942453995628, guid: 84e480aa62522d243819cdcac818feed, type: 3}
+  radioExpl: 1
+  ContadorTiempo: 1
 --- !u!1 &334409950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 764366279}
   - component: {fileID: 764366275}
   - component: {fileID: 764366276}
-  - component: {fileID: 764366273}
+  - component: {fileID: 764366280}
   - component: {fileID: 764366278}
   m_Layer: 7
   m_Name: PerroZombiPrueba
@@ -1414,35 +1414,6 @@ Transform:
   - {fileID: 1059594179}
   m_Father: {fileID: 1496932759}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &764366273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764366268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 370547b45e585a041b0d9ad2492418dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRadius: 5
-  UnfollowDelay: 2
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  target: {fileID: 0}
-  RunSpeed: 7
-  minDistance: 1.5
-  attackRadius: 1
-  attackController: {fileID: 1059594179}
-  attackRaycastPos: {fileID: 1678427144}
-  attackDelay: 1
-  passedTime: 0.3
-  patrolSpeed: 3
-  range: 0.1
-  movSprite: {fileID: 642514209}
-  waitTime: 0
 --- !u!50 &764366275
 Rigidbody2D:
   serializedVersion: 4
@@ -1512,7 +1483,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cb5b901892d9c1c42ad811a82b9f1dff, type: 2}
+  - {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1557,7 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}
-  AttackMaterial: {fileID: 2100000, guid: cb5b901892d9c1c42ad811a82b9f1dff, type: 2}
+  AttackMaterial: {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
 --- !u!58 &764366279
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1594,6 +1565,35 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.7
+--- !u!114 &764366280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764366268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1928c277e085ebd4ba7b7ce412f0b35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectionRadius: 7
+  UnfollowDelay: 2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  target: {fileID: 0}
+  RunSpeed: 7
+  minDistance: 1.5
+  attackRadius: 1
+  attackController: {fileID: 1059594179}
+  attackRaycastPos: {fileID: 1678427144}
+  attackDelay: 1.3
+  passedTime: 0.3
+  patrolSpeed: 3
+  range: 0.1
+  movSprite: {fileID: 642514209}
+  waitTime: 0
 --- !u!1 &919988424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2153,7 @@ Transform:
   m_GameObject: {fileID: 1839912795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.62, y: 3.26, z: 2.455226}
+  m_LocalPosition: {x: -6.4, y: 1.1, z: 2.455226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2312,7 +2312,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1068225561, guid: 2c394aeae09943f4a9c1155fcb34a4e1, type: 3}
+  m_Sprite: {fileID: -1068225561, guid: 15c6e3328a3328b46bd36d5224de0d0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

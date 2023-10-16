@@ -39,6 +39,8 @@ public class RatonEnemigo : MonoBehaviour
     {
         rgb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     void Update()
