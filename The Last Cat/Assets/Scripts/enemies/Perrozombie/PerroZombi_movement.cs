@@ -56,26 +56,28 @@ public class PerroZombi_movement : MonoBehaviour
     {
         rgb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
+        agent = GetComponent<NavMeshAgent>();
+
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
+        agent.angularSpeed = 1000;
+        agent.acceleration = 20;
 
         CurrentTime = UnfollowDelay;
-
-        SetNewDestination();
 
     }
     private void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
-
-        agent.speed = RunSpeed;
-
+        SetNewDestination();
     }
 
     private void Update()
     {
         if (!Deteccion)
         {
+            agent.speed = patrolSpeed;
+            agent.stoppingDistance = 0;
             agent.SetDestination(wayPoint);
 
             if (Vector2.Distance(transform.position, wayPoint) < range)
@@ -93,6 +95,9 @@ public class PerroZombi_movement : MonoBehaviour
         }
         else
         {
+            agent.speed = RunSpeed;
+            agent.stoppingDistance = minDistance;
+
             if (Vector2.Distance(transform.position, target.transform.position) > minDistance && canMove)
             {
                 agent.SetDestination(target.transform.position);
@@ -110,28 +115,8 @@ public class PerroZombi_movement : MonoBehaviour
 
 
         Detection();
-        //Movement();
         Rotation();
 
-
-    }
-
-    private void Movement()
-    {
-        if (Deteccion && canMove)
-        {
-            //if (Vector2.Distance(transform.position, target.transform.position) > minDistance)
-            //{
-                agent.SetDestination(target.transform.position);
-            //}
-            //else
-            //{
-                if (canAtack && Attack() != null)
-                {
-                    StartCoroutine(Attack());
-                }
-            //}
-        }
     }
 
     IEnumerator SetNewDestination()

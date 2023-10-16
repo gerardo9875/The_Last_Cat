@@ -1,11 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.Rendering;
 
 public class RatonEnemigo : MonoBehaviour
 {
     Animator animator;
-    Rigidbody2D rgb;
+    NavMeshAgent agent;
 
     [Header("Detección")]
     public float radioDetec;
@@ -25,7 +26,7 @@ public class RatonEnemigo : MonoBehaviour
     public float ContadorTiempo;
 
 
-    bool PlayerInArea()
+    bool ExplodingArea()
     {
         return Physics2D.OverlapCircle(transform.position, radioExpl, PlayerLayer);
     }
@@ -37,15 +38,21 @@ public class RatonEnemigo : MonoBehaviour
 
     private void Awake()
     {
-        rgb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        animator = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
+
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
+        agent.angularSpeed = 1000;
+        agent.acceleration = 20;
+        agent.speed = velocidad;
     }
 
     void Update()
     {
-        dir = player.position - transform.position;
+        dir = agent.velocity;
         dir.Normalize();
 
         if (canRotate)
@@ -56,14 +63,23 @@ public class RatonEnemigo : MonoBehaviour
 
 
         animator.SetBool("IsWalking", detector);
-        animator.SetBool("Exploding", PlayerInArea());
+        animator.SetBool("Exploding", ExplodingArea());
 
         Detection();
 
-        if (PlayerInArea())
+        if (ExplodingArea())
         {
             canMove = false;
             canRotate = false;
+        }
+
+        if (detector && canMove)
+        {
+            agent.SetDestination(player.position);
+        }
+        else
+        {
+            agent.SetDestination(transform.position);
         }
     }
 
@@ -73,11 +89,6 @@ public class RatonEnemigo : MonoBehaviour
         if (PlayerDetetion())
         {
             detector = true;
-        }
-
-        if (detector && canMove)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, velocidad * Time.deltaTime);
         }
     }
 
