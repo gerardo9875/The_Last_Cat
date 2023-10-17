@@ -403,7 +403,6 @@ GameObject:
   - component: {fileID: 157556351}
   - component: {fileID: 157556350}
   - component: {fileID: 157556352}
-  - component: {fileID: 157556353}
   m_Layer: 0
   m_Name: Auto
   m_TagString: Untagged
@@ -452,7 +451,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 5551322499108551738, guid: fadfb4d055d178d4898a719b9ef0c6a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -473,7 +472,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.56, y: -7.15, z: 0}
-  m_LocalScale: {x: 3.5596, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -495,31 +494,9 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 8
-  Explosion: {fileID: 8800964470798317975, guid: 21e61a76f9164b6419499487e1f1d941, type: 3}
+  Explosion: {fileID: 8800964470798317975, guid: 5c15ce8dc28e8db43b0cd70a7f8ed2a2, type: 3}
   radioExpl: 2
   ContadorTiempo: 2
---- !u!95 &157556353
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157556347}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b294572a7fb69764789e9897ca4d219d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &228175081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,7 +1187,7 @@ Camera:
   far clip plane: 1000
   field of view: 53
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 10.54
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1361,7 +1338,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -100
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0.019607844}
+  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0.12156863}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
