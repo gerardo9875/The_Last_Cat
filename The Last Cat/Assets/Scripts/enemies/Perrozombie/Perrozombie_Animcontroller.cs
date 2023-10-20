@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -31,10 +28,15 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         animator.SetBool("IsWalking", AI.Deteccion);
         animator.SetBool("Attack", AI.isAttacking);
 
-        if (AI.canRotate)
+        if (Vector2.Distance(transform.position, agent.steeringTarget) > AI.minDistance)
         {
             animator.SetFloat("X", agent.velocity.normalized.x);
             animator.SetFloat("Y", agent.velocity.normalized.y);
+        }
+        else
+        {
+            animator.SetFloat("X", AI.lastDir.normalized.x);
+            animator.SetFloat("Y", AI.lastDir.normalized.y);
         }
 
         if (AI.isAttacking) Renderer.material = AttackMaterial;

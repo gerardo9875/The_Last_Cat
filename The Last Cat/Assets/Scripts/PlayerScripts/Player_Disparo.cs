@@ -12,11 +12,11 @@ public class Player_Disparo : MonoBehaviour
     [Header("Disparo Principal")]
     [SerializeField] GameObject AlfaBullet;
     [SerializeField] GameObject luzDisparo;
+    [NonSerialized] public bool canShoot = true;
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
     public float reloadTime = 2.0f;
     private bool isReloading = false;
-    private bool canShoot = true;
 
     [Header("Disparo Secundario")]
     [SerializeField] GameObject BetaBullet;

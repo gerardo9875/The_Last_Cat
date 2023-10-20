@@ -21,8 +21,9 @@ public class PerroZombi_movement : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] GameObject target;
     [SerializeField] float RunSpeed;
-    [SerializeField] float minDistance;
+    [SerializeField] public float minDistance;
     [NonSerialized] public Vector3 dir;
+    [NonSerialized] public Vector3 lastDir;
     [NonSerialized] public bool canMove = true;
 
     [Header("Ataque Melee")]
@@ -78,6 +79,7 @@ public class PerroZombi_movement : MonoBehaviour
         {
             agent.speed = patrolSpeed;
             agent.stoppingDistance = 0;
+
             agent.SetDestination(wayPoint);
 
             if (Vector2.Distance(transform.position, wayPoint) < range)
@@ -101,6 +103,9 @@ public class PerroZombi_movement : MonoBehaviour
             if (Vector2.Distance(transform.position, target.transform.position) > minDistance && canMove)
             {
                 agent.SetDestination(target.transform.position);
+
+                lastDir = agent.velocity;
+                lastDir.Normalize();
             }
             else
             {
@@ -165,6 +170,7 @@ public class PerroZombi_movement : MonoBehaviour
 
     private IEnumerator Attack()
     {
+
         isAttacking = true;
         canAtack = false;
         canRotate = false;

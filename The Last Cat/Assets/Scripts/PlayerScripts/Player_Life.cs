@@ -5,8 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Player_Life : MonoBehaviour
 {
-    [SerializeField] int maxLife = 7;
+    Player_Movement mov;
+    Player_Disparo shoot;
+
+    [SerializeField] int maxLife;
     public int currentlife;
+
+    private void Awake()
+    {
+        mov = GetComponent<Player_Movement>();
+        shoot = GetComponentInChildren<Player_Disparo>();
+    }
 
     private void Start()
     {
@@ -16,7 +25,21 @@ public class Player_Life : MonoBehaviour
     {
         if (currentlife <= 0)
         {
-            SceneManager.LoadScene("GameOver1");
+            mov.canMove = false;
+            shoot.canShoot = false;
+
+            Rigidbody2D rgb = GetComponent<Rigidbody2D>();
+            rgb.velocity = Vector3.zero;
+
+            //StartCoroutine(ChangeScene());
         }
+
+    }
+
+    IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene("GameOver1");
     }
 }

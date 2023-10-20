@@ -11,6 +11,7 @@ public class Player_Movement : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] private float speed;
     [NonSerialized] public Vector2 moveInput;
+    [NonSerialized] public bool canMove = true;
 
     [Header("Dash/Rodada")]
     public float distancedash;
@@ -28,7 +29,7 @@ public class Player_Movement : MonoBehaviour
     {
         Movement();
 
-        if(Input.GetKeyDown(KeyCode.V) && candash)
+        if(Input.GetKeyDown(KeyCode.Space) && candash)
         {
             StartCoroutine(Dash());
         }
@@ -37,7 +38,7 @@ public class Player_Movement : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if(!isdashing)
+        if(!isdashing && canMove)
         {
             playerRb.MovePosition(playerRb.position + moveInput * speed * Time.fixedDeltaTime);
         }
