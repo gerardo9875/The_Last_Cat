@@ -32,17 +32,18 @@ public class PerroZombi_movement : MonoBehaviour
     [SerializeField] Transform attackRaycastPos;
     [SerializeField] float attackDelay;
     [SerializeField] float passedTime;
-    bool canAtack = true;
+    private bool canAtack = true;
     [NonSerialized] public bool canRotate = true;
     [NonSerialized] public bool isAttacking;
 
     [Header("Movimiento aleatorio")]
     [SerializeField] float patrolSpeed;
     [SerializeField] float range;
-    [SerializeField] BoxCollider2D movSprite;
+    [SerializeField] Collider2D movSprite;
     private Vector2 wayPoint;
-    public float waitTime;
-    bool patrolStay;
+    private float waitTime;
+    private bool patrolStay;
+    [NonSerialized] public Vector2 patrolVel;
 
     bool PlayerInArea()
     {
@@ -63,14 +64,14 @@ public class PerroZombi_movement : MonoBehaviour
         agent.updateUpAxis = false;
 
         agent.angularSpeed = 1000;
-        agent.acceleration = 20;
+        agent.acceleration = 1000;
 
         CurrentTime = UnfollowDelay;
 
     }
     private void Start()
     {
-        SetNewDestination();
+        StartCoroutine(SetNewDestination());
     }
 
     private void Update()
@@ -130,6 +131,9 @@ public class PerroZombi_movement : MonoBehaviour
 
         wayPoint = new Vector2(UnityEngine.Random.Range(movSprite.bounds.min.x, movSprite.bounds.max.x), 
             UnityEngine.Random.Range(movSprite.bounds.min.y, movSprite.bounds.max.y));
+
+        patrolVel = new Vector2(wayPoint.x - transform.position.x, wayPoint.y - transform.position.y);
+        patrolVel.Normalize();
 
         patrolStay = false;
     }

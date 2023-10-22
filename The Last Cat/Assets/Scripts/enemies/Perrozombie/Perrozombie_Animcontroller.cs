@@ -10,6 +10,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
 
     [Header("Materiales")]
     [SerializeField] Material normalMaterial;
+    [SerializeField] Material RunMaterial;
     [SerializeField] Material AttackMaterial;
 
     private void Awake()
@@ -25,22 +26,36 @@ public class Perrozombie_Animcontroller:MonoBehaviour
 
     private void Update()
     {
-        animator.SetBool("IsWalking", AI.Deteccion);
-        animator.SetBool("Attack", AI.isAttacking);
+        
+        animator.SetBool("IsWalking", agent.velocity != Vector3.zero); //Bool para cuando el perro corre
+        animator.SetBool("Attack", AI.isAttacking); //Atacando
 
-        if (Vector2.Distance(transform.position, agent.steeringTarget) > AI.minDistance)
+        if (AI.Deteccion)
         {
-            animator.SetFloat("X", agent.velocity.normalized.x);
-            animator.SetFloat("Y", agent.velocity.normalized.y);
+            if (Vector2.Distance(transform.position, agent.steeringTarget) > agent.stoppingDistance) //Correr
+            {
+                animator.SetFloat("X", agent.velocity.normalized.x);
+                animator.SetFloat("Y", agent.velocity.normalized.y);
+            }
+            else //Idle
+            {
+                animator.SetFloat("X", AI.lastDir.normalized.x);
+                animator.SetFloat("Y", AI.lastDir.normalized.y);
+            }
         }
-        else
+        else //Direccion para el estado de patrulla
         {
-            animator.SetFloat("X", AI.lastDir.normalized.x);
-            animator.SetFloat("Y", AI.lastDir.normalized.y);
+            animator.SetFloat("X", AI.patrolVel.normalized.x);
+            animator.SetFloat("Y", AI.patrolVel.normalized.y);
         }
 
-        if (AI.isAttacking) Renderer.material = AttackMaterial;
-        else Renderer.material = normalMaterial;
+        
+
+        //MATERIALES
+        if (AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
+        else if (!AI.isAttacking && agent.velocity != Vector3.zero) Renderer.material = RunMaterial; //Corriendo
+        else Renderer.material = normalMaterial; //Ninguna de las anteriores
+
     }
 
     public void AttackEnd()
