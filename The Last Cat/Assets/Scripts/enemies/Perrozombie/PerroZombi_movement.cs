@@ -15,11 +15,13 @@ public class PerroZombi_movement : MonoBehaviour
     [SerializeField] float DetectionRadius;
     [SerializeField] float UnfollowDelay;
     [SerializeField] LayerMask playerLayer;
+    [SerializeField] LayerMask ratonLayer;
     private float CurrentTime;
     [NonSerialized] public bool Deteccion;
 
     [Header("Movimiento")]
     [SerializeField] GameObject target;
+    [SerializeField] GameObject raton;
     [SerializeField] float RunSpeed;
     [SerializeField] public float minDistance;
     [NonSerialized] public Vector3 dir;
@@ -48,16 +50,25 @@ public class PerroZombi_movement : MonoBehaviour
     bool PlayerInArea()
     {
         return Physics2D.OverlapCircle(transform.position, DetectionRadius, playerLayer);
+        
+    }
+
+    bool RatonInArea()
+    {
+        return Physics2D.OverlapCircle(transform.position, DetectionRadius, ratonLayer);
     }
     bool AttackRaycast()
     {
         return Physics2D.OverlapCircle(attackRaycastPos.position, attackRadius, playerLayer);
     }
 
+
+
     private void Awake()
     {
         rgb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
+        raton = GameObject.FindGameObjectWithTag("Bombaraton");
         agent = GetComponent<NavMeshAgent>();
 
         agent.updateRotation = false;
@@ -119,8 +130,8 @@ public class PerroZombi_movement : MonoBehaviour
             }
         }
 
-
-        Detection();
+        RatonDetection();
+        PlayerDetection();
         Rotation();
 
     }
@@ -139,9 +150,27 @@ public class PerroZombi_movement : MonoBehaviour
     }
 
 
-    private void Detection()
+    private void PlayerDetection()
     {
         if (PlayerInArea())
+        {
+            Deteccion = true;
+            CurrentTime = UnfollowDelay;
+        }
+        else
+        {
+            CurrentTime -= Time.deltaTime;
+        }
+
+        if (CurrentTime < 0 && Deteccion)
+        {
+            Deteccion = false;
+        }
+    }
+
+    private void RatonDetection()
+    {
+        if (RatonInArea())
         {
             Deteccion = true;
             CurrentTime = UnfollowDelay;

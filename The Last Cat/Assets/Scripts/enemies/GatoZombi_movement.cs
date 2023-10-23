@@ -10,6 +10,7 @@ public class GatoZombi_movement : MonoBehaviour
     [SerializeField] float radio;
     [SerializeField] float timeOut;
     public LayerMask PlayerLayer;
+    public LayerMask ratonLayer;
     private float CurrentTime;
     private bool Deteccion;
     [SerializeField] private GameObject balaenemigo;
@@ -35,7 +36,12 @@ public class GatoZombi_movement : MonoBehaviour
         return Physics2D.OverlapCircle(transform.position, radio, PlayerLayer);
     }
 
-    
+    bool RatonInArea()
+    {
+        return Physics2D.OverlapCircle(transform.position, radio, ratonLayer);
+    }
+
+
     private void Start()
     {
         CurrentTime = timeOut;

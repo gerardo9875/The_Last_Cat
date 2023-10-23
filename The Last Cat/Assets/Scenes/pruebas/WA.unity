@@ -1151,6 +1151,9 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 8
+  ratonLayer:
+    serializedVersion: 2
+    m_Bits: 0
   balaenemigo: {fileID: 6716898358005159712, guid: c5a13047e4f64e74eb361bf9988c2f11, type: 3}
   controlador: {fileID: 320525339}
   player: {fileID: 1839912795}
@@ -1827,7 +1830,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1850,7 +1853,11 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  ratonLayer:
+    serializedVersion: 2
+    m_Bits: 64
   target: {fileID: 0}
+  raton: {fileID: 0}
   RunSpeed: 7
   minDistance: 1.5
   attackRadius: 1

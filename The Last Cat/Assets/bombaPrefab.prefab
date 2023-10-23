@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7428284479464278983}
   m_Layer: 6
   m_Name: bombaPrefab
-  m_TagString: Untagged
+  m_TagString: Bombaraton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5337721746760755404}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.15, y: -1.59, z: 0}
   m_LocalScale: {x: 0.6755, y: 0.6505, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5535603566229827651
 SpriteRenderer:
@@ -122,6 +122,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5337721746760755404}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -145,7 +146,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,7 +158,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &7428284479464278983
@@ -171,7 +172,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03439a8c382b355458468eec67266e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootVel: 1000
   Contador: 1.2
   Explosion: {fileID: 150440942453995628, guid: 28b2ffd1aee789b4485b10abf552c835, type: 3}
-  ratonRGB: {fileID: 7442119945558507801}
