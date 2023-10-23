@@ -9,7 +9,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
     NavMeshAgent agent;
 
     [Header("Materiales")]
-    [SerializeField] Material normalMaterial;
+    [SerializeField] Material IdleMaterial;
     [SerializeField] Material RunMaterial;
     [SerializeField] Material AttackMaterial;
 
@@ -45,8 +45,17 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         }
         else //Direccion para el estado de patrulla
         {
-            animator.SetFloat("X", AI.patrolVel.normalized.x);
-            animator.SetFloat("Y", AI.patrolVel.normalized.y);
+
+            if (Vector2.Distance(transform.position, agent.steeringTarget) > agent.stoppingDistance) //Correr
+            {
+                animator.SetFloat("X", agent.velocity.normalized.x);
+                animator.SetFloat("Y", agent.velocity.normalized.y);
+            }
+            else
+            {
+                animator.SetFloat("X", AI.patrolVel.normalized.x);
+                animator.SetFloat("Y", AI.patrolVel.normalized.y);
+            }
         }
 
         
@@ -54,7 +63,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         //MATERIALES
         if (AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
         else if (!AI.isAttacking && agent.velocity != Vector3.zero) Renderer.material = RunMaterial; //Corriendo
-        else Renderer.material = normalMaterial; //Ninguna de las anteriores
+        else Renderer.material = IdleMaterial; //Ninguna de las anteriores
 
     }
 

@@ -50,13 +50,13 @@ public class PerroZombi_movement : MonoBehaviour
     bool PlayerInArea()
     {
         return Physics2D.OverlapCircle(transform.position, DetectionRadius, playerLayer);
-        
     }
 
     bool RatonInArea()
     {
         return Physics2D.OverlapCircle(transform.position, DetectionRadius, ratonLayer);
     }
+
     bool AttackRaycast()
     {
         return Physics2D.OverlapCircle(attackRaycastPos.position, attackRadius, playerLayer);
@@ -68,7 +68,6 @@ public class PerroZombi_movement : MonoBehaviour
     {
         rgb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
-        raton = GameObject.FindGameObjectWithTag("Bombaraton");
         agent = GetComponent<NavMeshAgent>();
 
         agent.updateRotation = false;
@@ -114,10 +113,20 @@ public class PerroZombi_movement : MonoBehaviour
 
             if (Vector2.Distance(transform.position, target.transform.position) > minDistance && canMove)
             {
-                agent.SetDestination(target.transform.position);
+                if (RatonInArea())
+                {
+                    raton = GameObject.FindGameObjectWithTag("Bombaraton");
+                    agent.SetDestination(raton.transform.position);
+                }
+                else if(!RatonInArea() && PlayerInArea())
+                {
+                    agent.SetDestination(target.transform.position);
+                }
+
 
                 lastDir = agent.velocity;
                 lastDir.Normalize();
+
             }
             else
             {

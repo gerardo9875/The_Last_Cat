@@ -1753,7 +1753,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
+  - {fileID: 2100000, guid: 346bdb95cee11fa4cac0e95f58859832, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1774,12 +1774,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 582899834, guid: da7cf8b8098f5de4b93285d31887b01e, type: 3}
+  m_Sprite: {fileID: -1203712417248552038, guid: 6e2caceefc69a654e9a4492defaa99c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.125, y: 2.5625}
+  m_Size: {x: 3.5, y: 3.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1797,7 +1797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db81bfa57c25bc49977c4ba6fd836bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}
+  IdleMaterial: {fileID: 2100000, guid: 346bdb95cee11fa4cac0e95f58859832, type: 2}
   RunMaterial: {fileID: 2100000, guid: 63ccc994d06f1c74c8de0edd1597f294, type: 2}
   AttackMaterial: {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
 --- !u!58 &764366279
