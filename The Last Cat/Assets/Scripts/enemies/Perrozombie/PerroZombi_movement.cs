@@ -40,12 +40,12 @@ public class PerroZombi_movement : MonoBehaviour
 
     [Header("Movimiento aleatorio")]
     [SerializeField] float patrolSpeed;
-    [SerializeField] float range;
+    [SerializeField] public float range;
     [SerializeField] Collider2D movSprite;
     private Vector2 wayPoint;
     private float waitTime;
     private bool patrolStay;
-    [NonSerialized] public Vector2 patrolVel;
+    public Vector2 patrolVel;
 
     bool PlayerInArea()
     {

@@ -687,9 +687,9 @@ GameObject:
   - component: {fileID: 279177779}
   - component: {fileID: 279177782}
   - component: {fileID: 279177781}
-  - component: {fileID: 279177776}
   - component: {fileID: 279177780}
   - component: {fileID: 279177783}
+  - component: {fileID: 279177776}
   m_Layer: 0
   m_Name: Hidrante
   m_TagString: Untagged
@@ -789,8 +789,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0077283382, y: 0.23571002}
-  m_Size: {x: 0.70767736, y: 1.40358}
+  m_Offset: {x: 0.0077283382, y: -0.49392843}
+  m_Size: {x: 0.70767736, y: 0.70767736}
   m_Direction: 0
 --- !u!212 &279177782
 SpriteRenderer:
@@ -832,7 +832,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1260129553, guid: 5ddc707bade6efb4889f8863f9b48b9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1800,6 +1800,7 @@ MonoBehaviour:
   IdleMaterial: {fileID: 2100000, guid: 346bdb95cee11fa4cac0e95f58859832, type: 2}
   RunMaterial: {fileID: 2100000, guid: 63ccc994d06f1c74c8de0edd1597f294, type: 2}
   AttackMaterial: {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
+  DeathMaterial: {fileID: 2100000, guid: a65956aa7ab75d04bbf810bb11295180, type: 2}
 --- !u!58 &764366279
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1865,9 +1866,10 @@ MonoBehaviour:
   attackRaycastPos: {fileID: 1678427144}
   attackDelay: 0.7
   passedTime: 0.3
-  patrolSpeed: 2
-  range: 0.1
+  patrolSpeed: 3.5
+  range: 2.5
   movSprite: {fileID: 642514209}
+  patrolVel: {x: 0, y: 0}
 --- !u!195 &764366281
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1986,7 +1988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_OverrideByGrid: 0
   m_UseMeshPrefab: {fileID: 0}
-  m_CompressBounds: 0
+  m_CompressBounds: 1
   m_OverrideVector: {x: 1, y: 1, z: 1}
 --- !u!114 &907177749
 MonoBehaviour:

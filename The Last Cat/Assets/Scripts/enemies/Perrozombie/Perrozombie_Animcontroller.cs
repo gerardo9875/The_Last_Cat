@@ -12,6 +12,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
     [SerializeField] Material IdleMaterial;
     [SerializeField] Material RunMaterial;
     [SerializeField] Material AttackMaterial;
+    [SerializeField] Material DeathMaterial;
 
     private void Awake()
     {
@@ -46,15 +47,15 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         else //Direccion para el estado de patrulla
         {
 
-            if (Vector2.Distance(transform.position, agent.steeringTarget) > agent.stoppingDistance) //Correr
+            if (Vector2.Distance(transform.position, agent.steeringTarget) > agent.stoppingDistance + 0.3f) //Correr
             {
                 animator.SetFloat("X", agent.velocity.normalized.x);
                 animator.SetFloat("Y", agent.velocity.normalized.y);
             }
             else
             {
-                animator.SetFloat("X", AI.patrolVel.normalized.x);
-                animator.SetFloat("Y", AI.patrolVel.normalized.y);
+                animator.SetFloat("X", AI.patrolVel.x);
+                animator.SetFloat("Y", AI.patrolVel.y);
             }
         }
 
