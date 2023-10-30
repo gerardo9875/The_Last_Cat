@@ -8,6 +8,7 @@ TagManager:
   - PlayerBullet
   - Enemy
   - Bombaraton
+  - Pared
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: SinLuz
+    uniqueID: 2819401539
     locked: 0

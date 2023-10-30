@@ -1,0 +1,3092 @@
+fileFormatVersion: 2
+guid: adeebbc8793386b449752783f45e9b2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1187970815863676843
+    second: TrainInside-Tiles_0
+  - first:
+      213: -6418593249765056521
+    second: TrainInside-Tiles_1
+  - first:
+      213: -144149258479554148
+    second: TrainInside-Tiles_2
+  - first:
+      213: 6170055270974454647
+    second: TrainInside-Tiles_3
+  - first:
+      213: -5093999781666463715
+    second: TrainInside-Tiles_4
+  - first:
+      213: 2979961000650452636
+    second: TrainInside-Tiles_5
+  - first:
+      213: 2757229147634646985
+    second: TrainInside-Tiles_6
+  - first:
+      213: 6863905827838717093
+    second: TrainInside-Tiles_7
+  - first:
+      213: 158500781206098634
+    second: TrainInside-Tiles_8
+  - first:
+      213: -1424760629302501268
+    second: TrainInside-Tiles_9
+  - first:
+      213: -6227239095059279600
+    second: TrainInside-Tiles_10
+  - first:
+      213: 1524970760229297707
+    second: TrainInside-Tiles_11
+  - first:
+      213: 1502583276582512968
+    second: TrainInside-Tiles_12
+  - first:
+      213: 3120109249815211979
+    second: TrainInside-Tiles_13
+  - first:
+      213: 8868128961236935145
+    second: TrainInside-Tiles_14
+  - first:
+      213: 6690423323407077620
+    second: TrainInside-Tiles_15
+  - first:
+      213: 2523854189744704406
+    second: TrainInside-Tiles_16
+  - first:
+      213: -8202199053109676750
+    second: TrainInside-Tiles_17
+  - first:
+      213: 5375166479054074696
+    second: TrainInside-Tiles_18
+  - first:
+      213: 7977215864696930533
+    second: TrainInside-Tiles_19
+  - first:
+      213: 2247829216442890580
+    second: TrainInside-Tiles_20
+  - first:
+      213: 2179273711913808107
+    second: TrainInside-Tiles_21
+  - first:
+      213: -472969747807645599
+    second: TrainInside-Tiles_22
+  - first:
+      213: 817165828431967540
+    second: TrainInside-Tiles_23
+  - first:
+      213: 1074914206743766698
+    second: TrainInside-Tiles_24
+  - first:
+      213: -9099835296230817105
+    second: TrainInside-Tiles_25
+  - first:
+      213: 4950407059472728594
+    second: TrainInside-Tiles_26
+  - first:
+      213: -1598961222790255129
+    second: TrainInside-Tiles_27
+  - first:
+      213: 7750433941403498312
+    second: TrainInside-Tiles_28
+  - first:
+      213: 3533537587754847807
+    second: TrainInside-Tiles_29
+  - first:
+      213: -2841018313845931367
+    second: TrainInside-Tiles_30
+  - first:
+      213: 8368058150917850843
+    second: TrainInside-Tiles_31
+  - first:
+      213: -251835246035099818
+    second: TrainInside-Tiles_32
+  - first:
+      213: -7894260120362188994
+    second: TrainInside-Tiles_33
+  - first:
+      213: -7415811475508982677
+    second: TrainInside-Tiles_34
+  - first:
+      213: -6340583521639634847
+    second: TrainInside-Tiles_35
+  - first:
+      213: 3946445588419569668
+    second: TrainInside-Tiles_36
+  - first:
+      213: 2187641468602935515
+    second: TrainInside-Tiles_37
+  - first:
+      213: -6494284393084021078
+    second: TrainInside-Tiles_38
+  - first:
+      213: 4594789991435698592
+    second: TrainInside-Tiles_39
+  - first:
+      213: 3035975547235760407
+    second: TrainInside-Tiles_40
+  - first:
+      213: 8308630045167838571
+    second: TrainInside-Tiles_41
+  - first:
+      213: -5142908461577460339
+    second: TrainInside-Tiles_42
+  - first:
+      213: 3920216729683490067
+    second: TrainInside-Tiles_43
+  - first:
+      213: -8390750316291214228
+    second: TrainInside-Tiles_44
+  - first:
+      213: 711736936966725825
+    second: TrainInside-Tiles_45
+  - first:
+      213: -8904298740761304198
+    second: TrainInside-Tiles_46
+  - first:
+      213: -6914427872994859116
+    second: TrainInside-Tiles_47
+  - first:
+      213: -833772989612491852
+    second: TrainInside-Tiles_48
+  - first:
+      213: -301899674194349036
+    second: TrainInside-Tiles_49
+  - first:
+      213: 3520327872286195556
+    second: TrainInside-Tiles_50
+  - first:
+      213: -7196675854322368658
+    second: TrainInside-Tiles_51
+  - first:
+      213: -2128898400892964711
+    second: TrainInside-Tiles_52
+  - first:
+      213: -7621186788568816711
+    second: TrainInside-Tiles_53
+  - first:
+      213: 3123716557703309879
+    second: TrainInside-Tiles_54
+  - first:
+      213: 6549556716573872126
+    second: TrainInside-Tiles_55
+  - first:
+      213: 2743111127298491014
+    second: TrainInside-Tiles_56
+  - first:
+      213: -3242448936725324414
+    second: TrainInside-Tiles_57
+  - first:
+      213: -6332377156248695264
+    second: TrainInside-Tiles_58
+  - first:
+      213: -1063012874755556888
+    second: TrainInside-Tiles_59
+  - first:
+      213: 1752871364407352135
+    second: TrainInside-Tiles_60
+  - first:
+      213: -3836144908107904038
+    second: TrainInside-Tiles_61
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrainInside-Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd513b9258c7010800000000000000
+      internalID: 1187970815863676843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff980e42739ce6a0800000000000000
+      internalID: -6418593249765056521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91b0bd5301effdf0800000000000000
+      internalID: -144149258479554148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b75fe149070a550800000000000000
+      internalID: 6170055270974454647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d106adf003a7e49b0800000000000000
+      internalID: -5093999781666463715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ea948ddb2fa5920800000000000000
+      internalID: 2979961000650452636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfbd152d45a34620800000000000000
+      internalID: 2757229147634646985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac6f00ebfd714f50800000000000000
+      internalID: 6863905827838717093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac25968ee9b133200800000000000000
+      internalID: 158500781206098634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c606670a1cb3a3ce0800000000000000
+      internalID: -1424760629302501268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011119f49076499a0800000000000000
+      internalID: -6227239095059279600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e1358a3d8c92510800000000000000
+      internalID: 1524970760229297707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849a42e678f3ad410800000000000000
+      internalID: 1502583276582512968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf65a7e4dadc4b20800000000000000
+      internalID: 3120109249815211979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1a1ec0e4ce11b70800000000000000
+      internalID: 8868128961236935145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0daa4b09829dc50800000000000000
+      internalID: 6690423323407077620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b4d9c7308860320800000000000000
+      internalID: 2523854189744704406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2353a561b6feb2e80800000000000000
+      internalID: -8202199053109676750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843fa901f6d689a40800000000000000
+      internalID: 5375166479054074696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e00fd75093c4be60800000000000000
+      internalID: 7977215864696930533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b2d943c4e13f10800000000000000
+      internalID: 2247829216442890580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be038fa05e55e3e10800000000000000
+      internalID: 2179273711913808107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1605b60358caf69f0800000000000000
+      internalID: -472969747807645599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435764ecdf7275b00800000000000000
+      internalID: 817165828431967540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6abf0a6ccdaee00800000000000000
+      internalID: 1074914206743766698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2c995d204e6b180800000000000000
+      internalID: -9099835296230817105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21245710ef063b440800000000000000
+      internalID: 4950407059472728594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed66f15d395fc9e0800000000000000
+      internalID: -1598961222790255129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8477c7c2b921f8b60800000000000000
+      internalID: 7750433941403498312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e4e9ee6b5a90130800000000000000
+      internalID: 3533537587754847807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99285da55eca298d0800000000000000
+      internalID: -2841018313845931367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd645496d80512470800000000000000
+      internalID: 8368058150917850843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f97229d2d418cf0800000000000000
+      internalID: -251835246035099818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f77410f34f17290800000000000000
+      internalID: -7894260120362188994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c8501f0ceb51990800000000000000
+      internalID: -7415811475508982677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16869f381e8b108a0800000000000000
+      internalID: -6340583521639634847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408e72f7a5794c630800000000000000
+      internalID: 3946445588419569668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8edf733501c5e10800000000000000
+      internalID: 2187641468602935515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa61ddfa0caafd5a0800000000000000
+      internalID: -6494284393084021078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a18b092729f3cf30800000000000000
+      internalID: 4594789991435698592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71972c7cca3f12a20800000000000000
+      internalID: 3035975547235760407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65ed5c410f2e4370800000000000000
+      internalID: 8308630045167838571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d852353a008b0a8b0800000000000000
+      internalID: -5142908461577460339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 495
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315f35f6858676630800000000000000
+      internalID: 3920216729683490067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64377e1b011e8b80800000000000000
+      internalID: -8390750316291214228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c02d6529f890e900800000000000000
+      internalID: 711736936966725825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73e6f6e8739d6480800000000000000
+      internalID: -8904298740761304198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497e415db740b00a0800000000000000
+      internalID: -6914427872994859116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf4da22e7dd64f0800000000000000
+      internalID: -833772989612491852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f6d988df6fcbf0800000000000000
+      internalID: -301899674194349036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f76806c87bad030800000000000000
+      internalID: 3520327872286195556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ffb7ba075402c90800000000000000
+      internalID: -7196675854322368658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990b0eb0f22a472e0800000000000000
+      internalID: -2128898400892964711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a47c9efa1c3690800000000000000
+      internalID: -7621186788568816711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a69e8b8aba95b20800000000000000
+      internalID: 3123716557703309879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effc8a7f123b4ea50800000000000000
+      internalID: 6549556716573872126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_56
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6824c02690d711620800000000000000
+      internalID: 2743111127298491014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dd42c0fd18003d0800000000000000
+      internalID: -3242448936725324414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e8ff9d680ee18a0800000000000000
+      internalID: -6332377156248695264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e937882c6b6f31f0800000000000000
+      internalID: -1063012874755556888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b54740833735810800000000000000
+      internalID: 1752871364407352135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb0e45e78643cac0800000000000000
+      internalID: -3836144908107904038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e6ecfd6d86bf74dab0a891b9265fd9
+      internalID: -1057148297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09217fc134a96c4aaf74432345a0f25
+      internalID: -9280038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbb153114c680047a231643adf1fd53
+      internalID: -1707957640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a29aa38c0b22488f855a963bd01b4
+      internalID: 1916406985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4999956403478478f4f3733e8dc7eb
+      internalID: -620450450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd78a4e013a9a4e9453aea4da143bd
+      internalID: 306474033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 431
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e922f4b8e0e500c4aab5b08d45cb5556
+      internalID: -1415304562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d2e38f08b91584e94e954c806b1343
+      internalID: -2136997392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2435737d133feb45a2a67e484632c5e
+      internalID: -143282858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d774dc147585d6439a63f4fb8042268
+      internalID: -316293048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3e5914cb5c22242b8c1fe6bf9e67bc
+      internalID: -713930103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7beff01393b8408fe11fb11f1288c
+      internalID: 519930848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc8d2d2f2fe74488b6bc9fcb807066
+      internalID: -456869256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b092280297828f1448fd7956dd273020
+      internalID: -128538897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec09d5abb4d9c8d44abceca8a8d81e36
+      internalID: 674433043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 415
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d51dc29473278d43a7f0f99380d2f81
+      internalID: 1949751031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30e1fe6a01b4724c83c66d87491b0a7
+      internalID: 492238110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a29615c5ae2654db1f280a2fb5ae04
+      internalID: 788081903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69518ef40c28e8428a176fb191e491e
+      internalID: 1400860483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429703b466ee1e44bcd37884e278c31
+      internalID: -1061248582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6589cbbe0939bd48805ef150cc5d44e
+      internalID: -1342374492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8ce4721989449489263d7c517c3b26
+      internalID: -1068752434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd31b513c4b5154cb92772b17238a68
+      internalID: -1045015738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026c15c6724ad7040b227629b26cd96b
+      internalID: -1345613756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6d53ec23003249b0c1b004caffef1
+      internalID: -548095467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_87
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fcc50c35f88e14580ffe400189dd73
+      internalID: 937049061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52939c624c36d78489632b25b2c7e071
+      internalID: -1808519794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_89
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d280dfc8d8a76478c68c2eee99efa4
+      internalID: 14356729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12864b11cf1061643b82061361e4f0c4
+      internalID: 195861952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b09c44b98f581b4c980dcea52d5f3bc
+      internalID: -1151149248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_92
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc82fc7697ddb14783f5e79358cfb2d
+      internalID: -1138897744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190b7a9c4728a274995f832ed182e1b9
+      internalID: 1989046785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09e38434111dc4cae9b922a141bc32
+      internalID: 1017834164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab16a1c1becc249803ddeb1c6ea481
+      internalID: 1013185976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03241875aa331b499a8ac496dfc3eeb
+      internalID: 620402714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_97
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 315
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a797e2d2780ca4eb98e2d819b50d90
+      internalID: 1343733178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_98
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 315
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed75106be88f54d9a92297bd192d72
+      internalID: -417910673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_99
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 315
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53885b14a8ddce941b8afe4352175dd1
+      internalID: -551444164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 315
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a40fc841764b294092030466d92b598
+      internalID: 2020140344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a062f51e8a7f89342bb0a108c2fa98fe
+      internalID: 1580777008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_102
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 264
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501eceb0bece82145b25393b93fc81ff
+      internalID: -1770632441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_103
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 264
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29386bcada3699546b35f8ff5bdc07a6
+      internalID: 412058983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_104
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 264
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7f99baa58c8684bb30aea9d3845ff7
+      internalID: 1978554637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6538c6d88368e4aa590a2fef1d26db
+      internalID: 1785059041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_107
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad884898b2d8764dab74ae0405c09f0
+      internalID: 1850105369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9af26f7fd4fb0c418febc4e82b08375
+      internalID: 1149598272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_105
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4acb273eb7ec7547b27881086273ff6
+      internalID: 21131428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e24ec140d25e44cb6855bf822adb48
+      internalID: -274655896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b021a8708a94a43809a23871fd8e32
+      internalID: 1897946414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_111
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 159
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b6261bb24ab44d81ae33140a5d337
+      internalID: -1958355145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_112
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 159
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd69a64cdfbb44f8a51c9cccf8b83c
+      internalID: -119832690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_113
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 159
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cf26dc5275fc24b9712cccb76563d2
+      internalID: 1937517946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fe50d094746aa42aacd8ef80e28a4d
+      internalID: -1718061142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a18b44776c1fe46a08183d5d581cf3
+      internalID: -1745472507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beda016bc866f04ba8ddac3d02c990d
+      internalID: -1851630053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrainInside-Tiles_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e06149639a7cf41a6b3add9f8d6bb3
+      internalID: 11221538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a31575a3ef21ec44a7db43750332bdd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TrainInside-Tiles_0: 1187970815863676843
+      TrainInside-Tiles_1: -6418593249765056521
+      TrainInside-Tiles_10: -6227239095059279600
+      TrainInside-Tiles_100: 2020140344
+      TrainInside-Tiles_101: 1580777008
+      TrainInside-Tiles_102: -1770632441
+      TrainInside-Tiles_103: 412058983
+      TrainInside-Tiles_104: 1978554637
+      TrainInside-Tiles_105: 21131428
+      TrainInside-Tiles_106: 1785059041
+      TrainInside-Tiles_107: 1850105369
+      TrainInside-Tiles_108: 1149598272
+      TrainInside-Tiles_109: -274655896
+      TrainInside-Tiles_11: 1524970760229297707
+      TrainInside-Tiles_110: 1897946414
+      TrainInside-Tiles_111: -1958355145
+      TrainInside-Tiles_112: -119832690
+      TrainInside-Tiles_113: 1937517946
+      TrainInside-Tiles_114: -1718061142
+      TrainInside-Tiles_115: -1745472507
+      TrainInside-Tiles_116: -1851630053
+      TrainInside-Tiles_117: 11221538
+      TrainInside-Tiles_118: -1889698174
+      TrainInside-Tiles_119: -1226435775
+      TrainInside-Tiles_12: 1502583276582512968
+      TrainInside-Tiles_120: 1043189309
+      TrainInside-Tiles_121: 1141062261
+      TrainInside-Tiles_122: 109478276
+      TrainInside-Tiles_123: -377393865
+      TrainInside-Tiles_124: 1547019081
+      TrainInside-Tiles_125: -179676402
+      TrainInside-Tiles_126: -430569430
+      TrainInside-Tiles_127: 109947339
+      TrainInside-Tiles_128: -768498492
+      TrainInside-Tiles_129: -320820817
+      TrainInside-Tiles_13: 3120109249815211979
+      TrainInside-Tiles_130: 665849158
+      TrainInside-Tiles_131: 144844803
+      TrainInside-Tiles_132: 402282924
+      TrainInside-Tiles_133: -1234206181
+      TrainInside-Tiles_134: 2027364582
+      TrainInside-Tiles_135: -622608030
+      TrainInside-Tiles_136: 1788016225
+      TrainInside-Tiles_137: 1351228395
+      TrainInside-Tiles_138: 255411979
+      TrainInside-Tiles_139: 1286662292
+      TrainInside-Tiles_14: 8868128961236935145
+      TrainInside-Tiles_140: -56438513
+      TrainInside-Tiles_141: 1363522387
+      TrainInside-Tiles_142: -2104437189
+      TrainInside-Tiles_143: -2090675988
+      TrainInside-Tiles_144: -174835163
+      TrainInside-Tiles_145: 1530067389
+      TrainInside-Tiles_146: -2094947468
+      TrainInside-Tiles_147: 1480420591
+      TrainInside-Tiles_148: 1496628895
+      TrainInside-Tiles_149: 436511320
+      TrainInside-Tiles_15: 6690423323407077620
+      TrainInside-Tiles_150: -1864879039
+      TrainInside-Tiles_151: 363144917
+      TrainInside-Tiles_152: 1299466428
+      TrainInside-Tiles_153: -1465303693
+      TrainInside-Tiles_154: -1993792866
+      TrainInside-Tiles_155: -1811406437
+      TrainInside-Tiles_156: -451035933
+      TrainInside-Tiles_157: 823038341
+      TrainInside-Tiles_158: -1771019657
+      TrainInside-Tiles_159: -619197061
+      TrainInside-Tiles_16: 2523854189744704406
+      TrainInside-Tiles_160: 422022182
+      TrainInside-Tiles_161: 1525010390
+      TrainInside-Tiles_162: 2088331541
+      TrainInside-Tiles_163: -1455449088
+      TrainInside-Tiles_164: -1169036827
+      TrainInside-Tiles_165: 1030165045
+      TrainInside-Tiles_166: -1175904620
+      TrainInside-Tiles_167: 973447388
+      TrainInside-Tiles_168: 127399128
+      TrainInside-Tiles_169: -1243027781
+      TrainInside-Tiles_17: -8202199053109676750
+      TrainInside-Tiles_170: 1968096353
+      TrainInside-Tiles_171: -1172189659
+      TrainInside-Tiles_172: 639655679
+      TrainInside-Tiles_173: -2145090295
+      TrainInside-Tiles_174: -480009113
+      TrainInside-Tiles_175: 1161948569
+      TrainInside-Tiles_176: -1286642353
+      TrainInside-Tiles_177: 243140021
+      TrainInside-Tiles_178: -1425253119
+      TrainInside-Tiles_179: 50711803
+      TrainInside-Tiles_18: 5375166479054074696
+      TrainInside-Tiles_180: -1950203982
+      TrainInside-Tiles_181: -1271337550
+      TrainInside-Tiles_182: -1675568195
+      TrainInside-Tiles_183: 1779017985
+      TrainInside-Tiles_184: -321536407
+      TrainInside-Tiles_185: 1857696721
+      TrainInside-Tiles_186: 1087289682
+      TrainInside-Tiles_187: -954708579
+      TrainInside-Tiles_188: 412560689
+      TrainInside-Tiles_189: -129340791
+      TrainInside-Tiles_19: 7977215864696930533
+      TrainInside-Tiles_190: 1351239239
+      TrainInside-Tiles_191: 1570396799
+      TrainInside-Tiles_192: 1574832900
+      TrainInside-Tiles_193: 781287321
+      TrainInside-Tiles_194: 1947115967
+      TrainInside-Tiles_195: 2036755929
+      TrainInside-Tiles_196: -1144233141
+      TrainInside-Tiles_197: -1378254430
+      TrainInside-Tiles_198: -777883362
+      TrainInside-Tiles_199: -1214589466
+      TrainInside-Tiles_2: -144149258479554148
+      TrainInside-Tiles_20: 2247829216442890580
+      TrainInside-Tiles_200: 2009129116
+      TrainInside-Tiles_201: -781475255
+      TrainInside-Tiles_202: -67754766
+      TrainInside-Tiles_203: -1798923976
+      TrainInside-Tiles_204: 527661465
+      TrainInside-Tiles_205: -1608607263
+      TrainInside-Tiles_206: 1965594181
+      TrainInside-Tiles_207: 662641738
+      TrainInside-Tiles_208: 509091353
+      TrainInside-Tiles_209: 1732409512
+      TrainInside-Tiles_21: 2179273711913808107
+      TrainInside-Tiles_210: -2083173918
+      TrainInside-Tiles_211: -779518464
+      TrainInside-Tiles_212: -272551952
+      TrainInside-Tiles_213: 1056765571
+      TrainInside-Tiles_214: 3792693
+      TrainInside-Tiles_215: 84087250
+      TrainInside-Tiles_216: 850893682
+      TrainInside-Tiles_217: -1349595664
+      TrainInside-Tiles_218: 1899547647
+      TrainInside-Tiles_219: -879683530
+      TrainInside-Tiles_22: -472969747807645599
+      TrainInside-Tiles_220: -600842538
+      TrainInside-Tiles_221: 1044448238
+      TrainInside-Tiles_222: -707018838
+      TrainInside-Tiles_223: -827909413
+      TrainInside-Tiles_224: -1862773650
+      TrainInside-Tiles_225: -1244768740
+      TrainInside-Tiles_226: 690225573
+      TrainInside-Tiles_227: -1832035458
+      TrainInside-Tiles_228: -97124085
+      TrainInside-Tiles_229: 275395214
+      TrainInside-Tiles_23: 817165828431967540
+      TrainInside-Tiles_230: -38153060
+      TrainInside-Tiles_231: 213773343
+      TrainInside-Tiles_232: 1216974468
+      TrainInside-Tiles_233: -262400958
+      TrainInside-Tiles_234: -801275741
+      TrainInside-Tiles_235: 306564708
+      TrainInside-Tiles_236: -420692041
+      TrainInside-Tiles_237: -392229674
+      TrainInside-Tiles_238: -1007584516
+      TrainInside-Tiles_239: 1373641637
+      TrainInside-Tiles_24: 1074914206743766698
+      TrainInside-Tiles_240: 1851143206
+      TrainInside-Tiles_241: -250915347
+      TrainInside-Tiles_242: -1729301800
+      TrainInside-Tiles_243: -1723059049
+      TrainInside-Tiles_244: -357192792
+      TrainInside-Tiles_245: 658332612
+      TrainInside-Tiles_246: -1507091600
+      TrainInside-Tiles_247: -649090820
+      TrainInside-Tiles_248: -1976988511
+      TrainInside-Tiles_249: -1853745691
+      TrainInside-Tiles_25: -9099835296230817105
+      TrainInside-Tiles_250: 1506764870
+      TrainInside-Tiles_251: 945783898
+      TrainInside-Tiles_252: 151400803
+      TrainInside-Tiles_253: 1267410726
+      TrainInside-Tiles_254: -771475854
+      TrainInside-Tiles_255: -157193368
+      TrainInside-Tiles_256: -671747645
+      TrainInside-Tiles_257: 1350797311
+      TrainInside-Tiles_258: 1139779307
+      TrainInside-Tiles_259: -1799849482
+      TrainInside-Tiles_26: 4950407059472728594
+      TrainInside-Tiles_260: -603497856
+      TrainInside-Tiles_261: 222789647
+      TrainInside-Tiles_262: -1547632519
+      TrainInside-Tiles_263: 1843100354
+      TrainInside-Tiles_264: 301442539
+      TrainInside-Tiles_265: -1286146969
+      TrainInside-Tiles_266: 2073909910
+      TrainInside-Tiles_267: -350965448
+      TrainInside-Tiles_268: -1250033479
+      TrainInside-Tiles_269: -389142657
+      TrainInside-Tiles_27: -1598961222790255129
+      TrainInside-Tiles_270: -669648754
+      TrainInside-Tiles_271: -747322423
+      TrainInside-Tiles_272: 1395557238
+      TrainInside-Tiles_273: -1360464223
+      TrainInside-Tiles_274: -1919468335
+      TrainInside-Tiles_275: -1406265815
+      TrainInside-Tiles_276: -89684774
+      TrainInside-Tiles_277: 901897969
+      TrainInside-Tiles_278: 678526011
+      TrainInside-Tiles_279: -1051510990
+      TrainInside-Tiles_28: 7750433941403498312
+      TrainInside-Tiles_280: 149822231
+      TrainInside-Tiles_281: 1691648379
+      TrainInside-Tiles_282: -81598294
+      TrainInside-Tiles_283: -64392494
+      TrainInside-Tiles_284: 1255578367
+      TrainInside-Tiles_285: 1899329877
+      TrainInside-Tiles_286: 829665667
+      TrainInside-Tiles_287: -1159515639
+      TrainInside-Tiles_288: 221305894
+      TrainInside-Tiles_289: -1994494450
+      TrainInside-Tiles_29: 3533537587754847807
+      TrainInside-Tiles_290: -534791079
+      TrainInside-Tiles_291: -328780687
+      TrainInside-Tiles_292: 1400455431
+      TrainInside-Tiles_293: -165887391
+      TrainInside-Tiles_294: -1850022536
+      TrainInside-Tiles_295: -106164480
+      TrainInside-Tiles_296: -673490797
+      TrainInside-Tiles_297: 1333456841
+      TrainInside-Tiles_298: -424708507
+      TrainInside-Tiles_299: 2011866182
+      TrainInside-Tiles_3: 6170055270974454647
+      TrainInside-Tiles_30: -2841018313845931367
+      TrainInside-Tiles_300: -1994256687
+      TrainInside-Tiles_301: 1410049713
+      TrainInside-Tiles_302: 634996192
+      TrainInside-Tiles_303: 68460423
+      TrainInside-Tiles_304: -910091210
+      TrainInside-Tiles_305: -839589856
+      TrainInside-Tiles_306: -253246741
+      TrainInside-Tiles_307: 1956984416
+      TrainInside-Tiles_308: -507316975
+      TrainInside-Tiles_309: 2040222536
+      TrainInside-Tiles_31: 8368058150917850843
+      TrainInside-Tiles_310: 855637553
+      TrainInside-Tiles_311: -664921190
+      TrainInside-Tiles_312: -1963135448
+      TrainInside-Tiles_313: -380613366
+      TrainInside-Tiles_314: -13657771
+      TrainInside-Tiles_315: 1358917347
+      TrainInside-Tiles_32: -251835246035099818
+      TrainInside-Tiles_33: -7894260120362188994
+      TrainInside-Tiles_34: -7415811475508982677
+      TrainInside-Tiles_35: -6340583521639634847
+      TrainInside-Tiles_36: 3946445588419569668
+      TrainInside-Tiles_37: 2187641468602935515
+      TrainInside-Tiles_38: -6494284393084021078
+      TrainInside-Tiles_39: 4594789991435698592
+      TrainInside-Tiles_4: -5093999781666463715
+      TrainInside-Tiles_40: 3035975547235760407
+      TrainInside-Tiles_41: 8308630045167838571
+      TrainInside-Tiles_42: -5142908461577460339
+      TrainInside-Tiles_43: 3920216729683490067
+      TrainInside-Tiles_44: -8390750316291214228
+      TrainInside-Tiles_45: 711736936966725825
+      TrainInside-Tiles_46: -8904298740761304198
+      TrainInside-Tiles_47: -6914427872994859116
+      TrainInside-Tiles_48: -833772989612491852
+      TrainInside-Tiles_49: -301899674194349036
+      TrainInside-Tiles_5: 2979961000650452636
+      TrainInside-Tiles_50: 3520327872286195556
+      TrainInside-Tiles_51: -7196675854322368658
+      TrainInside-Tiles_52: -2128898400892964711
+      TrainInside-Tiles_53: -7621186788568816711
+      TrainInside-Tiles_54: 3123716557703309879
+      TrainInside-Tiles_55: 6549556716573872126
+      TrainInside-Tiles_56: 2743111127298491014
+      TrainInside-Tiles_57: -3242448936725324414
+      TrainInside-Tiles_58: -6332377156248695264
+      TrainInside-Tiles_59: -1063012874755556888
+      TrainInside-Tiles_6: 2757229147634646985
+      TrainInside-Tiles_60: 1752871364407352135
+      TrainInside-Tiles_61: -3836144908107904038
+      TrainInside-Tiles_62: -1057148297
+      TrainInside-Tiles_63: -9280038
+      TrainInside-Tiles_64: -1707957640
+      TrainInside-Tiles_65: 1916406985
+      TrainInside-Tiles_66: -620450450
+      TrainInside-Tiles_67: 306474033
+      TrainInside-Tiles_68: -1415304562
+      TrainInside-Tiles_69: -2136997392
+      TrainInside-Tiles_7: 6863905827838717093
+      TrainInside-Tiles_70: -143282858
+      TrainInside-Tiles_71: -316293048
+      TrainInside-Tiles_72: -713930103
+      TrainInside-Tiles_73: 519930848
+      TrainInside-Tiles_74: -456869256
+      TrainInside-Tiles_75: -128538897
+      TrainInside-Tiles_76: 674433043
+      TrainInside-Tiles_77: 1949751031
+      TrainInside-Tiles_78: 492238110
+      TrainInside-Tiles_79: 788081903
+      TrainInside-Tiles_8: 158500781206098634
+      TrainInside-Tiles_80: 1400860483
+      TrainInside-Tiles_81: -1061248582
+      TrainInside-Tiles_82: -1342374492
+      TrainInside-Tiles_83: -1068752434
+      TrainInside-Tiles_84: -1045015738
+      TrainInside-Tiles_85: -1345613756
+      TrainInside-Tiles_86: -548095467
+      TrainInside-Tiles_87: 937049061
+      TrainInside-Tiles_88: -1808519794
+      TrainInside-Tiles_89: 14356729
+      TrainInside-Tiles_9: -1424760629302501268
+      TrainInside-Tiles_90: 195861952
+      TrainInside-Tiles_91: -1151149248
+      TrainInside-Tiles_92: -1138897744
+      TrainInside-Tiles_93: 1989046785
+      TrainInside-Tiles_94: 1017834164
+      TrainInside-Tiles_95: 1013185976
+      TrainInside-Tiles_96: 620402714
+      TrainInside-Tiles_97: 1343733178
+      TrainInside-Tiles_98: -417910673
+      TrainInside-Tiles_99: -551444164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

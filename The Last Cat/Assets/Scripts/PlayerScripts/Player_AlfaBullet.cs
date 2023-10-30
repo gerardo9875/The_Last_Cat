@@ -15,4 +15,17 @@ public class Player_AlfaBullet : MonoBehaviour
         tiempo -= Time.deltaTime;
         if (tiempo < 0) Destroy(gameObject);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Pared"))
+        {
+            Invoke("destroyBullet", 0.06f);
+        }
+    }
+
+    void destroyBullet()
+    {
+        Destroy(gameObject);
+    }
 }
