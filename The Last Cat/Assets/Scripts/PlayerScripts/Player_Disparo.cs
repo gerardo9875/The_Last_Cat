@@ -22,6 +22,7 @@ public class Player_Disparo : MonoBehaviour
     [SerializeField] GameObject BetaBullet;
     public float BetaMaxAmmo = 350;
     public float BetaCurrentAmmo;
+    public bool betaShoting;
 
     [Header("Bomba Ratón")]
     [SerializeField] GameObject bombaRaton;
@@ -40,6 +41,8 @@ public class Player_Disparo : MonoBehaviour
         orientacion = GetComponent<Player_Orientacion>();
         AlfaCurrentAmmo = AlfaMaxAmmo;
         BetaCurrentAmmo = BetaMaxAmmo;
+
+        BetaBullet.SetActive(false);
     }
     private void Update()
     {
@@ -129,10 +132,22 @@ public class Player_Disparo : MonoBehaviour
                 isShooting = true;
                 passedTime = 0;
 
-                Instantiate(BetaBullet, transform.position, transform.rotation);
+                betaShoting = true;
                 BetaCurrentAmmo--;
             }
+            else
+            {
+                betaShoting = false;
+            }
         }
+
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            betaShoting = false;
+        }
+
+        if(betaShoting) BetaBullet.SetActive(true);
+        else BetaBullet.SetActive(false);
     }
 
 
