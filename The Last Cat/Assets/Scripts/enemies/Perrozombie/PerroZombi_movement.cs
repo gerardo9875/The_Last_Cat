@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Transactions;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Rendering;
 
 public class PerroZombi_movement : MonoBehaviour
 {
@@ -46,6 +48,11 @@ public class PerroZombi_movement : MonoBehaviour
     private float waitTime;
     private bool patrolStay;
     public Vector2 patrolVel;
+
+    [Header("Estado Mojado")]
+    public bool wet;
+    public bool canDoDamage = true;
+
 
     bool PlayerInArea()
     {
@@ -139,6 +146,14 @@ public class PerroZombi_movement : MonoBehaviour
             }
         }
 
+        ////////////
+        if (wet)
+        {
+            canMove = false;
+            isAttacking = false;
+            canDoDamage = false;
+        }
+
         RatonDetection();
         PlayerDetection();
         Rotation();
@@ -212,24 +227,43 @@ public class PerroZombi_movement : MonoBehaviour
 
     private IEnumerator Attack()
     {
-
-        isAttacking = true;
-        canAtack = false;
-        canRotate = false;
-        canMove = false;
-
-        yield return new WaitForSeconds(passedTime);
-
-        if (AttackRaycast())
+        if (!wet)
         {
-            Player_Life life = target.GetComponent<Player_Life>();
-            life.currentlife--;
-            Debug.Log("Ataque");
+            isAttacking = true;
+            canAtack = false;
+            canRotate = false;
+            canMove = false;
+
+            yield return new WaitForSeconds(passedTime);
+
+            if (AttackRaycast() && canDoDamage)
+            {
+                Player_Life life = target.GetComponent<Player_Life>();
+                life.currentlife--;
+                Debug.Log("Ataque");
+            }
+
+
+            yield return new WaitForSeconds(attackDelay);
+            canAtack = true;
         }
+    }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("WaterShoot"))
+        {
+            //Restar vida
 
-        yield return new WaitForSeconds(attackDelay);
-        canAtack = true;
+            wet = true;
+        }
+    }
+
+    public void OutOfWater()
+    {
+        wet = false;
+        canMove = true;
+        canDoDamage = true;
     }
 
 

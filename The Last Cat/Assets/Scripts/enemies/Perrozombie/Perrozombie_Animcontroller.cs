@@ -30,6 +30,9 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         
         animator.SetBool("IsWalking", agent.velocity != Vector3.zero); //Bool para cuando el perro corre
         animator.SetBool("Attack", AI.isAttacking); //Atacando
+        animator.SetBool("Wet", AI.wet);
+
+        if(AI.wet) animator.Play("Wet");
 
         if (AI.Deteccion)
         {
