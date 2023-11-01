@@ -24,12 +24,12 @@ public class Player_AnimController : MonoBehaviour
 
         playerAnimator.SetFloat("Speed", mov.moveInput.sqrMagnitude);
 
-        if (!shoot.isShooting)
+        if (!shoot.isShooting && !mov.isdashing)
         {
             playerAnimator.SetFloat("Horizontal", mov.moveInput.x);
             playerAnimator.SetFloat("Vertical", mov.moveInput.y);
         }
-        else
+        else if (shoot.isShooting)
         {
             playerAnimator.SetFloat("Horizontal", orientacion.direccion.normalized.x);
             playerAnimator.SetFloat("Vertical", orientacion.direccion.normalized.y);

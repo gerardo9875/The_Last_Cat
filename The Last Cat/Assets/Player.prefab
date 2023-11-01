@@ -386,7 +386,7 @@ MonoBehaviour:
   speed: 5.5
   distancedash: 6
   duraciondash: 0.5
-  cooldowndash: 1
+  cooldowndash: 0.5
 --- !u!1 &9193794156970048048
 GameObject:
   m_ObjectHideFlags: 0

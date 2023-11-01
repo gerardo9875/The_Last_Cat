@@ -18,7 +18,7 @@ public class Player_Movement : MonoBehaviour
     public float duraciondash;
     public float cooldowndash;
     private bool candash = true;
-    private bool isdashing = false;
+    [NonSerialized] public bool isdashing = false;
 
     private void Awake()
     {
