@@ -22,13 +22,12 @@ public class Player_AnimController : MonoBehaviour
     {
         playerAnimator.SetBool("isShooting", shoot.isShooting);
 
-        if(!shoot.isShooting)
+        playerAnimator.SetFloat("Speed", mov.moveInput.sqrMagnitude);
+
+        if (!shoot.isShooting)
         {
             playerAnimator.SetFloat("Horizontal", mov.moveInput.x);
             playerAnimator.SetFloat("Vertical", mov.moveInput.y);
-            playerAnimator.SetFloat("Diagonal", mov.moveInput.x, mov.moveInput.y, Time.deltaTime);
-            playerAnimator.SetFloat("Speed", mov.moveInput.sqrMagnitude);
-
         }
         else
         {
