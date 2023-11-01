@@ -12,6 +12,7 @@ public class Player_Disparo : MonoBehaviour
     [Header("Disparo Principal")]
     [SerializeField] GameObject AlfaBullet;
     [SerializeField] GameObject luzDisparo;
+    [SerializeField] Transform shootPoint;
     [NonSerialized] public bool canShoot = true;
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
@@ -112,7 +113,7 @@ public class Player_Disparo : MonoBehaviour
                 isShooting = true;
                 passedTime = 0;
 
-                Instantiate(AlfaBullet, transform.position, transform.rotation);
+                Instantiate(AlfaBullet, shootPoint.position, transform.rotation);
                 AlfaCurrentAmmo--;
 
                 canShoot = false;

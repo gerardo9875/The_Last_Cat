@@ -85,6 +85,37 @@ PolygonCollider2D:
       - {x: 0.18, y: -0.18}
       - {x: 0.35, y: 0.26}
   m_UseDelaunayMesh: 0
+--- !u!1 &6682051598830829950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3049461083382610113}
+  m_Layer: 3
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3049461083382610113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6682051598830829950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.881, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5855336362999583934}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7221996493441278054
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +451,7 @@ Transform:
   m_Children:
   - {fileID: 8340118904231638755}
   - {fileID: 662158422634268819}
+  - {fileID: 3049461083382610113}
   m_Father: {fileID: 8944514554725685503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9043843221439302020
@@ -448,6 +480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AlfaBullet: {fileID: 2213579458410445767, guid: 18ec6d336827d5844bd5628fba701f0b, type: 3}
   luzDisparo: {fileID: 7221996493441278054}
+  shootPoint: {fileID: 3049461083382610113}
   AlfaMaxAmmo: 30
   AlfaCurrentAmmo: 0
   reloadTime: 2
