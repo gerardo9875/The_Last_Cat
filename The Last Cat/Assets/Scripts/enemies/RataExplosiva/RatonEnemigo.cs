@@ -16,7 +16,7 @@ public class RatonEnemigo : MonoBehaviour
 
     [Header("Movimiento")]
     public float velocidad;
-    private bool canMove = true;
+    public bool canMove = true;
     Vector2 dir;
     bool canRotate = true;
 
