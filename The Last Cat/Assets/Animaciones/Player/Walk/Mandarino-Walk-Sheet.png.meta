@@ -269,15 +269,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_0
+      name: Up1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 344
-        width: 18
-        height: 31
+        x: 0
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,15 +290,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_1
+      name: Up2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 344
-        width: 19
-        height: 31
+        x: 48
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -311,15 +311,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_2
+      name: Up3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 343
-        width: 18
-        height: 33
+        x: 96
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -332,15 +332,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_3
+      name: Up4
       rect:
         serializedVersion: 2
-        x: 159
-        y: 344
-        width: 18
-        height: 31
+        x: 144
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,15 +353,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_4
+      name: Up5
       rect:
         serializedVersion: 2
-        x: 207
-        y: 344
-        width: 18
-        height: 31
+        x: 192
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,15 +374,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_5
+      name: Up6
       rect:
         serializedVersion: 2
-        x: 255
-        y: 343
-        width: 18
-        height: 33
+        x: 240
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -395,15 +395,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_6
+      name: UpRight1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 295
-        width: 30
-        height: 32
+        x: 0
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,15 +416,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_7
+      name: UpRight2
       rect:
         serializedVersion: 2
-        x: 54
-        y: 295
-        width: 32
-        height: 33
+        x: 48
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -437,15 +437,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_8
+      name: UpRight3
       rect:
         serializedVersion: 2
-        x: 103
-        y: 295
-        width: 31
-        height: 34
+        x: 96
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -458,15 +458,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_9
+      name: UpRight4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 295
-        width: 29
-        height: 34
+        x: 144
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -479,15 +479,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_10
+      name: UpRight5
       rect:
         serializedVersion: 2
-        x: 203
-        y: 295
-        width: 27
-        height: 33
+        x: 192
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -500,15 +500,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_11
+      name: UpRight6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 295
-        width: 29
-        height: 32
+        x: 240
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,15 +521,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_12
+      name: Right1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 249
-        width: 33
-        height: 33
+        x: 0
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,15 +542,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_13
+      name: Right2
       rect:
         serializedVersion: 2
-        x: 59
-        y: 249
-        width: 29
-        height: 33
+        x: 48
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -563,15 +563,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_14
+      name: Right3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 249
-        width: 30
-        height: 30
+        x: 96
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,15 +584,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_15
+      name: Right4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 249
-        width: 31
-        height: 30
+        x: 144
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -605,15 +605,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_16
+      name: Right5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 249
-        width: 32
-        height: 31
+        x: 192
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,15 +626,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_17
+      name: Right6
       rect:
         serializedVersion: 2
-        x: 246
-        y: 249
-        width: 34
-        height: 32
+        x: 240
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -647,15 +647,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_18
+      name: Right7
       rect:
         serializedVersion: 2
-        x: 292
-        y: 249
-        width: 36
-        height: 30
+        x: 288
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -668,15 +668,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_19
+      name: Right8
       rect:
         serializedVersion: 2
-        x: 342
-        y: 249
-        width: 34
-        height: 30
+        x: 336
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -689,15 +689,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_20
+      name: DownRight1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 199
-        width: 28
-        height: 36
+        x: 0
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -710,15 +710,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_21
+      name: DownRight2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 198
-        width: 30
-        height: 38
+        x: 48
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,15 +731,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_22
+      name: DownRight3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 198
-        width: 31
-        height: 41
+        x: 96
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,15 +752,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_23
+      name: DownRight4
       rect:
         serializedVersion: 2
-        x: 150
-        y: 199
-        width: 33
-        height: 38
+        x: 144
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -773,15 +773,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_24
+      name: DownRight5
       rect:
         serializedVersion: 2
-        x: 202
-        y: 199
-        width: 29
-        height: 38
+        x: 192
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -794,15 +794,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_25
+      name: DownRight6
       rect:
         serializedVersion: 2
-        x: 250
-        y: 198
-        width: 29
-        height: 40
+        x: 240
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -815,15 +815,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_26
+      name: DownRight7
       rect:
         serializedVersion: 2
-        x: 298
-        y: 198
-        width: 29
-        height: 40
+        x: 288
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -836,15 +836,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_27
+      name: DownRight8
       rect:
         serializedVersion: 2
-        x: 347
-        y: 199
-        width: 28
-        height: 38
+        x: 336
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -857,15 +857,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_28
+      name: Down1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 147
-        width: 18
-        height: 42
+        x: 0
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -878,15 +878,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_29
+      name: Down2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 146
-        width: 18
-        height: 43
+        x: 48
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -899,15 +899,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_30
+      name: Down3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 147
-        width: 18
-        height: 41
+        x: 96
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -920,15 +920,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_31
+      name: Down4
       rect:
         serializedVersion: 2
-        x: 159
-        y: 147
-        width: 18
-        height: 41
+        x: 144
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -941,15 +941,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_32
+      name: Down5
       rect:
         serializedVersion: 2
-        x: 207
-        y: 146
-        width: 18
-        height: 43
+        x: 192
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -962,15 +962,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_33
+      name: Down6
       rect:
         serializedVersion: 2
-        x: 255
-        y: 147
-        width: 18
-        height: 42
+        x: 240
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -983,15 +983,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_34
+      name: Down7
       rect:
         serializedVersion: 2
-        x: 303
-        y: 147
-        width: 18
-        height: 41
+        x: 288
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1004,15 +1004,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_35
+      name: Down8
       rect:
         serializedVersion: 2
-        x: 351
-        y: 146
-        width: 18
-        height: 41
+        x: 336
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1025,15 +1025,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_36
+      name: DownLeft1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 103
-        width: 28
-        height: 36
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1046,15 +1046,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_37
+      name: DownLeft2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 102
-        width: 30
-        height: 38
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1067,15 +1067,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_38
+      name: DownLeft3
       rect:
         serializedVersion: 2
-        x: 105
-        y: 102
-        width: 31
-        height: 41
+        x: 96
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1088,15 +1088,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_39
+      name: DownLeft4
       rect:
         serializedVersion: 2
-        x: 153
-        y: 103
-        width: 33
-        height: 38
+        x: 144
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1109,15 +1109,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_40
+      name: DownLeft5
       rect:
         serializedVersion: 2
-        x: 201
-        y: 103
-        width: 29
-        height: 38
+        x: 192
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1130,15 +1130,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_41
+      name: DownLeft6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 102
-        width: 29
-        height: 40
+        x: 240
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1151,15 +1151,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_42
+      name: DownLeft7
       rect:
         serializedVersion: 2
-        x: 297
-        y: 102
-        width: 29
-        height: 40
+        x: 288
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1172,15 +1172,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_43
+      name: DownLeft8
       rect:
         serializedVersion: 2
-        x: 345
-        y: 103
-        width: 28
-        height: 38
+        x: 336
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1193,15 +1193,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_44
+      name: Left1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 57
-        width: 33
-        height: 33
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1214,15 +1214,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_45
+      name: Left2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 57
-        width: 29
-        height: 33
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1235,15 +1235,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_46
+      name: Left3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 57
-        width: 30
-        height: 30
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1256,15 +1256,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_47
+      name: Left4
       rect:
         serializedVersion: 2
-        x: 152
-        y: 57
-        width: 31
-        height: 30
+        x: 144
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1277,15 +1277,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_48
+      name: Left5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 57
-        width: 32
-        height: 31
+        x: 192
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1298,15 +1298,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_49
+      name: Left6
       rect:
         serializedVersion: 2
-        x: 248
-        y: 57
-        width: 34
-        height: 32
+        x: 240
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1319,15 +1319,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_50
+      name: Left7
       rect:
         serializedVersion: 2
-        x: 296
-        y: 57
-        width: 36
-        height: 30
+        x: 288
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1340,15 +1340,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_51
+      name: Left8
       rect:
         serializedVersion: 2
-        x: 344
-        y: 57
-        width: 34
-        height: 30
+        x: 336
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1361,15 +1361,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_52
+      name: UpLeft1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 7
-        width: 30
-        height: 32
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1382,15 +1382,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_53
+      name: UpLeft2
       rect:
         serializedVersion: 2
-        x: 58
-        y: 7
-        width: 32
-        height: 33
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1403,15 +1403,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_54
+      name: UpLeft3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 7
-        width: 31
-        height: 34
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1424,15 +1424,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_55
+      name: UpLeft4
       rect:
         serializedVersion: 2
-        x: 154
-        y: 7
-        width: 29
-        height: 34
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1445,15 +1445,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_56
+      name: UpLeft5
       rect:
         serializedVersion: 2
-        x: 202
-        y: 7
-        width: 27
-        height: 33
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1466,15 +1466,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mandarino-Walk-Sheet_57
+      name: UpLeft6
       rect:
         serializedVersion: 2
-        x: 250
-        y: 7
-        width: 29
-        height: 32
+        x: 240
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1489,7 +1489,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e8ae8f8193d04b4fb790f2bc0b11d8d
     internalID: 0
     vertices: []
     indices: 
@@ -1497,64 +1497,64 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mandarino-Walk-Sheet_0: -1807792368084202761
-      Mandarino-Walk-Sheet_1: -6480220611830273820
-      Mandarino-Walk-Sheet_10: 4347692130586640450
-      Mandarino-Walk-Sheet_11: 7058621382469216265
-      Mandarino-Walk-Sheet_12: -432132173544710980
-      Mandarino-Walk-Sheet_13: 7802190812988096709
-      Mandarino-Walk-Sheet_14: 7314540188019215534
-      Mandarino-Walk-Sheet_15: 3142809607381578840
-      Mandarino-Walk-Sheet_16: -8223424493131366070
-      Mandarino-Walk-Sheet_17: -7197504103637570805
-      Mandarino-Walk-Sheet_18: -1490413703451441839
-      Mandarino-Walk-Sheet_19: 2638751417680096363
-      Mandarino-Walk-Sheet_2: -1531921350524924691
-      Mandarino-Walk-Sheet_20: 6975039438233364615
-      Mandarino-Walk-Sheet_21: 7622590789342409692
-      Mandarino-Walk-Sheet_22: -3264982592503385424
-      Mandarino-Walk-Sheet_23: -2998794344696733601
-      Mandarino-Walk-Sheet_24: -1889922901596334931
-      Mandarino-Walk-Sheet_25: 3395833119315251495
-      Mandarino-Walk-Sheet_26: 194458182898318642
-      Mandarino-Walk-Sheet_27: -4667328521264743425
-      Mandarino-Walk-Sheet_28: 889291366581076563
-      Mandarino-Walk-Sheet_29: 5024121822015377466
-      Mandarino-Walk-Sheet_3: 14650909187332189
-      Mandarino-Walk-Sheet_30: -7129235978355374517
-      Mandarino-Walk-Sheet_31: 1777817529061367522
-      Mandarino-Walk-Sheet_32: -7301010088241225697
-      Mandarino-Walk-Sheet_33: -1874187555845617429
-      Mandarino-Walk-Sheet_34: 8486327930505718992
-      Mandarino-Walk-Sheet_35: 6620946412539945419
-      Mandarino-Walk-Sheet_36: 5256179060577887223
-      Mandarino-Walk-Sheet_37: -2589749073248067747
-      Mandarino-Walk-Sheet_38: -7173700409030445944
-      Mandarino-Walk-Sheet_39: 4185772044196556917
-      Mandarino-Walk-Sheet_4: -6943150905267490728
-      Mandarino-Walk-Sheet_40: -8971248486904321596
-      Mandarino-Walk-Sheet_41: -548926332222929709
-      Mandarino-Walk-Sheet_42: 5301167999628689609
-      Mandarino-Walk-Sheet_43: 637906583335398555
-      Mandarino-Walk-Sheet_44: -6437285070642286410
-      Mandarino-Walk-Sheet_45: 4235468990187911302
-      Mandarino-Walk-Sheet_46: 6676833108601256759
-      Mandarino-Walk-Sheet_47: 7002806129547562351
-      Mandarino-Walk-Sheet_48: -5664819371387553616
-      Mandarino-Walk-Sheet_49: -4221340863507454664
-      Mandarino-Walk-Sheet_5: 8495100413099610435
-      Mandarino-Walk-Sheet_50: 3713218027113726951
-      Mandarino-Walk-Sheet_51: -7218509054440043605
-      Mandarino-Walk-Sheet_52: -9129748080489700293
-      Mandarino-Walk-Sheet_53: 2263234381339353859
-      Mandarino-Walk-Sheet_54: 7197237254522704294
-      Mandarino-Walk-Sheet_55: 634103135316295255
-      Mandarino-Walk-Sheet_56: 5434666097179459778
-      Mandarino-Walk-Sheet_57: -5277255974732896536
-      Mandarino-Walk-Sheet_6: -3339587980731857556
-      Mandarino-Walk-Sheet_7: 1662252267118233738
-      Mandarino-Walk-Sheet_8: -4622312930143478391
-      Mandarino-Walk-Sheet_9: 8308176102785949155
+      Down1: 889291366581076563
+      Down2: 5024121822015377466
+      Down3: -7129235978355374517
+      Down4: 1777817529061367522
+      Down5: -7301010088241225697
+      Down6: -1874187555845617429
+      Down7: 8486327930505718992
+      Down8: 6620946412539945419
+      DownLeft1: 5256179060577887223
+      DownLeft2: -2589749073248067747
+      DownLeft3: -7173700409030445944
+      DownLeft4: 4185772044196556917
+      DownLeft5: -8971248486904321596
+      DownLeft6: -548926332222929709
+      DownLeft7: 5301167999628689609
+      DownLeft8: 637906583335398555
+      DownRight1: 6975039438233364615
+      DownRight2: 7622590789342409692
+      DownRight3: -3264982592503385424
+      DownRight4: -2998794344696733601
+      DownRight5: -1889922901596334931
+      DownRight6: 3395833119315251495
+      DownRight7: 194458182898318642
+      DownRight8: -4667328521264743425
+      Left1: -6437285070642286410
+      Left2: 4235468990187911302
+      Left3: 6676833108601256759
+      Left4: 7002806129547562351
+      Left5: -5664819371387553616
+      Left6: -4221340863507454664
+      Left7: 3713218027113726951
+      Left8: -7218509054440043605
+      Right1: -432132173544710980
+      Right2: 7802190812988096709
+      Right3: 7314540188019215534
+      Right4: 3142809607381578840
+      Right5: -8223424493131366070
+      Right6: -7197504103637570805
+      Right7: -1490413703451441839
+      Right8: 2638751417680096363
+      Up1: -1807792368084202761
+      Up2: -6480220611830273820
+      Up3: -1531921350524924691
+      Up4: 14650909187332189
+      Up5: -6943150905267490728
+      Up6: 8495100413099610435
+      UpLeft1: -9129748080489700293
+      UpLeft2: 2263234381339353859
+      UpLeft3: 7197237254522704294
+      UpLeft4: 634103135316295255
+      UpLeft5: 5434666097179459778
+      UpLeft6: -5277255974732896536
+      UpRight1: -3339587980731857556
+      UpRight2: 1662252267118233738
+      UpRight3: -4622312930143478391
+      UpRight4: 8308176102785949155
+      UpRight5: 4347692130586640450
+      UpRight6: 7058621382469216265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
