@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Bombaraton
   - Pared
+  - EnemyDamageObj
+  - MovSprite
   layers:
   - Default
   - TransparentFX

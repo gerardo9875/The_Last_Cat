@@ -15,7 +15,8 @@ public class PerroZombi_movement : MonoBehaviour
     NavMeshAgent agent;
 
     [Header("Player Detection")]
-    [SerializeField] float DetectionRadius;
+    [SerializeField] float Radius;
+    public float currentRadius;
     [SerializeField] float UnfollowDelay;
     [SerializeField] LayerMask playerLayer;
     [SerializeField] LayerMask ratonLayer;
@@ -54,15 +55,17 @@ public class PerroZombi_movement : MonoBehaviour
     public bool wet;
     public bool canDoDamage = true;
 
+    public bool isInEndless = true;
+
 
     bool PlayerInArea()
     {
-        return Physics2D.OverlapCircle(transform.position, DetectionRadius, playerLayer);
+        return Physics2D.OverlapCircle(transform.position, currentRadius, playerLayer);
     }
 
     bool RatonInArea()
     {
-        return Physics2D.OverlapCircle(transform.position, DetectionRadius, ratonLayer);
+        return Physics2D.OverlapCircle(transform.position, currentRadius, ratonLayer);
     }
 
     bool AttackRaycast()
@@ -90,14 +93,36 @@ public class PerroZombi_movement : MonoBehaviour
     }
     private void Start()
     {
+        if (isInEndless)
+        {
+            currentRadius = 0;
+            movSprite = GameObject.FindGameObjectWithTag("MovSprite").GetComponent<Collider2D>();
+
+            StartCoroutine(changeRadiusValue());
+
+        }
+        else
+        {
+            currentRadius = Radius;
+        }
+
         StartCoroutine(SetNewDestination());
     }
 
     private void Update()
     {
+
         if (!Deteccion)
         {
-            agent.speed = patrolSpeed;
+            if (!isInEndless)
+            {
+                agent.speed = patrolSpeed;
+            }
+            else
+            {
+                agent.speed = RunSpeed;
+            }
+
             agent.stoppingDistance = 0;
 
             agent.SetDestination(wayPoint);
@@ -253,6 +278,13 @@ public class PerroZombi_movement : MonoBehaviour
         }
     }
 
+    IEnumerator changeRadiusValue()
+    {
+        yield return new WaitForSeconds(5);
+
+        currentRadius = Radius;
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("WaterShoot"))
@@ -274,7 +306,7 @@ public class PerroZombi_movement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, DetectionRadius);
+        Gizmos.DrawWireSphere(transform.position, currentRadius);
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackRaycastPos.position, attackRadius);

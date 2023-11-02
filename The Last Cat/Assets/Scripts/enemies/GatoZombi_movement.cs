@@ -5,8 +5,6 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
-using static Cinemachine.CinemachineTargetGroup;
-using static UnityEngine.GraphicsBuffer;
 
 public class GatoZombi_movement : MonoBehaviour
 {
@@ -14,6 +12,7 @@ public class GatoZombi_movement : MonoBehaviour
 
     [Header("Deteccion")]
     [SerializeField] float radio;
+    public float currentRadio;
     [SerializeField] float timeOut;
     public LayerMask PlayerLayer;
     public LayerMask ratonLayer;
@@ -42,14 +41,16 @@ public class GatoZombi_movement : MonoBehaviour
     private bool patrolStay;
     public Vector2 patrolVel;
 
+    public bool isInEndless = true;
+
     bool PlayerInArea()
     {
-        return Physics2D.OverlapCircle(transform.position, radio, PlayerLayer);
+        return Physics2D.OverlapCircle(transform.position, currentRadio, PlayerLayer);
     }
 
     bool RatonInArea()
     {
-        return Physics2D.OverlapCircle(transform.position, radio, ratonLayer);
+        return Physics2D.OverlapCircle(transform.position, currentRadio, ratonLayer);
     }
 
     private void Awake()
@@ -64,10 +65,24 @@ public class GatoZombi_movement : MonoBehaviour
         agent.acceleration = 1000;
 
         CurrentTime = timeOut;
+
     }
 
     private void Start()
     {
+        if (isInEndless)
+        {
+            currentRadio = 0;
+            movSprite = GameObject.FindGameObjectWithTag("MovSprite").GetComponent<Collider2D>();
+
+            StartCoroutine(changeRadiusValue());
+
+        }
+        else
+        {
+            currentRadio = radio;
+        }
+
         StartCoroutine(SetNewDestination());
     }
 
@@ -79,7 +94,15 @@ public class GatoZombi_movement : MonoBehaviour
 
         if (!Deteccion)
         {
-            agent.speed = patrolSpeed;
+            if (!isInEndless)
+            {
+                agent.speed = patrolSpeed;
+            }
+            else
+            {
+                agent.speed = RunSpeed;
+            }
+
             agent.stoppingDistance = 0;
 
             agent.SetDestination(wayPoint);
@@ -197,15 +220,23 @@ public class GatoZombi_movement : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         canMove = true;
 
-        yield return new WaitForSeconds(1);
+        int timer = UnityEngine.Random.Range(1, 3);
+        yield return new WaitForSeconds(timer);
         canAttack = true;
+    }
+
+    IEnumerator changeRadiusValue()
+    {
+        yield return new WaitForSeconds(5);
+
+        currentRadio = radio;
     }
 
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, radio);
+        Gizmos.DrawWireSphere(transform.position, currentRadio);
     }
 
     

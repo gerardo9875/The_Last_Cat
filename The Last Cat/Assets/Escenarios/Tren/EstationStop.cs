@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class EstationStop : MonoBehaviour
 {
+    [SerializeField] Respawn spawner;
     [SerializeField] DoorsController controller;
     Rigidbody2D rgb;
 
@@ -63,12 +64,16 @@ public class EstationStop : MonoBehaviour
     IEnumerator EnemiesLandingTime()
     {
         controller.open = true;
-        Arrive = false;
         canArrive = false;
 
         rgb.velocity = new Vector2(0, 0);
 
+        spawner.canSpawn = true;
+
         yield return new WaitForSeconds(waitTime);
+
+        
+        yield return new WaitForSeconds(0.6f);
 
         controller.open = false;
 
@@ -76,6 +81,7 @@ public class EstationStop : MonoBehaviour
 
         noiseProfile.m_AmplitudeGain = 0.25f;
         rgb.velocity = new Vector2(speed, 0);
+        Arrive = false;
 
     }
 }
