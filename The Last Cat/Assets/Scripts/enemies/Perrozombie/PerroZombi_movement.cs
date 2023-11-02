@@ -11,6 +11,7 @@ using UnityEngine.Rendering;
 public class PerroZombi_movement : MonoBehaviour
 {
     [NonSerialized] public Rigidbody2D rgb;
+    [SerializeField]Player_Life playerLife;
     NavMeshAgent agent;
 
     [Header("Player Detection")]
@@ -75,6 +76,7 @@ public class PerroZombi_movement : MonoBehaviour
     {
         rgb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
+        playerLife = target.GetComponentInParent<Player_Life>();
         agent = GetComponent<NavMeshAgent>();
 
         agent.updateRotation = false;
@@ -118,14 +120,15 @@ public class PerroZombi_movement : MonoBehaviour
             agent.speed = RunSpeed;
             agent.stoppingDistance = minDistance;
 
+            if (RatonInArea())
+            {
+                raton = GameObject.FindGameObjectWithTag("Bombaraton");
+                agent.SetDestination(raton.transform.position);
+            }
+
             if (Vector2.Distance(transform.position, target.transform.position) > minDistance && canMove)
             {
-                if (RatonInArea())
-                {
-                    raton = GameObject.FindGameObjectWithTag("Bombaraton");
-                    agent.SetDestination(raton.transform.position);
-                }
-                else if(!RatonInArea() && PlayerInArea())
+                if(!RatonInArea() && PlayerInArea())
                 {
                     agent.SetDestination(target.transform.position);
                 }
@@ -238,9 +241,7 @@ public class PerroZombi_movement : MonoBehaviour
 
             if (AttackRaycast() && canDoDamage)
             {
-                Player_Life life = target.GetComponent<Player_Life>();
-                life.currentlife--;
-                Debug.Log("Ataque");
+                playerLife.currentlife--;
             }
 
 

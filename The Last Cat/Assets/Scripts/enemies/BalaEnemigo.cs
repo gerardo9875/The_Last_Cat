@@ -15,4 +15,15 @@ public class BalaEnemigo : MonoBehaviour
         tiempo -= Time.deltaTime;
         if (tiempo < 0) Destroy(gameObject);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player_Life life = collision.gameObject.GetComponent<Player_Life>();
+            life.currentlife--;
+
+            Destroy(gameObject);
+        }
+    }
 }

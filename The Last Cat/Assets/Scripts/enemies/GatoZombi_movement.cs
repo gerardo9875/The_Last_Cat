@@ -1,11 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.AI;
+using static Cinemachine.CinemachineTargetGroup;
 using static UnityEngine.GraphicsBuffer;
 
 public class GatoZombi_movement : MonoBehaviour
 {
+    NavMeshAgent agent;
+
     [Header("Deteccion")]
     [SerializeField] float radio;
     [SerializeField] float timeOut;
@@ -16,20 +22,25 @@ public class GatoZombi_movement : MonoBehaviour
     [SerializeField] private GameObject balaenemigo;
     [SerializeField] private Transform controlador;
 
-    private Vector3 dir;
     private bool canAttack = true;
 
     [Header("Movimiento")]
-    [SerializeField] GameObject player;
-    [SerializeField] float speed;
-    [SerializeField] float minDistance;
+    [SerializeField] GameObject target;
+    [SerializeField] GameObject raton;
+    [SerializeField] float RunSpeed;
+    [SerializeField] public float minDistance;
+    [NonSerialized] public Vector3 dir;
+    [NonSerialized] public Vector3 lastDir;
+    [NonSerialized] public bool canMove = true;
 
     [Header("Movimiento aleatorio")]
-    public float speedE;
-    public float range;//Lo cerca que debe estar del punto inicial
-    public float maxDistance;//Lejos puede llegar
-
+    [SerializeField] float patrolSpeed;
+    [SerializeField] public float range;
+    [SerializeField] Collider2D movSprite;
     private Vector2 wayPoint;
+    private float waitTime;
+    private bool patrolStay;
+    public Vector2 patrolVel;
 
     bool PlayerInArea()
     {
@@ -41,61 +52,115 @@ public class GatoZombi_movement : MonoBehaviour
         return Physics2D.OverlapCircle(transform.position, radio, ratonLayer);
     }
 
+    private void Awake()
+    {
+        target = GameObject.FindGameObjectWithTag("Player");
+        agent = GetComponent<NavMeshAgent>();
+
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
+        agent.angularSpeed = 1000;
+        agent.acceleration = 1000;
+
+        CurrentTime = timeOut;
+    }
 
     private void Start()
     {
-        CurrentTime = timeOut;
-        SetNewDestination();
+        StartCoroutine(SetNewDestination());
     }
 
 
     private void Update()
     {
+        DetectionVoid();
+        Rotation();
 
-        if (PlayerInArea() == false)
+        if (!Deteccion)
         {
-           
-            transform.position = Vector2.MoveTowards(transform.position, wayPoint, speedE * Time.deltaTime);
+            agent.speed = patrolSpeed;
+            agent.stoppingDistance = 0;
+
+            agent.SetDestination(wayPoint);
+
             if (Vector2.Distance(transform.position, wayPoint) < range)
             {
-                SetNewDestination();
+                if (!patrolStay)
+                {
+                    patrolStay = true;
+                    waitTime = UnityEngine.Random.Range(3, 5);
+
+                    StartCoroutine(SetNewDestination());
+                }
             }
         }
-
         else
         {
-            Movement();
-            Detection();
-            Rotation();
+            agent.speed = RunSpeed;
 
-            if (canAttack && Disparo() != null) StartCoroutine(Disparo());
-        }
-
-       
-    }
-
-    void SetNewDestination()
-    {
-        wayPoint = new Vector2(UnityEngine.Random.Range(-maxDistance, maxDistance), UnityEngine.Random.Range(-maxDistance, maxDistance));
-    }
-
-    private void Movement()
-    {
-        if (Deteccion)
-        {
-            if (Vector2.Distance(transform.position, player.transform.position) < minDistance)
+            if (RatonInArea()) //Se acerca al raton
             {
-                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, -speed * Time.deltaTime);
-                
+                raton = GameObject.FindGameObjectWithTag("Bombaraton");
+                agent.stoppingDistance = 1;
+                agent.SetDestination(raton.transform.position);
+
+                canAttack = false;
             }
-            
+            else if (PlayerInArea()) //Dispara siempre que el jugador esté en el area
+            {
+                if (canAttack && canMove)
+                {
+                    StartCoroutine(Disparo());
+                }
+            }
+
+            if (Vector2.Distance(transform.position, target.transform.position) > minDistance)
+            {
+                if (!RatonInArea() && PlayerInArea())
+                {
+                    if(canMove)
+                    {
+                        agent.stoppingDistance = minDistance;
+                        agent.SetDestination(target.transform.position);
+                    }
+                    else
+                    {
+                        agent.SetDestination(transform.position);
+                    }
+                    
+                }
+
+                lastDir = agent.velocity;
+                lastDir.Normalize();
+
+            }
+            else
+            {
+                StartCoroutine(SetNewDestination()); //No funciona asi
+            }
+
         }
     }
 
-
-    private void Detection()
+    IEnumerator SetNewDestination()
     {
-        if (PlayerInArea())
+        yield return new WaitForSeconds(waitTime);
+
+        wayPoint = new Vector2(UnityEngine.Random.Range(movSprite.bounds.min.x, movSprite.bounds.max.x),
+            UnityEngine.Random.Range(movSprite.bounds.min.y, movSprite.bounds.max.y));
+
+        patrolVel = new Vector2(wayPoint.x - transform.position.x, wayPoint.y - transform.position.y);
+        patrolVel.Normalize();
+
+        patrolStay = false;
+        canMove = true;
+    }
+
+
+    private void DetectionVoid()
+    {
+        if (PlayerInArea() || RatonInArea())
         {
             Deteccion = true;
             CurrentTime = timeOut;
@@ -113,9 +178,7 @@ public class GatoZombi_movement : MonoBehaviour
 
     private void Rotation()
     {
-
-
-        dir = player.transform.position - transform.position;
+        dir = target.transform.position - transform.position;
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;
         controlador.rotation = Quaternion.Euler(0, 0, angle);
@@ -125,13 +188,16 @@ public class GatoZombi_movement : MonoBehaviour
 
     IEnumerator Disparo()
     {
-        
-        Instantiate(balaenemigo, controlador.transform.position, controlador.transform.rotation);
+        canMove = false;
+        agent.SetDestination(transform.position);
 
+        Instantiate(balaenemigo, controlador.transform.position, controlador.transform.rotation);
         canAttack = false;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
+        canMove = true;
 
+        yield return new WaitForSeconds(1);
         canAttack = true;
     }
 
@@ -142,5 +208,5 @@ public class GatoZombi_movement : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, radio);
     }
 
-
+    
 }
