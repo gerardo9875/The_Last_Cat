@@ -280,7 +280,7 @@ public class PerroZombi_movement : MonoBehaviour
 
     IEnumerator changeRadiusValue()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(3.5f);
 
         currentRadius = Radius;
     }

@@ -24,7 +24,7 @@ public class Respawn : MonoBehaviour
     {
         while (canSpawn)
         {
-            spawnLimit = Random.Range(6, 12);
+            spawnLimit = Random.Range(6, 9);
 
             int rand = Random.Range(0, enemies.Length);
 
@@ -37,28 +37,6 @@ public class Respawn : MonoBehaviour
             {
                 canSpawn = false;
             }
-        }
-    }
-
-    private IEnumerator Spawner()
-    {
-        spawnLimit = Random.Range(6, 12);
-
-        WaitForSeconds wait = new WaitForSeconds(spawnRate);
-
-        while (canSpawn) 
-        {
-            yield return wait;
-            int rand = Random.Range(0, enemies.Length);
-
-            GameObject  enemytoSpawn = enemies[rand];
-            Instantiate(enemytoSpawn,transform.position,Quaternion.identity);
-
-            spawnCount++;
-            
-
-            
-
         }
     }
 }

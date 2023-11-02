@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29daf3775a586af479587179c5d7fe11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radioDetec: 10
+  radioDetec: 29.4
   player: {fileID: 0}
   PlayerLayer:
     serializedVersion: 2
