@@ -241,7 +241,10 @@ public class PerroZombi_movement : MonoBehaviour
 
             if (AttackRaycast() && canDoDamage)
             {
-                playerLife.currentlife--;
+                if (playerLife.canRecieveDamage)
+                {
+                    playerLife.currentlife--;
+                }
             }
 
 
