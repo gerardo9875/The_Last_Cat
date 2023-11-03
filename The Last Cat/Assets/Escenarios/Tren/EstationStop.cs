@@ -8,6 +8,7 @@ public class EstationStop : MonoBehaviour
 {
     [SerializeField] Respawn spawner;
     [SerializeField] DoorsController controller;
+    [SerializeField] GameObject outsideLight;
     Rigidbody2D rgb;
 
     [Header("Camara")]
