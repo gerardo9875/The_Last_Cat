@@ -26,8 +26,8 @@ public class Player_AnimController : MonoBehaviour
 
         if (!shoot.isShooting && !mov.isdashing)
         {
-            playerAnimator.SetFloat("Horizontal", mov.moveInput.x);
-            playerAnimator.SetFloat("Vertical", mov.moveInput.y);
+            playerAnimator.SetFloat("Horizontal", mov.lastInput.x);
+            playerAnimator.SetFloat("Vertical", mov.lastInput.y);
         }
         else if (shoot.isShooting)
         {

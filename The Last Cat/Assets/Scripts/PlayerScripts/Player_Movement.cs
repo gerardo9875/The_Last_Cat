@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
@@ -11,6 +12,7 @@ public class Player_Movement : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] private float speed;
     [NonSerialized] public Vector2 moveInput;
+    [NonSerialized] public Vector2 lastInput;
     [NonSerialized] public bool canMove = true;
 
     [Header("Dash/Rodada")]
@@ -23,6 +25,8 @@ public class Player_Movement : MonoBehaviour
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
+
+        lastInput = new Vector2(0, -1);
     }
     
     void Update()
@@ -50,13 +54,18 @@ public class Player_Movement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveInput = new Vector2(moveX, moveY);
+
+        if (moveInput.x != 0 || moveInput.y != 0)
+        {
+            lastInput = moveInput;
+        }
     }
 
     IEnumerator Dash()
     {
         candash = false;
         isdashing = true;
-        playerRb.velocity = moveInput.normalized * distancedash / duraciondash;
+        playerRb.velocity = lastInput.normalized * distancedash / duraciondash;
         yield return new WaitForSeconds(duraciondash);
         isdashing = false;
         playerRb.velocity = Vector2.zero;
