@@ -159,6 +159,7 @@ MonoBehaviour:
   Explosion: {fileID: 150440942453995628, guid: 84e480aa62522d243819cdcac818feed, type: 3}
   radioExpl: 1
   ContadorTiempo: 1
+  toCount: 1
 --- !u!195 &7346600193920283108
 NavMeshAgent:
   m_ObjectHideFlags: 0

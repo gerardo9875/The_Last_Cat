@@ -276,6 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 5
+  toCounter: 1
 --- !u!195 &5256767390386415132
 NavMeshAgent:
   m_ObjectHideFlags: 0

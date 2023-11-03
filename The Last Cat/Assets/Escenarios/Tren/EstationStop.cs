@@ -16,6 +16,7 @@ public class EstationStop : MonoBehaviour
 
     private CinemachineBasicMultiChannelPerlin noiseProfile;
 
+    public int enemyCounter;
     public bool Arrive;
     public float speed;
     public float waitTime;
@@ -28,14 +29,23 @@ public class EstationStop : MonoBehaviour
 
         noiseProfile = VirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         noiseProfile.m_AmplitudeGain = 0.25f;
+
+        StartCoroutine(Arriving());
     }
 
     private void Update()
     {
+        if(enemyCounter >= spawner.spawnCount)
+        {
+            StartCoroutine(Arriving());
+        }
+
         if(Arrive)
         {
             if (canArrive)
             {
+                enemyCounter = 0;
+                spawner.spawnCount = 0;
 
                 if(transform.position.x <= 0)
                 {
@@ -84,5 +94,12 @@ public class EstationStop : MonoBehaviour
         rgb.velocity = new Vector2(speed, 0);
         Arrive = false;
 
+    }
+
+    IEnumerator Arriving()
+    {
+        yield return new WaitForSeconds(5);
+
+        Arrive = true;
     }
 }

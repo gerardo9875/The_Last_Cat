@@ -25,6 +25,10 @@ public class RatonEnemigo : MonoBehaviour
     public float radioExpl;
     public float ContadorTiempo;
 
+    [Header("Contador de enemigos")]
+    public bool toCount = true;
+    bool canAdd = true;
+
 
     bool ExplodingArea()
     {
@@ -100,6 +104,20 @@ public class RatonEnemigo : MonoBehaviour
         if (Explosion != null)
         {
             Instantiate(Explosion, transform.position, transform.rotation);
+        }
+
+        if (toCount)
+        {
+            if (GameObject.Find("Estacion") != null && canAdd)
+            {
+                EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
+                station.enemyCounter++;
+                canAdd = false;
+            }
+            else
+            {
+                //Codigo del otro contador de enemigos
+            }
         }
 
         Destroy(gameObject);

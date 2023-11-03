@@ -13,6 +13,8 @@ public class Respawn : MonoBehaviour
     public int spawnLimit;
     public int spawnCount;
 
+    public bool randomEnemies;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,19 @@ public class Respawn : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
+    {
+        if(randomEnemies)
+        {
+            instatiateRandom();
+        }
+        else
+        {
+
+        }
+    }
+
+    void instatiateRandom()
     {
         while (canSpawn)
         {
