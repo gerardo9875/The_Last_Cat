@@ -1,0 +1,1562 @@
+fileFormatVersion: 2
+guid: 996388507fac0844b99bbde62a8a5b6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5828008395426287464
+    second: GatoZombie_Walk-Sheet_0
+  - first:
+      213: 2880942583653304071
+    second: GatoZombie_Walk-Sheet_1
+  - first:
+      213: 7998094693059098349
+    second: GatoZombie_Walk-Sheet_2
+  - first:
+      213: 7436741036575424606
+    second: GatoZombie_Walk-Sheet_3
+  - first:
+      213: 7287273239334713878
+    second: GatoZombie_Walk-Sheet_4
+  - first:
+      213: 4086382415108029273
+    second: GatoZombie_Walk-Sheet_5
+  - first:
+      213: -3519874110867516004
+    second: GatoZombie_Walk-Sheet_6
+  - first:
+      213: 1260546533640245781
+    second: GatoZombie_Walk-Sheet_7
+  - first:
+      213: 6526504442327627809
+    second: GatoZombie_Walk-Sheet_8
+  - first:
+      213: -3066293987929939089
+    second: GatoZombie_Walk-Sheet_9
+  - first:
+      213: 5407087049608832364
+    second: GatoZombie_Walk-Sheet_10
+  - first:
+      213: 893254370254422123
+    second: GatoZombie_Walk-Sheet_11
+  - first:
+      213: -1187046152976507600
+    second: GatoZombie_Walk-Sheet_12
+  - first:
+      213: 526097734055147096
+    second: GatoZombie_Walk-Sheet_13
+  - first:
+      213: 1241955129262075384
+    second: GatoZombie_Walk-Sheet_14
+  - first:
+      213: -1807985209035576846
+    second: GatoZombie_Walk-Sheet_15
+  - first:
+      213: -7199357026212994883
+    second: GatoZombie_Walk-Sheet_16
+  - first:
+      213: -505236481978488848
+    second: GatoZombie_Walk-Sheet_17
+  - first:
+      213: 6494375526460939075
+    second: GatoZombie_Walk-Sheet_18
+  - first:
+      213: -5698731453134027996
+    second: GatoZombie_Walk-Sheet_19
+  - first:
+      213: 5591866235799045428
+    second: GatoZombie_Walk-Sheet_20
+  - first:
+      213: 3784605373493881266
+    second: GatoZombie_Walk-Sheet_21
+  - first:
+      213: 6593668155172837629
+    second: GatoZombie_Walk-Sheet_22
+  - first:
+      213: -4077671541556638289
+    second: GatoZombie_Walk-Sheet_23
+  - first:
+      213: 1169206956093650163
+    second: GatoZombie_Walk-Sheet_24
+  - first:
+      213: -7117177680353468153
+    second: GatoZombie_Walk-Sheet_25
+  - first:
+      213: 6938285093837039724
+    second: GatoZombie_Walk-Sheet_26
+  - first:
+      213: 4918182713077699563
+    second: GatoZombie_Walk-Sheet_27
+  - first:
+      213: -6889070538733316080
+    second: GatoZombie_Walk-Sheet_28
+  - first:
+      213: -429671245213466854
+    second: GatoZombie_Walk-Sheet_29
+  - first:
+      213: -4867756836523678987
+    second: GatoZombie_Walk-Sheet_30
+  - first:
+      213: 2699952714927425141
+    second: GatoZombie_Walk-Sheet_31
+  - first:
+      213: 2424896164305412186
+    second: GatoZombie_Walk-Sheet_32
+  - first:
+      213: 8926308629143787614
+    second: GatoZombie_Walk-Sheet_33
+  - first:
+      213: 1982634277615772609
+    second: GatoZombie_Walk-Sheet_34
+  - first:
+      213: 925036857615507149
+    second: GatoZombie_Walk-Sheet_35
+  - first:
+      213: 3718118346372523340
+    second: GatoZombie_Walk-Sheet_36
+  - first:
+      213: 8288905791400228233
+    second: GatoZombie_Walk-Sheet_37
+  - first:
+      213: -4618926050257066968
+    second: GatoZombie_Walk-Sheet_38
+  - first:
+      213: 7087921204617614450
+    second: GatoZombie_Walk-Sheet_39
+  - first:
+      213: 7935389712551183191
+    second: GatoZombie_Walk-Sheet_40
+  - first:
+      213: 2068415493790623142
+    second: GatoZombie_Walk-Sheet_41
+  - first:
+      213: 4783980572430710523
+    second: GatoZombie_Walk-Sheet_42
+  - first:
+      213: -6896306470805929444
+    second: GatoZombie_Walk-Sheet_43
+  - first:
+      213: 9202820739194250565
+    second: GatoZombie_Walk-Sheet_44
+  - first:
+      213: 3892395767877508637
+    second: GatoZombie_Walk-Sheet_45
+  - first:
+      213: -6531501428877941366
+    second: GatoZombie_Walk-Sheet_46
+  - first:
+      213: 1730451173251000489
+    second: GatoZombie_Walk-Sheet_47
+  - first:
+      213: -2055745429507950635
+    second: GatoZombie_Walk-Sheet_48
+  - first:
+      213: -4832828116629604541
+    second: GatoZombie_Walk-Sheet_49
+  - first:
+      213: -7031451858171271100
+    second: GatoZombie_Walk-Sheet_50
+  - first:
+      213: -77554958775682231
+    second: GatoZombie_Walk-Sheet_51
+  - first:
+      213: 5755381632379473412
+    second: GatoZombie_Walk-Sheet_52
+  - first:
+      213: -3434844442789806324
+    second: GatoZombie_Walk-Sheet_53
+  - first:
+      213: 2675937520740309118
+    second: GatoZombie_Walk-Sheet_54
+  - first:
+      213: 1302537000315316967
+    second: GatoZombie_Walk-Sheet_55
+  - first:
+      213: 5305089738338093419
+    second: GatoZombie_Walk-Sheet_56
+  - first:
+      213: -7900289952662810262
+    second: GatoZombie_Walk-Sheet_57
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 341
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fc06de1ce31e050800000000000000
+      internalID: 5828008395426287464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 341
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70783f4140a2bf720800000000000000
+      internalID: 2880942583653304071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 340
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de679b36fb0fefe60800000000000000
+      internalID: 7998094693059098349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 341
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5006ab329c943760800000000000000
+      internalID: 7436741036575424606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 341
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a71cbc668912560800000000000000
+      internalID: 7287273239334713878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 340
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bbaece72fb5b830800000000000000
+      internalID: 4086382415108029273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 294
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d5af2525e62fc0800000000000000
+      internalID: -3519874110867516004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 294
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5121a78c46c5e7110800000000000000
+      internalID: 1260546533640245781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 293
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12872fd163dc29a50800000000000000
+      internalID: 6526504442327627809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 293
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6325882dd55275d0800000000000000
+      internalID: -3066293987929939089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 294
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65ac8d0605d90b40800000000000000
+      internalID: 5407087049608832364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 294
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b608419fd1a756c00800000000000000
+      internalID: 893254370254422123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 245
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d57d720d3c68fe0800000000000000
+      internalID: -1187046152976507600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 245
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856be7b0a131d4700800000000000000
+      internalID: 526097734055147096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 245
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fde3a22c9f4c3110800000000000000
+      internalID: 1241955129262075384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 245
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f92640180fb8e6e0800000000000000
+      internalID: -1807985209035576846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 245
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0ac51bdeeb61c90800000000000000
+      internalID: -7199357026212994883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 245
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7aa14b81a0df8f0800000000000000
+      internalID: -505236481978488848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 245
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bd1b4f128a02a50800000000000000
+      internalID: 6494375526460939075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 245
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423c991cfe90ae0b0800000000000000
+      internalID: -5698731453134027996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 197
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4358d48e6bc4a9d40800000000000000
+      internalID: 5591866235799045428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 197
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b92326198e958430800000000000000
+      internalID: 3784605373493881266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 197
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8d1eb904a618b50800000000000000
+      internalID: 6593668155172837629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 198
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad0cce56533967c0800000000000000
+      internalID: -4077671541556638289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 197
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4b0e6288bd93010800000000000000
+      internalID: 1169206956093650163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 197
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701613fab94ba3d90800000000000000
+      internalID: -7117177680353468153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 197
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c686b80488db94060800000000000000
+      internalID: 6938285093837039724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 197
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be39671be15e04440800000000000000
+      internalID: 4918182713077699563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018113a48da1560a0800000000000000
+      internalID: -6889070538733316080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 145
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ff9da6740890af0800000000000000
+      internalID: -429671245213466854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 145
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2e60a92f0427cb0800000000000000
+      internalID: -4867756836523678987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 144
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576c99370b8287520800000000000000
+      internalID: 2699952714927425141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 144
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50a1aab636f6a120800000000000000
+      internalID: 2424896164305412186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 145
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e589e93976e90eb70800000000000000
+      internalID: 8926308629143787614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 144
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c32dccfe5bb38b10800000000000000
+      internalID: 1982634277615772609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 144
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dced056fe1466dc00800000000000000
+      internalID: 925036857615507149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 102
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45a564cfe8699330800000000000000
+      internalID: 3718118346372523340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 102
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985b61996eb180370800000000000000
+      internalID: 8288905791400228233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 102
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82421aaba3746efb0800000000000000
+      internalID: -4618926050257066968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 103
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274113d38ca5d5260800000000000000
+      internalID: 7087921204617614450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75307ea66ea202e60800000000000000
+      internalID: 7935389712551183191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 102
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5ed43ceec74bc10800000000000000
+      internalID: 2068415493790623142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 102
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf63a18ebfc146240800000000000000
+      internalID: 4783980572430710523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 102
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1282619dc56b40a0800000000000000
+      internalID: -6896306470805929444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 53
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545654324bcf6bf70800000000000000
+      internalID: 9202820739194250565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 53
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e929df351940630800000000000000
+      internalID: 3892395767877508637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8526c94e027b55a0800000000000000
+      internalID: -6531501428877941366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 53
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8a8ca7c2cc30810800000000000000
+      internalID: 1730451173251000489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7bb857c668873e0800000000000000
+      internalID: -2055745429507950635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 53
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b5cfee685eecb0800000000000000
+      internalID: -4832828116629604541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 53
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e07a0ac34b6e90800000000000000
+      internalID: -7031451858171271100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 53
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bfa970d287ceef0800000000000000
+      internalID: -77554958775682231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e49c0f9193fdf40800000000000000
+      internalID: 5755381632379473412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 6
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ff9c88d2bf450d0800000000000000
+      internalID: -3434844442789806324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 5
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e789dd45ff6d22520800000000000000
+      internalID: 2675937520740309118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eae89a208a831210800000000000000
+      internalID: 1302537000315316967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 6
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69463b62077f9940800000000000000
+      internalID: 5305089738338093419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GatoZombie_Walk-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 6
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6112f445288c5290800000000000000
+      internalID: -7900289952662810262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GatoZombie_Walk-Sheet_0: 5828008395426287464
+      GatoZombie_Walk-Sheet_1: 2880942583653304071
+      GatoZombie_Walk-Sheet_10: 5407087049608832364
+      GatoZombie_Walk-Sheet_11: 893254370254422123
+      GatoZombie_Walk-Sheet_12: -1187046152976507600
+      GatoZombie_Walk-Sheet_13: 526097734055147096
+      GatoZombie_Walk-Sheet_14: 1241955129262075384
+      GatoZombie_Walk-Sheet_15: -1807985209035576846
+      GatoZombie_Walk-Sheet_16: -7199357026212994883
+      GatoZombie_Walk-Sheet_17: -505236481978488848
+      GatoZombie_Walk-Sheet_18: 6494375526460939075
+      GatoZombie_Walk-Sheet_19: -5698731453134027996
+      GatoZombie_Walk-Sheet_2: 7998094693059098349
+      GatoZombie_Walk-Sheet_20: 5591866235799045428
+      GatoZombie_Walk-Sheet_21: 3784605373493881266
+      GatoZombie_Walk-Sheet_22: 6593668155172837629
+      GatoZombie_Walk-Sheet_23: -4077671541556638289
+      GatoZombie_Walk-Sheet_24: 1169206956093650163
+      GatoZombie_Walk-Sheet_25: -7117177680353468153
+      GatoZombie_Walk-Sheet_26: 6938285093837039724
+      GatoZombie_Walk-Sheet_27: 4918182713077699563
+      GatoZombie_Walk-Sheet_28: -6889070538733316080
+      GatoZombie_Walk-Sheet_29: -429671245213466854
+      GatoZombie_Walk-Sheet_3: 7436741036575424606
+      GatoZombie_Walk-Sheet_30: -4867756836523678987
+      GatoZombie_Walk-Sheet_31: 2699952714927425141
+      GatoZombie_Walk-Sheet_32: 2424896164305412186
+      GatoZombie_Walk-Sheet_33: 8926308629143787614
+      GatoZombie_Walk-Sheet_34: 1982634277615772609
+      GatoZombie_Walk-Sheet_35: 925036857615507149
+      GatoZombie_Walk-Sheet_36: 3718118346372523340
+      GatoZombie_Walk-Sheet_37: 8288905791400228233
+      GatoZombie_Walk-Sheet_38: -4618926050257066968
+      GatoZombie_Walk-Sheet_39: 7087921204617614450
+      GatoZombie_Walk-Sheet_4: 7287273239334713878
+      GatoZombie_Walk-Sheet_40: 7935389712551183191
+      GatoZombie_Walk-Sheet_41: 2068415493790623142
+      GatoZombie_Walk-Sheet_42: 4783980572430710523
+      GatoZombie_Walk-Sheet_43: -6896306470805929444
+      GatoZombie_Walk-Sheet_44: 9202820739194250565
+      GatoZombie_Walk-Sheet_45: 3892395767877508637
+      GatoZombie_Walk-Sheet_46: -6531501428877941366
+      GatoZombie_Walk-Sheet_47: 1730451173251000489
+      GatoZombie_Walk-Sheet_48: -2055745429507950635
+      GatoZombie_Walk-Sheet_49: -4832828116629604541
+      GatoZombie_Walk-Sheet_5: 4086382415108029273
+      GatoZombie_Walk-Sheet_50: -7031451858171271100
+      GatoZombie_Walk-Sheet_51: -77554958775682231
+      GatoZombie_Walk-Sheet_52: 5755381632379473412
+      GatoZombie_Walk-Sheet_53: -3434844442789806324
+      GatoZombie_Walk-Sheet_54: 2675937520740309118
+      GatoZombie_Walk-Sheet_55: 1302537000315316967
+      GatoZombie_Walk-Sheet_56: 5305089738338093419
+      GatoZombie_Walk-Sheet_57: -7900289952662810262
+      GatoZombie_Walk-Sheet_6: -3519874110867516004
+      GatoZombie_Walk-Sheet_7: 1260546533640245781
+      GatoZombie_Walk-Sheet_8: 6526504442327627809
+      GatoZombie_Walk-Sheet_9: -3066293987929939089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
