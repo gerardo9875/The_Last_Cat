@@ -6,7 +6,7 @@ using UnityEngine;
 public class PerroZombie_Life : MonoBehaviour
 {
     [SerializeField] private int life;
-    [NonSerialized] public bool alive = true;
+    public bool alive = true;
     public bool toCounter = true;
 
     PerroZombi_movement mov;
@@ -47,14 +47,16 @@ public class PerroZombie_Life : MonoBehaviour
             if (life <= 0)
             {
                 mov.canMove = false;
+                mov.isAttacking = true;
+                mov.canDoDamage = false;
+                mov.canRotate = false;
+
                 alive = false;
 
                 if(toCounter) 
                 {
                     station.enemyCounter++;
                 }
-
-                Destroy(gameObject);
             }
         }
     }

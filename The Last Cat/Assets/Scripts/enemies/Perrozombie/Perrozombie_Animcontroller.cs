@@ -4,6 +4,7 @@ using UnityEngine.AI;
 public class Perrozombie_Animcontroller:MonoBehaviour
 {
     PerroZombi_movement AI;
+    PerroZombie_Life life;
     Animator animator;
     SpriteRenderer Renderer;
     NavMeshAgent agent;
@@ -20,6 +21,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         Renderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         AI = GetComponent<PerroZombi_movement>();
+        life = GetComponent<PerroZombie_Life>();
 
         agent.updateRotation = false;
         agent.updateUpAxis = false;
@@ -62,13 +64,17 @@ public class Perrozombie_Animcontroller:MonoBehaviour
             }
         }
 
-        
+        if (!life.alive)
+        {
+            animator.Play("Dead");
+        }
+
 
         //MATERIALES
         if (AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
         else if (!AI.isAttacking && agent.velocity != Vector3.zero) Renderer.material = RunMaterial; //Corriendo
+        else if (!life.alive) Renderer.material = DeathMaterial;
         else Renderer.material = IdleMaterial; //Ninguna de las anteriores
-
     }
 
     public void AttackEnd()
@@ -77,5 +83,10 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         AI.canMove = true;
         AI.canRotate = true;
         AI.isAttacking = false;
+    }
+
+    public void EndDead()
+    {
+        Destroy(gameObject);
     }
 }
