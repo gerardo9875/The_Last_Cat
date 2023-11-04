@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PerroZombie_Life : MonoBehaviour
@@ -9,25 +10,14 @@ public class PerroZombie_Life : MonoBehaviour
     public bool alive = true;
     public bool toCounter = true;
 
+    Collider2D coll;
     PerroZombi_movement mov;
-    EstationStop station;
+
     void Start()
     {
 
         mov = GetComponent < PerroZombi_movement>();
-        
-        if(toCounter )
-        {
-            if(GameObject.Find("Estacion") != null)
-            {
-                station = GameObject.Find("Estacion").GetComponent<EstationStop>();
-            }
-            else
-            {
-                //Codigo del otro contador de enemigos
-            }
-
-        }
+        coll = GetComponent < Collider2D>();
 
     }
 
@@ -50,12 +40,22 @@ public class PerroZombie_Life : MonoBehaviour
                 mov.isAttacking = true;
                 mov.canDoDamage = false;
                 mov.canRotate = false;
+                coll.enabled = false;
 
                 alive = false;
 
                 if(toCounter) 
                 {
-                    station.enemyCounter++;
+                    if (GameObject.Find("Estacion") != null)
+                    {
+                        EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
+                        station.enemyCounter++;
+                    }
+                    else if (GameObject.Find("EnemyCounter") != null)
+                    {
+                        EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
+                        counter.addEnemy();
+                    }
                 }
             }
         }

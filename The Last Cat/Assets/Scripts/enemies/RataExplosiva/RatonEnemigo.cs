@@ -114,9 +114,11 @@ public class RatonEnemigo : MonoBehaviour
                 station.enemyCounter++;
                 canAdd = false;
             }
-            else
+            else if (GameObject.Find("EnemyCounter") != null && canAdd)
             {
-                //Codigo del otro contador de enemigos
+                EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
+                counter.addEnemy();
+                canAdd = false;
             }
         }
 
