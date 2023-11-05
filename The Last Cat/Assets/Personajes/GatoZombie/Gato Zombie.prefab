@@ -44,6 +44,8 @@ GameObject:
   - component: {fileID: 3811548842129726748}
   - component: {fileID: 6653300300750244792}
   - component: {fileID: 7815746481211160044}
+  - component: {fileID: 3424879464091603450}
+  - component: {fileID: -7740151959982427871}
   m_Layer: 0
   m_Name: Gato Zombie
   m_TagString: Untagged
@@ -59,7 +61,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6602995266145996319}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.058607, y: 6.870046, z: -149.71356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -113,7 +115,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.125, y: 3.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -157,8 +159,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 2.8125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 3, y: 3}
+    newSize: {x: 3.125, y: 3.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -186,6 +188,7 @@ MonoBehaviour:
   ratonLayer:
     serializedVersion: 2
     m_Bits: 64
+  Deteccion: 0
   balaenemigo: {fileID: 6716898358005159712, guid: c5a13047e4f64e74eb361bf9988c2f11, type: 3}
   controlador: {fileID: 3888162620826841802}
   target: {fileID: 0}
@@ -197,6 +200,7 @@ MonoBehaviour:
   movSprite: {fileID: 0}
   patrolVel: {x: 0, y: 0}
   isInEndless: 1
+  Attack: 0
 --- !u!195 &7815746481211160044
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -219,3 +223,41 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
+--- !u!95 &3424879464091603450
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602995266145996319}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c5930623770b80240adca40ff39254b9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7740151959982427871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602995266145996319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5a5a9e8362c754fb33e4caabf95c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  gatoZombie: {fileID: 0}
+  Renderer: {fileID: 0}
+  agent: {fileID: 0}

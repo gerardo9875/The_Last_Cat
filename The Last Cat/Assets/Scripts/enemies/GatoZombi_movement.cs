@@ -17,7 +17,7 @@ public class GatoZombi_movement : MonoBehaviour
     public LayerMask PlayerLayer;
     public LayerMask ratonLayer;
     private float CurrentTime;
-    private bool Deteccion;
+    public bool Deteccion;
     [SerializeField] private GameObject balaenemigo;
     [SerializeField] private Transform controlador;
 
@@ -42,6 +42,7 @@ public class GatoZombi_movement : MonoBehaviour
     public Vector2 patrolVel;
 
     public bool isInEndless = true;
+    public bool Attack;
 
     bool PlayerInArea()
     {
@@ -211,6 +212,7 @@ public class GatoZombi_movement : MonoBehaviour
 
     IEnumerator Disparo()
     {
+        Attack = true;
         canMove = false;
         agent.SetDestination(transform.position);
 
@@ -219,6 +221,7 @@ public class GatoZombi_movement : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
         canMove = true;
+        Attack = false;
 
         int timer = UnityEngine.Random.Range(1, 3);
         yield return new WaitForSeconds(timer);

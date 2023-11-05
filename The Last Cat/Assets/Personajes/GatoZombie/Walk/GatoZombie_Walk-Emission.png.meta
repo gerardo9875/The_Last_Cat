@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GatoZombie_Walk-Emission_0: -3114124762545944048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
