@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 3f613238c69b97946a7fe35e621b4408
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2402533458746062033
+    second: BombCar-InsideLight-Emission_0
+  - first:
+      213: -8109864530372400506
+    second: BombCar-InsideLight-Emission_1
+  - first:
+      213: 8850327665055346731
+    second: BombCar-InsideLight-Emission_2
+  - first:
+      213: -256912268186910069
+    second: BombCar-InsideLight-Emission_3
+  - first:
+      213: -6841063947367576830
+    second: BombCar-InsideLight-Emission_4
+  - first:
+      213: -6877044792144082931
+    second: BombCar-InsideLight-Emission_5
+  - first:
+      213: -8799500684716065935
+    second: BombCar-InsideLight-Emission_6
+  - first:
+      213: -8400336016016725001
+    second: BombCar-InsideLight-Emission_7
+  - first:
+      213: -6141009544501126494
+    second: BombCar-InsideLight-Emission_8
+  - first:
+      213: 261691414603385632
+    second: BombCar-InsideLight-Emission_9
+  - first:
+      213: -7650171931383368545
+    second: BombCar-InsideLight-Emission_10
+  - first:
+      213: 8549005556494063477
+    second: BombCar-InsideLight-Emission_11
+  - first:
+      213: 501101510438856630
+    second: BombCar-InsideLight-Emission_12
+  - first:
+      213: -5824016996034327654
+    second: BombCar-InsideLight-Emission_13
+  - first:
+      213: 3702703653676285640
+    second: BombCar-InsideLight-Emission_14
+  - first:
+      213: 2260915478583298258
+    second: BombCar-InsideLight-Emission_15
+  - first:
+      213: -7274919802402072336
+    second: BombCar-InsideLight-Emission_16
+  - first:
+      213: -6246603587835828331
+    second: BombCar-InsideLight-Emission_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 234
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b43766c8c78aed0800000000000000
+      internalID: -2402533458746062033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 232
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aec927d29f37f80800000000000000
+      internalID: -8109864530372400506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 232
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20bf6dce1ea2da70800000000000000
+      internalID: 8850327665055346731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 229
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82874c37a34f6cf0800000000000000
+      internalID: -256912268186910069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_4
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 226
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b8c6bd598af01a0800000000000000
+      internalID: -6841063947367576830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 226
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d084dcb9234df80a0800000000000000
+      internalID: -6877044792144082931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 134
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b31bebfb4e1e580800000000000000
+      internalID: -8799500684716065935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 136
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb276b76e20c6b80800000000000000
+      internalID: -8400336016016725001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 134
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa1ab11b50c6caa0800000000000000
+      internalID: -6141009544501126494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 135
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b443084f6b1a300800000000000000
+      internalID: 261691414603385632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 133
+        width: 49
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94fa37292125d590800000000000000
+      internalID: -7650171931383368545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 133
+        width: 49
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5775ba1524b24a670800000000000000
+      internalID: 8549005556494063477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_12
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 55
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7ae163b2544f600800000000000000
+      internalID: 501101510438856630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 55
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b4989266fec2fa0800000000000000
+      internalID: -5824016996034327654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 27
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce7ae1fa55a26330800000000000000
+      internalID: 3702703653676285640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_15
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 27
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8c32026a2606f10800000000000000
+      internalID: 2260915478583298258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_16
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 35
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f89e50ebfa4a0b90800000000000000
+      internalID: -7274919802402072336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombCar-InsideLight-Emission_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 32
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5976d5ef12b9f49a0800000000000000
+      internalID: -6246603587835828331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BombCar-InsideLight-Emission_0: -2402533458746062033
+      BombCar-InsideLight-Emission_1: -8109864530372400506
+      BombCar-InsideLight-Emission_10: -7650171931383368545
+      BombCar-InsideLight-Emission_11: 8549005556494063477
+      BombCar-InsideLight-Emission_12: 501101510438856630
+      BombCar-InsideLight-Emission_13: -5824016996034327654
+      BombCar-InsideLight-Emission_14: 3702703653676285640
+      BombCar-InsideLight-Emission_15: 2260915478583298258
+      BombCar-InsideLight-Emission_16: -7274919802402072336
+      BombCar-InsideLight-Emission_17: -6246603587835828331
+      BombCar-InsideLight-Emission_2: 8850327665055346731
+      BombCar-InsideLight-Emission_3: -256912268186910069
+      BombCar-InsideLight-Emission_4: -6841063947367576830
+      BombCar-InsideLight-Emission_5: -6877044792144082931
+      BombCar-InsideLight-Emission_6: -8799500684716065935
+      BombCar-InsideLight-Emission_7: -8400336016016725001
+      BombCar-InsideLight-Emission_8: -6141009544501126494
+      BombCar-InsideLight-Emission_9: 261691414603385632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

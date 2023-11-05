@@ -52,6 +52,7 @@ public class RatonEnemigo : MonoBehaviour
         agent.angularSpeed = 1000;
         agent.acceleration = 20;
         agent.speed = velocidad;
+
     }
 
     void Update()
@@ -101,24 +102,23 @@ public class RatonEnemigo : MonoBehaviour
     {
         canMove= false;
 
-        if (Explosion != null)
+        if (Explosion != null && canAdd)
         {
             Instantiate(Explosion, transform.position, transform.rotation);
+            canAdd = false;
         }
 
         if (toCount)
         {
-            if (GameObject.Find("Estacion") != null && canAdd)
+            if (GameObject.Find("Estacion") != null)
             {
                 EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
                 station.enemyCounter++;
-                canAdd = false;
             }
-            else if (GameObject.Find("EnemyCounter") != null && canAdd)
+            else if (GameObject.Find("EnemyCounter") != null)
             {
                 EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
                 counter.addEnemy();
-                canAdd = false;
             }
         }
 
