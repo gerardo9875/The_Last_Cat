@@ -1,19 +1,22 @@
 using Cinemachine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Transactions;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EstationStop : MonoBehaviour
 {
+    public bool Random;
+
     [SerializeField] Respawn spawner;
+    [SerializeField] SpawnerControlado spawner2;
     [SerializeField] DoorsController controller;
-    [SerializeField] GameObject outsideLight;
     Rigidbody2D rgb;
 
-    [Header("Camara")]
-    public CinemachineVirtualCamera VirtualCamera;
 
+    public CinemachineVirtualCamera VirtualCamera;
     private CinemachineBasicMultiChannelPerlin noiseProfile;
 
     public int enemyCounter;
@@ -25,6 +28,16 @@ public class EstationStop : MonoBehaviour
 
     private void Awake()
     {
+
+        if(Random)
+        {
+            spawner = GameObject.Find("Spawner").GetComponent<Respawn>();
+        }
+        else
+        {
+            spawner2 = GameObject.Find("Spawner").GetComponent<SpawnerControlado>();
+        }
+
         rgb = GetComponent<Rigidbody2D>();
 
         noiseProfile = VirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
@@ -35,41 +48,81 @@ public class EstationStop : MonoBehaviour
 
     private void Update()
     {
-        if(enemyCounter >= spawner.spawnCount)
+        if (Random)
         {
-            StartCoroutine(Arriving());
-        }
-
-        if(Arrive)
-        {
-            if (canArrive)
+            if (enemyCounter >= spawner.spawnCount)
             {
-                enemyCounter = 0;
-                spawner.spawnCount = 0;
+                StartCoroutine(Arriving());
+            }
 
-                if(transform.position.x <= 0)
+            if (Arrive)
+            {
+                if (canArrive)
                 {
-                    rgb.velocity = new Vector2(speed, 0);
-                }
-                else
-                {
-                    noiseProfile.m_AmplitudeGain = 0f;
-                    StartCoroutine(EnemiesLandingTime());
-                }
+                    enemyCounter = 0;
+                    spawner.spawnCount = 0;
 
+                    if (transform.position.x <= 0)
+                    {
+                        rgb.velocity = new Vector2(speed, 0);
+                    }
+                    else
+                    {
+                        noiseProfile.m_AmplitudeGain = 0f;
+                        StartCoroutine(EnemiesLandingTime());
+                    }
+
+                }
+            }
+
+            if (transform.position.x >= 100)
+            {
+                canArrive = true;
+
+                Vector2 pos = transform.position;
+                pos.x = -100;
+                transform.position = pos;
+
+                rgb.velocity = new Vector2(0, 0);
             }
         }
-
-        if(transform.position.x >= 100)
+        else
         {
-            canArrive = true;
+            if(enemyCounter >= spawner2.currentEnemies.Length)
+            {
+                StartCoroutine (Arriving());
+            }
 
-            Vector2 pos = transform.position;
-            pos.x = -100;
-            transform.position = pos;
+            if (Arrive)
+            {
+                if (canArrive)
+                {
+                    enemyCounter = 0;
 
-            rgb.velocity = new Vector2(0, 0);
+                    if (transform.position.x <= 0)
+                    {
+                        rgb.velocity = new Vector2(speed, 0);
+                    }
+                    else
+                    {
+                        noiseProfile.m_AmplitudeGain = 0f;
+                        StartCoroutine(EnemiesLandingTime());
+                    }
+                }
+            }
+
+            if (transform.position.x >= 100)
+            {
+                canArrive = true;
+
+                Vector2 pos = transform.position;
+                pos.x = -100;
+                transform.position = pos;
+
+                rgb.velocity = new Vector2(0, 0);
+            }
         }
+        
     }
 
     IEnumerator EnemiesLandingTime()
@@ -79,7 +132,15 @@ public class EstationStop : MonoBehaviour
 
         rgb.velocity = new Vector2(0, 0);
 
-        spawner.canSpawn = true;
+        if (Random)
+        {
+            spawner.canSpawn = true;
+        }
+        else
+        {
+            spawner2.canSpawn = true;
+        }
+
 
         yield return new WaitForSeconds(waitTime);
 

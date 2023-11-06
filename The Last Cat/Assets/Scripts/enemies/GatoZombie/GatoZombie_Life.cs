@@ -8,6 +8,7 @@ public class GatoZombie_Life : MonoBehaviour
     [SerializeField] private float life;
     [NonSerialized] public bool alive = true;
     public bool toCounter = true;
+    bool canAdd = true;
 
     Collider2D coll;
     GatoZombi_movement mov;
@@ -31,18 +32,24 @@ public class GatoZombie_Life : MonoBehaviour
 
             if (toCounter)
             {
-                if (GameObject.Find("Estacion") != null)
+                if (GameObject.Find("Estacion") != null && canAdd)
                 {
                     EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
                     station.enemyCounter++;
+                    canAdd = false;
                 }
-                else if (GameObject.Find("EnemyCounter") != null)
+                else if (GameObject.Find("EnemyCounter") != null && canAdd)
                 {
                     EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
                     counter.addEnemy();
+                    canAdd = false;
+
                 }
             }
+
+            Destroy(gameObject);
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -13,6 +13,8 @@ public class PerroZombie_Life : MonoBehaviour
     Collider2D coll;
     PerroZombi_movement mov;
 
+    bool canAdd = true;
+
     void Start()
     {
 
@@ -36,15 +38,17 @@ public class PerroZombie_Life : MonoBehaviour
 
             if (toCounter)
             {
-                if (GameObject.Find("Estacion") != null)
+                if (GameObject.Find("Estacion") != null && canAdd)
                 {
                     EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
                     station.enemyCounter++;
+                    canAdd = false;
                 }
-                else if (GameObject.Find("EnemyCounter") != null)
+                else if (GameObject.Find("EnemyCounter") != null && canAdd)
                 {
                     EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
                     counter.addEnemy();
+                    canAdd = false;
                 }
             }
         }

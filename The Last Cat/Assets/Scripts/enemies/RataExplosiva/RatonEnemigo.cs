@@ -27,6 +27,7 @@ public class RatonEnemigo : MonoBehaviour
 
     [Header("Contador de enemigos")]
     public bool toCount = true;
+    bool canInstantiate = true;
     bool canAdd = true;
 
 
@@ -102,23 +103,25 @@ public class RatonEnemigo : MonoBehaviour
     {
         canMove= false;
 
-        if (Explosion != null && canAdd)
+        if (Explosion != null && canInstantiate)
         {
             Instantiate(Explosion, transform.position, transform.rotation);
-            canAdd = false;
+            canInstantiate = false;
         }
 
         if (toCount)
         {
-            if (GameObject.Find("Estacion") != null)
+            if (GameObject.Find("Estacion") != null && canAdd)
             {
                 EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
                 station.enemyCounter++;
+                canAdd = false;
             }
-            else if (GameObject.Find("EnemyCounter") != null)
+            else if (GameObject.Find("EnemyCounter") != null && canAdd)
             {
                 EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
                 counter.addEnemy();
+                canAdd = false;
             }
         }
 

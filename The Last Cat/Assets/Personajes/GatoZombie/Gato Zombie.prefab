@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 7815746481211160044}
   - component: {fileID: 3424879464091603450}
   - component: {fileID: -7740151959982427871}
+  - component: {fileID: 2084000580723915108}
   m_Layer: 0
   m_Name: Gato Zombie
   m_TagString: Untagged
@@ -199,6 +200,7 @@ MonoBehaviour:
   range: 2
   movSprite: {fileID: 0}
   patrolVel: {x: 0, y: 0}
+  wet: 0
   isInEndless: 1
 --- !u!195 &7815746481211160044
 NavMeshAgent:
@@ -259,3 +261,17 @@ MonoBehaviour:
   idleMaterial: {fileID: 2100000, guid: ed4cd534cf23f2648b316a83b61ef0eb, type: 2}
   WalkMaterial: {fileID: 2100000, guid: 2cd0c3d3e22e6bf408bbda9e245f2588, type: 2}
   defaulMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}
+--- !u!114 &2084000580723915108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602995266145996319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496cb49a105f5be4abad99781f0181ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 3
+  toCounter: 1

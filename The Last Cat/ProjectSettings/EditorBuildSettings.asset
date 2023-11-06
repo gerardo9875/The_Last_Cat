@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel Tren/IntroTrainLevel.unity
     guid: c06a0ac5230ad7e4ba51ab84c5dfd06c
   - enabled: 1
-    path: Assets/Scenes/Nivel Tren/TrainLevel.unity
+    path: Assets/Scenes/Nivel Tren/EndleesTrainLevel.unity
     guid: eda3e59fc6abe7f49b68180b2991549a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

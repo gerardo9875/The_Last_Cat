@@ -45,6 +45,7 @@ public class GatoZombi_movement : MonoBehaviour
 
     [Header("Estado Mojado")]
     public bool wet;
+    bool canAim = true;
 
     [Header("Endless Mode")]
     public bool isInEndless = true;
@@ -162,7 +163,7 @@ public class GatoZombi_movement : MonoBehaviour
                     if (Disparo() != null)
                     {
                         StartCoroutine(Disparo());
-                    }
+                     }
                 }
             }
         }
@@ -172,6 +173,7 @@ public class GatoZombi_movement : MonoBehaviour
             canMove = false;
             canShoot = false;
             isShooting = false;
+            canAim = false;
         }
 
         DetectionVoid();
@@ -230,7 +232,7 @@ public class GatoZombi_movement : MonoBehaviour
 
         yield return new WaitForSeconds(0.55f);
 
-        if (isShooting)
+        if (canAim)
         {
             Instantiate(balaenemigo, controlador.transform.position, controlador.transform.rotation);
         }
@@ -248,9 +250,10 @@ public class GatoZombi_movement : MonoBehaviour
         currentRadio = radio;
     }
 
-    public void outOfWetState()
+    public void outOfWater()
     {
         wet = false;
+        canAim = true;
     }
 
 
@@ -262,12 +265,15 @@ public class GatoZombi_movement : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        wet = true;
+        if (collision.CompareTag("WaterShoot"))
+        {
+            wet = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Invoke("outOfWetState", 0.7f);
+        Invoke("outOfWater", 0.7f);
     }
 
 }
