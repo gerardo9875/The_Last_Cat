@@ -34,7 +34,6 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         animator.SetBool("Attack", AI.isAttacking); //Atacando
         animator.SetBool("Wet", AI.wet);
 
-        if(AI.wet) animator.Play("Wet");
 
         if (AI.Deteccion)
         {

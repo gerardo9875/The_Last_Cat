@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PerroZombie_Life : MonoBehaviour
 {
-    [SerializeField] private int life;
+    [SerializeField] private float life;
     public bool alive = true;
     public bool toCounter = true;
 
@@ -24,40 +24,45 @@ public class PerroZombie_Life : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (life <= 0)
+        {
+            mov.canMove = false;
+            mov.isAttacking = true;
+            mov.canDoDamage = false;
+            mov.canRotate = false;
+            coll.enabled = false;
 
+            alive = false;
+
+            if (toCounter)
+            {
+                if (GameObject.Find("Estacion") != null)
+                {
+                    EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
+                    station.enemyCounter++;
+                }
+                else if (GameObject.Find("EnemyCounter") != null)
+                {
+                    EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
+                    counter.addEnemy();
+                }
+            }
+        }
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerBullet"))
         {
-            life--;
+            life -= 1;
             Destroy(collision.gameObject);
+        }
+    }
 
-            if (life <= 0)
-            {
-                mov.canMove = false;
-                mov.isAttacking = true;
-                mov.canDoDamage = false;
-                mov.canRotate = false;
-                coll.enabled = false;
-
-                alive = false;
-
-                if(toCounter) 
-                {
-                    if (GameObject.Find("Estacion") != null)
-                    {
-                        EstationStop station = GameObject.Find("Estacion").GetComponent<EstationStop>();
-                        station.enemyCounter++;
-                    }
-                    else if (GameObject.Find("EnemyCounter") != null)
-                    {
-                        EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
-                        counter.addEnemy();
-                    }
-                }
-            }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("WaterShoot"))
+        {
+            life -= Time.deltaTime;
         }
     }
 }

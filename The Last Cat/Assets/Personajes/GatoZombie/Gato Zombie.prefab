@@ -89,7 +89,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: ed4cd534cf23f2648b316a83b61ef0eb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -193,14 +193,13 @@ MonoBehaviour:
   controlador: {fileID: 3888162620826841802}
   target: {fileID: 0}
   raton: {fileID: 0}
-  RunSpeed: 3
+  RunSpeed: 5
   minDistance: 6.5
-  patrolSpeed: 2
+  walkSpeed: 2.5
   range: 2
   movSprite: {fileID: 0}
   patrolVel: {x: 0, y: 0}
   isInEndless: 1
-  Attack: 0
 --- !u!195 &7815746481211160044
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -222,7 +221,7 @@ NavMeshAgent:
   m_Height: 1
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 1
+  m_ObstacleAvoidanceType: 4
 --- !u!95 &3424879464091603450
 Animator:
   serializedVersion: 7
@@ -257,7 +256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5a5a9e8362c754fb33e4caabf95c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  gatoZombie: {fileID: 0}
-  Renderer: {fileID: 0}
-  agent: {fileID: 0}
+  idleMaterial: {fileID: 2100000, guid: ed4cd534cf23f2648b316a83b61ef0eb, type: 2}
+  WalkMaterial: {fileID: 2100000, guid: 2cd0c3d3e22e6bf408bbda9e245f2588, type: 2}
+  defaulMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}

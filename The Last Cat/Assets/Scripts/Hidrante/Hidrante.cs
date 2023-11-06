@@ -23,7 +23,7 @@ public class Hidrante : MonoBehaviour
         animator.SetBool("Activo", broken); //Animacion
 
         //Recarga del arma secundaria
-        if (area() == true && broken && disparo.BetaCurrentAmmo <= disparo.BetaMaxAmmo)
+        if (area() == true && broken && disparo.BetaCurrentAmmo <= disparo.BetaMaxAmmo && !disparo.isShooting)
         {
             disparo.BetaCurrentAmmo += Time.deltaTime * 260;
         }

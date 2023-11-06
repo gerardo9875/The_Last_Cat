@@ -53,8 +53,9 @@ public class PerroZombi_movement : MonoBehaviour
 
     [Header("Estado Mojado")]
     public bool wet;
-    public bool canDoDamage = true;
+    [NonSerialized] public bool canDoDamage = true;
 
+    [Header("Endless Mode")]
     public bool isInEndless = true;
 
 
@@ -284,23 +285,26 @@ public class PerroZombi_movement : MonoBehaviour
 
         currentRadius = Radius;
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("WaterShoot"))
-        {
-            //Restar vida
-
-            wet = true;
-        }
-    }
-
     public void OutOfWater()
     {
         wet = false;
         canMove = true;
         canDoDamage = true;
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("WaterShoot"))
+        {
+            wet = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Invoke("OutOfWater", 0.7f);
+    }
+
 
 
     private void OnDrawGizmos()
