@@ -86,9 +86,9 @@ public class EstationStop : MonoBehaviour
                 rgb.velocity = new Vector2(0, 0);
             }
         }
-        else
+        else //Cuando no es aleatorio
         {
-            if(enemyCounter >= spawner2.currentEnemies.Length)
+            if(enemyCounter >= spawner2.currentEnemies.Length && spawner2.horda < spawner2.arrayLists.Count)
             {
                 StartCoroutine (Arriving());
             }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnerControlado : MonoBehaviour
 {
@@ -17,12 +18,13 @@ public class SpawnerControlado : MonoBehaviour
 
     public GameObject[] currentEnemies;
 
-    List<GameObject[]> arrayLists = new List<GameObject[]>();
+    [NonSerialized] public List<GameObject[]> arrayLists = new List<GameObject[]>();
 
-    int horda = 0;
-    public bool canSpawn;
-    public int spawnLimit;
-    public int spawnCount;
+    public int horda = 0;
+    [NonSerialized] public bool canSpawn;
+    [NonSerialized] public int spawnLimit;
+    [NonSerialized] public int spawnCount;
+    public int sceneNum;
 
     private void Start()
     {
@@ -41,7 +43,8 @@ public class SpawnerControlado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canSpawn)
+
+        if (canSpawn && horda < arrayLists.Count)
         {
             for(int i  = 0; i < currentEnemies.Length; i++)
             {
@@ -56,9 +59,26 @@ public class SpawnerControlado : MonoBehaviour
                     horda++;
                     currentEnemies = arrayLists[horda];
                     spawnCount = 0;
+
                 }
             }
         }
 
+        if (horda >= arrayLists.Count)
+        {
+            StartCoroutine(ChangeScene());
+        }
+
     }
+
+    public IEnumerator ChangeScene()
+    {
+        Animator anim = GameObject.Find("Fade").GetComponent<Animator>();
+        anim.SetBool("Active", true);
+
+        yield return new WaitForSeconds(1f);
+
+        SceneManager.LoadScene(sceneNum); //Nombre de la siguiente escena
+    }
+
 }

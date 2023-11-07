@@ -245,7 +245,6 @@ MonoBehaviour:
   movSprite: {fileID: 0}
   patrolVel: {x: 0, y: 0}
   wet: 0
-  canDoDamage: 1
   isInEndless: 1
 --- !u!114 &4927569665761606231
 MonoBehaviour:

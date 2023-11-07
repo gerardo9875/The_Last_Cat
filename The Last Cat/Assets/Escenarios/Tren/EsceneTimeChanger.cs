@@ -13,7 +13,7 @@ public class EsceneTimeChanger : MonoBehaviour
 
         if (time > 7f)
         {
-            SceneManager.LoadScene("TrainLevel");
+            SceneManager.LoadScene("EndleesTrainLevel");
 
         }
     }
