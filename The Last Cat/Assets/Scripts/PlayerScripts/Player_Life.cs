@@ -10,7 +10,7 @@ public class Player_Life : MonoBehaviour
     Player_Movement mov;
     Player_Disparo shoot;
 
-    [SerializeField] int maxLife;
+    public int maxLife;
     public int currentlife;
 
     [NonSerialized] public bool canRecieveDamage = true;

@@ -55,23 +55,19 @@ public class EstationStop : MonoBehaviour
                 StartCoroutine(Arriving());
             }
 
-            if (Arrive)
+            if (Arrive && canArrive)
             {
-                if (canArrive)
+                enemyCounter = 0;
+                spawner.spawnCount = 0;
+
+                if (transform.position.x <= 0)
                 {
-                    enemyCounter = 0;
-                    spawner.spawnCount = 0;
-
-                    if (transform.position.x <= 0)
-                    {
-                        rgb.velocity = new Vector2(speed, 0);
-                    }
-                    else
-                    {
-                        noiseProfile.m_AmplitudeGain = 0f;
-                        StartCoroutine(EnemiesLandingTime());
-                    }
-
+                    rgb.velocity = new Vector2(speed, 0);
+                }
+                else
+                {
+                    noiseProfile.m_AmplitudeGain = 0f;
+                    StartCoroutine(EnemiesLandingTime());
                 }
             }
 
@@ -93,21 +89,18 @@ public class EstationStop : MonoBehaviour
                 StartCoroutine (Arriving());
             }
 
-            if (Arrive)
+            if (Arrive && canArrive)
             {
-                if (canArrive)
-                {
-                    enemyCounter = 0;
+                enemyCounter = 0;
 
-                    if (transform.position.x <= 0)
-                    {
-                        rgb.velocity = new Vector2(speed, 0);
-                    }
-                    else
-                    {
-                        noiseProfile.m_AmplitudeGain = 0f;
-                        StartCoroutine(EnemiesLandingTime());
-                    }
+                if (transform.position.x <= 0)
+                {
+                    rgb.velocity = new Vector2(speed, 0);
+                }
+                else
+                {
+                    noiseProfile.m_AmplitudeGain = 0f;
+                    StartCoroutine(EnemiesLandingTime());
                 }
             }
 

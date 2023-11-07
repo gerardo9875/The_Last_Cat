@@ -13,8 +13,6 @@ public class SpawnerControlado : MonoBehaviour
     [SerializeField] private GameObject[] enemies4; 
     [SerializeField] private GameObject[] enemies5;
     [SerializeField] private GameObject[] enemies6;
-    [SerializeField] private GameObject[] enemies7;
-    [SerializeField] private GameObject[] enemies8;
 
     public GameObject[] currentEnemies;
 
@@ -34,8 +32,6 @@ public class SpawnerControlado : MonoBehaviour
         arrayLists.Add(enemies4);
         arrayLists.Add(enemies5);
         arrayLists.Add(enemies6);
-        arrayLists.Add(enemies7);
-        arrayLists.Add(enemies8);
 
         currentEnemies = arrayLists[horda];
     }
