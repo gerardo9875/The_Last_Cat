@@ -46,9 +46,10 @@ public class Player_Life : MonoBehaviour
         SceneManager.LoadScene("GameOver1");
     }
 
-    IEnumerator RecieveDamage()
+    public IEnumerator RecieveDamage(int value)
     {
         canRecieveDamage = false;
+        currentlife += value;
 
         yield return new WaitForSeconds(1);
 
@@ -64,11 +65,9 @@ public class Player_Life : MonoBehaviour
             {
                 if (canRecieveDamage)
                 {
-                    currentlife -= 2;
+                    StartCoroutine(RecieveDamage(-2));
                 }
             }
-
-            StartCoroutine(RecieveDamage());
         }
     }
 }

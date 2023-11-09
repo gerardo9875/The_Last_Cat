@@ -10,8 +10,8 @@ public class Player_Disparo : MonoBehaviour
     Player_Orientacion orientacion;
 
     [Header("Disparo Principal")]
+    [SerializeField] public GameObject luzDisparo;
     [SerializeField] GameObject AlfaBullet;
-    [SerializeField] GameObject luzDisparo;
     [SerializeField] Transform shootPoint;
     [NonSerialized] public bool canShoot = true;
     public int AlfaMaxAmmo = 30;

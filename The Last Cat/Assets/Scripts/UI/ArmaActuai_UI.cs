@@ -1,33 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ArmaActuai_UI : MonoBehaviour
 {
-    [SerializeField] Player_Disparo disparoScript;
+    Player_Disparo disparoScript;
+    Player_Life lifeScript;
+
+    [Header("Vidas")]
+    [SerializeField] TextMeshProUGUI textVidas;
 
     [Header("Arma Seleccionada")]
     [SerializeField] Image Principal;
     [SerializeField] Image Secondary;
 
     [Header("Municion")]
-    [SerializeField] GameObject principalAmmoCounter;
-    [SerializeField] GameObject secondaryAmmoCounter;
+    [SerializeField] GameObject principalAmmo;
+    TextMeshProUGUI text; 
 
-    [Header("Beta Municion UI")]
-    [SerializeField] Image BetaMunUI;
+    [SerializeField] GameObject secondaryAmmo;
 
     Color white = Color.white;
     Color gray = Color.gray;
 
+
+    private void Start()
+    {
+        text = principalAmmo.GetComponent<TextMeshProUGUI>();
+        disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
+        lifeScript = GameObject.Find("Player").GetComponent<Player_Life>();
+    }
     private void Update()
     {
         if (disparoScript.armaPrincipal)
         {
             //Municion actual
-            principalAmmoCounter.SetActive(true);
-            secondaryAmmoCounter.SetActive(false);
+            principalAmmo.SetActive(true);
+            secondaryAmmo.SetActive(false);
             //Arma Actual
             Principal.color = Color.white;
             Secondary.color = Color.gray;
@@ -35,14 +46,32 @@ public class ArmaActuai_UI : MonoBehaviour
         else
         {
             //Municion actual
-            principalAmmoCounter.SetActive(false);
-            secondaryAmmoCounter.SetActive(true);
+            principalAmmo.SetActive(false);
+            secondaryAmmo.SetActive(true);
             //Arma Actual
             Principal.color = gray;
             Secondary.color = white;
         }
 
+        //Vidas UI
+        int maxLife = lifeScript.maxLife;
+        int currentLife = lifeScript.currentlife;
+
+        string lifeformat = "{0}/{1}";
+        textVidas.SetText(lifeformat, currentLife, maxLife);
+
+
+        //Municion alfa UI
+        int currentAmmo = disparoScript.AlfaCurrentAmmo;
+        int maxAmmo = disparoScript.AlfaMaxAmmo;
+
+        string format = "{00}/{1}";
+        text.SetText(format, currentAmmo, maxAmmo);
+
+
         //Municion beta UI
-        BetaMunUI.fillAmount = disparoScript.BetaCurrentAmmo / disparoScript.BetaMaxAmmo;
+        Image imagen = secondaryAmmo.GetComponent<Image>();
+
+        imagen.fillAmount = disparoScript.BetaCurrentAmmo / disparoScript.BetaMaxAmmo;
     }
 }

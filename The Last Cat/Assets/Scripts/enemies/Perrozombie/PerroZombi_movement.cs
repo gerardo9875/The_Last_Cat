@@ -269,7 +269,12 @@ public class PerroZombi_movement : MonoBehaviour
             {
                 if (playerLife.canRecieveDamage)
                 {
-                    playerLife.currentlife--;
+                    Player_Movement mov = target.GetComponentInParent<Player_Movement>();
+                    Vector2 dir = transform.position - target.transform.position;
+                    dir.Normalize();
+                    mov.DamageFeedback(dir);
+
+                    StartCoroutine(playerLife.RecieveDamage(-1));
                 }
             }
 
