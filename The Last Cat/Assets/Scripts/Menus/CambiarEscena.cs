@@ -6,18 +6,23 @@ using UnityEngine.UI;
 
 public class CambiarEscena : MonoBehaviour
 {
-    public Button button;
-    public string sceneName;
     public static int CurrentLevel;
-    // Start is called before the first frame update
-    private void Awake()
+
+    [SerializeField] GameObject Fade;
+
+    public void StartGame(string SceneName)
     {
-        button = GetComponent<Button>();
-        button.onClick.AddListener(NextScene);
+        StartCoroutine(NextScene(SceneName));
     }
 
-    void NextScene()
+    IEnumerator NextScene(string SceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        Fade.SetActive(true);
+        Animator anim = Fade.GetComponent<Animator>();
+        anim.Play("FadeOut");
+
+        yield return new WaitForSeconds(1.6f);
+
+        SceneManager.LoadScene(SceneName);
     }
 }

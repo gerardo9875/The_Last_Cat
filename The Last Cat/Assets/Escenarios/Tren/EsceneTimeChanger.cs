@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class EsceneTimeChanger : MonoBehaviour
 {
     float time;
+    public string SceneToLoad;
 
     private void Update()
     {
@@ -13,7 +14,7 @@ public class EsceneTimeChanger : MonoBehaviour
 
         if (time > 7f)
         {
-            SceneManager.LoadScene("EndleesTrainLevel");
+            SceneManager.LoadScene(SceneToLoad);
 
         }
     }
