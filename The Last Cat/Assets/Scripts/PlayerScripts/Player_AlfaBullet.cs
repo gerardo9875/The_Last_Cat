@@ -21,7 +21,7 @@ public class Player_AlfaBullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pared"))
         {
-            Invoke("destroyBullet", 0.06f);
+            Invoke("destroyBullet", 0.01f);
         }
     }
 

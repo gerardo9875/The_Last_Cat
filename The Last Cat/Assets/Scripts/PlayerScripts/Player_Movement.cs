@@ -73,12 +73,9 @@ public class Player_Movement : MonoBehaviour
     {
         candash = false;
         isdashing = true;
-        shootScript.canShoot = false;
         shootScript.isShooting = false;
         shootScript.luzDisparo.SetActive(false);
         lifeScript.canRecieveDamage = false;
-
-        shootScript.StopAllCoroutines();
 
         playerRb.velocity = lastInput.normalized * distancedash / duraciondash;
 

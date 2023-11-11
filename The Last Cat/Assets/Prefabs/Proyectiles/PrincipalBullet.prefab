@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyingPartycles: {fileID: 5380401604044198640, guid: 9c6c510d9beee4746b4dc7429b3f4636, type: 3}
-  ShootVel: 22
-  tiempo: 0.8
+  ShootVel: 40
+  tiempo: 0.4

@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using TreeEditor;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Player_Disparo : MonoBehaviour
 {
     Player_Orientacion orientacion;
+    Player_Movement mov;
 
     [Header("Disparo Principal")]
     [SerializeField] public GameObject luzDisparo;
@@ -40,6 +42,7 @@ public class Player_Disparo : MonoBehaviour
     private void Start()
     {
         orientacion = GetComponent<Player_Orientacion>();
+        mov = GetComponentInParent<Player_Movement>();
         AlfaCurrentAmmo = AlfaMaxAmmo;
         BetaCurrentAmmo = BetaMaxAmmo;
 
@@ -50,6 +53,7 @@ public class Player_Disparo : MonoBehaviour
 
         shootingBoolDelay();
 
+        if (mov.isdashing) canShoot = false;
 
         if (isReloading) return;
 
