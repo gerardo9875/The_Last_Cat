@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player_AlfaBullet : MonoBehaviour
 {
+    [SerializeField] ParticleSystem destroyingPartycles;
     [SerializeField] float ShootVel;
     [SerializeField] double tiempo;
     private void Update()
@@ -13,7 +14,7 @@ public class Player_AlfaBullet : MonoBehaviour
 
         //Destruir objeto
         tiempo -= Time.deltaTime;
-        if (tiempo < 0) Destroy(gameObject);
+        if (tiempo < 0) destroyBullet();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,6 +27,9 @@ public class Player_AlfaBullet : MonoBehaviour
 
     void destroyBullet()
     {
+        destroyingPartycles.transform.position = transform.position;
+        destroyingPartycles.Play();
+
         Destroy(gameObject);
     }
 }

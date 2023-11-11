@@ -163,5 +163,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084d13980e5b4ab4397e9efe998a20b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyingPartycles: {fileID: 5380401604044198640, guid: 9c6c510d9beee4746b4dc7429b3f4636, type: 3}
   ShootVel: 22
   tiempo: 0.8
