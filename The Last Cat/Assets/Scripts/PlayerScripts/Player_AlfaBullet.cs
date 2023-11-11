@@ -28,7 +28,7 @@ public class Player_AlfaBullet : MonoBehaviour
     void destroyBullet()
     {
         destroyingPartycles.transform.position = transform.position;
-        destroyingPartycles.Play();
+        Instantiate(destroyingPartycles);
 
         Destroy(gameObject);
     }
