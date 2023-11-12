@@ -2,11 +2,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SpawnerControlado : MonoBehaviour
 {
+    [SerializeField] EstationStop station;
+    [SerializeField] GameObject lataDeAtun;
+    [SerializeField] Transform PosicionLata;
+    bool canInstatiate = true;
+
     [SerializeField] private GameObject[] enemies1;
     [SerializeField] private GameObject[] enemies2;
     [SerializeField] private GameObject[] enemies3;
@@ -39,6 +45,12 @@ public class SpawnerControlado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(horda != 0 && horda % 3 == 0 && canInstatiate)
+        {
+            Instantiate(lataDeAtun, PosicionLata.position, PosicionLata.rotation);
+            canInstatiate = false;
+        }
+
 
         if (canSpawn && horda < arrayLists.Count)
         {
@@ -60,9 +72,9 @@ public class SpawnerControlado : MonoBehaviour
             }
         }
 
-        if (horda >= arrayLists.Count)
+        if (horda == arrayLists.Count)
         {
-            StartCoroutine(ChangeScene());
+            if(station.enemyCounter == spawnLimit) StartCoroutine(ChangeScene());
         }
 
     }

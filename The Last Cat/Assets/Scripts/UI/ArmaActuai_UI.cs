@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class ArmaActuai_UI : MonoBehaviour
@@ -13,12 +14,17 @@ public class ArmaActuai_UI : MonoBehaviour
     [SerializeField] TextMeshProUGUI textVidas;
 
     [Header("Arma Seleccionada")]
+    [SerializeField] Transform[] posiciones;
     [SerializeField] Image Principal;
     [SerializeField] Image Secondary;
 
     [Header("Municion")]
     [SerializeField] GameObject principalAmmo;
-    TextMeshProUGUI text; 
+    TextMeshProUGUI text;
+
+    //Barra de recarga
+    Image reloadBar;
+    float startTime;
 
     [SerializeField] GameObject secondaryAmmo;
 
@@ -31,6 +37,9 @@ public class ArmaActuai_UI : MonoBehaviour
         text = principalAmmo.GetComponent<TextMeshProUGUI>();
         disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
         lifeScript = GameObject.Find("Player").GetComponent<Player_Life>();
+
+        reloadBar = principalAmmo.GetComponentInChildren<Image>();
+        startTime = Time.time;
     }
     private void Update()
     {
@@ -42,6 +51,12 @@ public class ArmaActuai_UI : MonoBehaviour
             //Arma Actual
             Principal.color = Color.white;
             Secondary.color = Color.gray;
+
+            Principal.transform.position = posiciones[0].position;
+            Principal.transform.localScale = posiciones[0].localScale;
+
+            Secondary.transform.position = posiciones[1].position;
+            Secondary.transform.localScale = posiciones[1].localScale;
         }
         else
         {
@@ -51,6 +66,12 @@ public class ArmaActuai_UI : MonoBehaviour
             //Arma Actual
             Principal.color = gray;
             Secondary.color = white;
+
+            Secondary.transform.position = posiciones[0].position;
+            Secondary.transform.localScale = posiciones[0].localScale;
+
+            Principal.transform.position = posiciones[1].position;
+            Principal.transform.localScale = posiciones[1].localScale;
         }
 
         //Vidas UI
@@ -67,6 +88,28 @@ public class ArmaActuai_UI : MonoBehaviour
 
         string format = "{00}/{1}";
         text.SetText(format, currentAmmo, maxAmmo);
+
+
+        //Indicador de recarga
+        if (disparoScript.isReloading)
+        {
+            reloadBar.fillAmount = 0;
+
+            float progreso = (Time.time - startTime) / disparoScript.reloadTime;
+            progreso = Mathf.Clamp01(progreso);
+
+            reloadBar.fillAmount = progreso;
+
+            if(progreso >= 1)
+            {
+                startTime = Time.time;
+            }
+
+        }
+        else
+        {
+            reloadBar.fillAmount = 0;
+        }
 
 
         //Municion beta UI

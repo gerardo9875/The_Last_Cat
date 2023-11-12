@@ -19,7 +19,7 @@ public class Player_Disparo : MonoBehaviour
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
     public float reloadTime = 2.0f;
-    private bool isReloading = false;
+    [NonSerialized] public bool isReloading = false;
 
     [Header("Disparo Secundario")]
     [SerializeField] GameObject BetaBullet;
@@ -67,7 +67,7 @@ public class Player_Disparo : MonoBehaviour
         }
 
         //Recarga manual y automatica
-        if (Input.GetKeyDown(KeyCode.R) || AlfaCurrentAmmo == 0)
+        if (Input.GetKeyDown(KeyCode.R) && AlfaCurrentAmmo < AlfaMaxAmmo || AlfaCurrentAmmo == 0)
         {
             StartCoroutine(Reload());
         }
