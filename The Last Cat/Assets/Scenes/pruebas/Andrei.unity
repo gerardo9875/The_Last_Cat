@@ -1174,6 +1174,10 @@ PrefabInstance:
       value: BombCar3
       objectReference: {fileID: 0}
     - target: {fileID: 5997307068332324605, guid: 1483f5e9e0a96314cbc996032754f33b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997307068332324605, guid: 1483f5e9e0a96314cbc996032754f33b, type: 3}
       propertyPath: m_TagString
       value: Pared
       objectReference: {fileID: 0}

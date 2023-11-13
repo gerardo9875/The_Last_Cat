@@ -162,7 +162,8 @@ public class Player_Disparo : MonoBehaviour
         {
             if (ratonCount > 0)
             {
-                GameObject bomba = Instantiate(bombaRaton, transform.position, transform.rotation);
+                bombaRaton.transform.position = transform.position;
+                GameObject bomba = Instantiate(bombaRaton);
                 ratonCount--;
                 Rigidbody2D bombaRb = bomba.GetComponent<Rigidbody2D>();
                 orientacion.direccion.Normalize();
