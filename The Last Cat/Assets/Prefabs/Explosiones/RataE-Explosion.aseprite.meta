@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: cf02057f848b6654dbc66abdb77baffb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: RataE-Explosion_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.79999995}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 183
+      width: 40
+      height: 20
+    spriteID: 0b6f7d1a6cf09f74384da6b589484fe2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 183}
+  - name: RataE-Explosion_Frame_1
+    originalName: 
+    pivot: {x: 0.47826084, y: -0.17948718}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 4
+      width: 92
+      height: 39
+    spriteID: 0a4e04e67c5da464ea1acccf3a4d7fff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 4}
+  - name: RataE-Explosion_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 127
+      width: 120
+      height: 48
+    spriteID: 4fd981ff21d59ed4c8a78c54bccd8c0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 127}
+  - name: RataE-Explosion_Frame_3
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.018867923}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 66
+      width: 134
+      height: 53
+    spriteID: 6d24b4b02edb56a4d9fd25deba5cc1b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 66}
+  - name: RataE-Explosion_Frame_4
+    originalName: 
+    pivot: {x: 0.49624065, y: -0.018518519}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 133
+      height: 54
+    spriteID: 274059106c0cda141bbd0d5947e4f3d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: RataE-Explosion_Frame_5
+    originalName: 
+    pivot: {x: 0.4897959, y: -0.021739129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 66
+      width: 98
+      height: 46
+    spriteID: 2068f5f93075b454ebdfc2a89a2ba717
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 66}
+  - name: RataE-Explosion_Frame_6
+    originalName: 
+    pivot: {x: 0.45205477, y: -0.045454543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 132
+      y: 127
+      width: 73
+      height: 44
+    spriteID: e4ab6839072acf64285529a5a2259cbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 132, y: 127}
+  - name: RataE-Explosion_Frame_7
+    originalName: 
+    pivot: {x: 0.49999997, y: -2.1999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 127
+      width: 16
+      height: 10
+    spriteID: 75896f72fa57dd040a33e6ca64315cdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 127}
+  - name: RataE-Explosion_Frame_8
+    originalName: 
+    pivot: {x: 0.50000024, y: -8.333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 145
+      width: 4
+      height: 3
+    spriteID: 5653dc59e92ee9b4fa3235b1f73f4c3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 145}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 620787967
+    name: RataE-Explosion
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: RataE-Explosion_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 52
+        y: 16
+        width: 40
+        height: 20
+      spriteId: 0b6f7d1a6cf09f74384da6b589484fe2
+    - name: RataE-Explosion_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 28
+        y: 7
+        width: 92
+        height: 39
+      spriteId: 0a4e04e67c5da464ea1acccf3a4d7fff
+    - name: RataE-Explosion_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 12
+        y: 4
+        width: 120
+        height: 48
+      spriteId: 4fd981ff21d59ed4c8a78c54bccd8c0b
+    - name: RataE-Explosion_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 5
+        y: 1
+        width: 134
+        height: 53
+      spriteId: 6d24b4b02edb56a4d9fd25deba5cc1b9
+    - name: RataE-Explosion_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 1
+        width: 133
+        height: 54
+      spriteId: 274059106c0cda141bbd0d5947e4f3d3
+    - name: RataE-Explosion_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 24
+        y: 1
+        width: 98
+        height: 46
+      spriteId: 2068f5f93075b454ebdfc2a89a2ba717
+    - name: RataE-Explosion_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 39
+        y: 2
+        width: 73
+        height: 44
+      spriteId: e4ab6839072acf64285529a5a2259cbe
+    - name: RataE-Explosion_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 64
+        y: 22
+        width: 16
+        height: 10
+      spriteId: 75896f72fa57dd040a33e6ca64315cdc
+    - name: RataE-Explosion_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 70
+        y: 25
+        width: 4
+        height: 3
+      spriteId: 5653dc59e92ee9b4fa3235b1f73f4c3b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 144, y: 57}
