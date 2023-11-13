@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 5ea721b1423469548af2985d92fd7d39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 990645542085717251
+    second: ExplosionBombaRaton-Emissiont_0
+  - first:
+      213: -8388009476747308666
+    second: ExplosionBombaRaton-Emissiont_1
+  - first:
+      213: -6031580343703041744
+    second: ExplosionBombaRaton-Emissiont_2
+  - first:
+      213: 5570595032044063920
+    second: ExplosionBombaRaton-Emissiont_3
+  - first:
+      213: 4790501456133802128
+    second: ExplosionBombaRaton-Emissiont_4
+  - first:
+      213: 1571539858180122065
+    second: ExplosionBombaRaton-Emissiont_5
+  - first:
+      213: 8028649059693088498
+    second: ExplosionBombaRaton-Emissiont_6
+  - first:
+      213: 772369489598147065
+    second: ExplosionBombaRaton-Emissiont_7
+  - first:
+      213: -688294418229953235
+    second: ExplosionBombaRaton-Emissiont_8
+  - first:
+      213: 7758608358232335921
+    second: ExplosionBombaRaton-Emissiont_9
+  - first:
+      213: -4371602460525824453
+    second: ExplosionBombaRaton-Emissiont_10
+  - first:
+      213: 2503985293735297409
+    second: ExplosionBombaRaton-Emissiont_11
+  - first:
+      213: -4802699068084108624
+    second: ExplosionBombaRaton-Emissiont_12
+  - first:
+      213: -5671394488889258004
+    second: ExplosionBombaRaton-Emissiont_13
+  - first:
+      213: -4010499283677390048
+    second: ExplosionBombaRaton-Emissiont_14
+  - first:
+      213: 1649931444240729758
+    second: ExplosionBombaRaton-Emissiont_15
+  - first:
+      213: -996891525748261690
+    second: ExplosionBombaRaton-Emissiont_16
+  - first:
+      213: -6926069878789883561
+    second: ExplosionBombaRaton-Emissiont_17
+  - first:
+      213: -3153657746305280816
+    second: ExplosionBombaRaton-Emissiont_18
+  - first:
+      213: 1617394547987617179
+    second: ExplosionBombaRaton-Emissiont_19
+  - first:
+      213: -3459686874998224422
+    second: ExplosionBombaRaton-Emissiont_20
+  - first:
+      213: 8861901155196233799
+    second: ExplosionBombaRaton-Emissiont_21
+  - first:
+      213: 803964502482912092
+    second: ExplosionBombaRaton-Emissiont_22
+  - first:
+      213: 7633321622561714118
+    second: ExplosionBombaRaton-Emissiont_23
+  - first:
+      213: 3102074937286567412
+    second: ExplosionBombaRaton-Emissiont_24
+  - first:
+      213: 6888218914237779502
+    second: ExplosionBombaRaton-Emissiont_25
+  - first:
+      213: 7087774498091266895
+    second: ExplosionBombaRaton-Emissiont_26
+  - first:
+      213: 1083423651636122770
+    second: ExplosionBombaRaton-Emissiont_27
+  - first:
+      213: -7202559822252925945
+    second: ExplosionBombaRaton-Emissiont_28
+  - first:
+      213: 8333906009256794389
+    second: ExplosionBombaRaton-Emissiont_29
+  - first:
+      213: -7748813971812943732
+    second: ExplosionBombaRaton-Emissiont_30
+  - first:
+      213: -7682781301881266784
+    second: ExplosionBombaRaton-Emissiont_31
+  - first:
+      213: 1363770993713524765
+    second: ExplosionBombaRaton-Emissiont_32
+  - first:
+      213: -4671382624639865596
+    second: ExplosionBombaRaton-Emissiont_33
+  - first:
+      213: 8670844790051849628
+    second: ExplosionBombaRaton-Emissiont_34
+  - first:
+      213: -724398215651560359
+    second: ExplosionBombaRaton-Emissiont_35
+  - first:
+      213: -380484203614212005
+    second: ExplosionBombaRaton-Emissiont_36
+  - first:
+      213: -7465036713825651215
+    second: ExplosionBombaRaton-Emissiont_37
+  - first:
+      213: 2837564609844991893
+    second: ExplosionBombaRaton-Emissiont_38
+  - first:
+      213: -1032851221245600918
+    second: ExplosionBombaRaton-Emissiont_39
+  - first:
+      213: -2183684583579360339
+    second: ExplosionBombaRaton-Emissiont_40
+  - first:
+      213: -803969906052964862
+    second: ExplosionBombaRaton-Emissiont_41
+  - first:
+      213: -2321609535569512955
+    second: ExplosionBombaRaton-Emissiont_42
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 938
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30de7523fda7fbd00800000000000000
+      internalID: 990645542085717251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 933
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681dddd82ddc79b80800000000000000
+      internalID: -8388009476747308666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 939
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0390a5352a58b4ca0800000000000000
+      internalID: -6031580343703041744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 928
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcca88daaabe4d40800000000000000
+      internalID: 5570595032044063920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 927
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098c8d471b74b7240800000000000000
+      internalID: 4790501456133802128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 834
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5a135bc2b3fc510800000000000000
+      internalID: 1571539858180122065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 836
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fec74d38cd7b6f60800000000000000
+      internalID: 8028649059693088498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 825
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9e8d665f108ba00800000000000000
+      internalID: 772369489598147065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 819
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2df4849fdfa276f0800000000000000
+      internalID: -688294418229953235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 806
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136a0d7e13d1cab60800000000000000
+      internalID: 7758608358232335921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 806
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36722159b2f453c0800000000000000
+      internalID: -4371602460525824453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 723
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18105e3ab51ffb220800000000000000
+      internalID: 2503985293735297409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 739
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b24fb3b4a2695db0800000000000000
+      internalID: -4802699068084108624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 718
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefc5acb2c82b41b0800000000000000
+      internalID: -5671394488889258004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 729
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b53786628d758c0800000000000000
+      internalID: -4010499283677390048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 708
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9647b528ebb5e610800000000000000
+      internalID: 1649931444240729758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 706
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc7d2860745a22f0800000000000000
+      internalID: -996891525748261690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 688
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75932312428a1ef90800000000000000
+      internalID: -6926069878789883561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 681
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d490501df4fb34d0800000000000000
+      internalID: -3153657746305280816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 632
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b959476a5c3227610800000000000000
+      internalID: 1617394547987617179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 632
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad946ad0e19bcffc0800000000000000
+      internalID: -3459686874998224422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 601
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7486816f52ccbfa70800000000000000
+      internalID: 8861901155196233799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 625
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5384869471482b00800000000000000
+      internalID: 803964502482912092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_23
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 595
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf691992910fe960800000000000000
+      internalID: 7633321622561714118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 593
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5ab9f48b8cc0b20800000000000000
+      internalID: 3102074937286567412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 596
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e054e6b9ed79f50800000000000000
+      internalID: 6888218914237779502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 603
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f437dc67a55dc5260800000000000000
+      internalID: 7087774498091266895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 571
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29417092218190f00800000000000000
+      internalID: 1083423651636122770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 571
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c1d11a00e5b0c90800000000000000
+      internalID: -7202559822252925945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 526
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5199e394c5bf7a370800000000000000
+      internalID: 8333906009256794389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 530
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8871836fbea67490800000000000000
+      internalID: -7748813971812943732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 512
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad9a5e6c17416590800000000000000
+      internalID: -7682781301881266784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 481
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10b6434e761de210800000000000000
+      internalID: 1363770993713524765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 487
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da860c04aeb2fb0800000000000000
+      internalID: -4671382624639865596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_34
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 484
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95469d7567055870800000000000000
+      internalID: 8670844790051849628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 497
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954792039ab62f5f0800000000000000
+      internalID: -724398215651560359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_36
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 482
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b507de8f1af38baf0800000000000000
+      internalID: -380484203614212005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 461
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f53c2509acd66890800000000000000
+      internalID: -7465036713825651215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 462
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597d7058afd016720800000000000000
+      internalID: 2837564609844991893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_39
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 377
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bd3db59439aa1f0800000000000000
+      internalID: -1032851221245600918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_40
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 380
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3614ed07ef1b1e0800000000000000
+      internalID: -2183684583579360339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 390
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20edb9b41a9b7d4f0800000000000000
+      internalID: -803969906052964862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombaRaton-Emissiont_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 274
+        width: 48
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50638358d6cf7cfd0800000000000000
+      internalID: -2321609535569512955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

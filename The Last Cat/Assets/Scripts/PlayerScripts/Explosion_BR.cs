@@ -5,14 +5,9 @@ using UnityEngine.UIElements;
 
 public class Explosion_BR : MonoBehaviour
 {
-    public float Contador = 3;
-    void Update()
+    public void OnDestroy()
     {
-        Contador -= Time.deltaTime;
-        if (Contador <= 0)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
