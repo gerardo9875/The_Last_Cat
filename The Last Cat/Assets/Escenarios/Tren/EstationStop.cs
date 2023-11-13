@@ -41,7 +41,7 @@ public class EstationStop : MonoBehaviour
         rgb = GetComponent<Rigidbody2D>();
 
         noiseProfile = VirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
-        noiseProfile.m_AmplitudeGain = 0.25f;
+        noiseProfile.m_AmplitudeGain = 0.4f;
 
         StartCoroutine(Arriving());
     }
@@ -91,8 +91,6 @@ public class EstationStop : MonoBehaviour
 
             if (Arrive && canArrive)
             {
-                enemyCounter = 0;
-
                 if (transform.position.x <= 0)
                 {
                     rgb.velocity = new Vector2(speed, 0);
@@ -144,7 +142,7 @@ public class EstationStop : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
-        noiseProfile.m_AmplitudeGain = 0.25f;
+        noiseProfile.m_AmplitudeGain = 0.4f;
         rgb.velocity = new Vector2(speed, 0);
         Arrive = false;
 
@@ -152,6 +150,7 @@ public class EstationStop : MonoBehaviour
 
     IEnumerator Arriving()
     {
+        enemyCounter = 0;
         yield return new WaitForSeconds(5);
 
         Arrive = true;

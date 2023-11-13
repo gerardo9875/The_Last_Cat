@@ -45,7 +45,12 @@ public class SpawnerControlado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(horda != 0 && horda % 3 == 0 && canInstatiate)
+        if(station.enemyCounter >= currentEnemies.Length)
+        {
+            horda++;
+        }
+
+        if(horda != 0 && horda % 3 == 0 && canInstatiate && horda < arrayLists.Count)
         {
             Instantiate(lataDeAtun, PosicionLata.position, PosicionLata.rotation);
             canInstatiate = false;
@@ -54,7 +59,7 @@ public class SpawnerControlado : MonoBehaviour
 
         if (canSpawn && horda < arrayLists.Count)
         {
-            for(int i  = 0; i < currentEnemies.Length; i++)
+            for (int i  = 0; i < currentEnemies.Length; i++)
             {
                 GameObject enemytoSpawn = currentEnemies[i];
                 Instantiate(enemytoSpawn, transform.position, Quaternion.identity);
@@ -64,7 +69,6 @@ public class SpawnerControlado : MonoBehaviour
                 if (spawnCount >= currentEnemies.Length)
                 {
                     canSpawn = false;
-                    horda++;
                     currentEnemies = arrayLists[horda];
                     spawnCount = 0;
 
@@ -72,15 +76,17 @@ public class SpawnerControlado : MonoBehaviour
             }
         }
 
-        if (horda == arrayLists.Count)
+        if (horda > arrayLists.Count)
         {
-            if(station.enemyCounter == spawnLimit) StartCoroutine(ChangeScene());
+            StartCoroutine(ChangeScene());
         }
 
     }
 
     public IEnumerator ChangeScene()
     {
+        yield return new WaitForSeconds(1.5f);
+
         Animator anim = GameObject.Find("Fade").GetComponent<Animator>();
         anim.SetBool("Active", true);
 

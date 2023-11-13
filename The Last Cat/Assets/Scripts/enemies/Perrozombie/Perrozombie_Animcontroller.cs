@@ -65,14 +65,17 @@ public class Perrozombie_Animcontroller:MonoBehaviour
 
         if (!life.alive)
         {
+            animator.SetFloat("X", AI.lastDir.normalized.x);
+            animator.SetFloat("Y", AI.lastDir.normalized.y);
             animator.Play("Dead");
+
         }
 
 
         //MATERIALES
-        if (AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
+        if (!life.alive) Renderer.material = DeathMaterial;
+        else if(AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
         else if (!AI.isAttacking && agent.velocity != Vector3.zero) Renderer.material = RunMaterial; //Corriendo
-        else if (!life.alive) Renderer.material = DeathMaterial;
         else Renderer.material = IdleMaterial; //Ninguna de las anteriores
     }
 

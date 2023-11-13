@@ -34,6 +34,8 @@ public class PerroZombie_Life : MonoBehaviour
             mov.canRotate = false;
             coll.enabled = false;
 
+            mov.lastDir = mov.dir;
+
             alive = false;
 
             if (toCounter)
