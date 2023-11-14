@@ -164,5 +164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyingPartycles: {fileID: 5380401604044198640, guid: 9c6c510d9beee4746b4dc7429b3f4636, type: 3}
+  enemyCollParticle: {fileID: 521753069149893872, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
   ShootVel: 40
   tiempo: 0.4

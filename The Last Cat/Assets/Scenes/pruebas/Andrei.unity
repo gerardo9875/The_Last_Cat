@@ -1728,6 +1728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gato Zombie
       objectReference: {fileID: 0}
+    - target: {fileID: 6602995266145996319, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8883846716703670253, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.94
@@ -1952,6 +1956,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+--- !u!1001 &7996630961226559599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.8095927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06445986
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918838682471181496, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8711983431098431553, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+      propertyPath: m_Name
+      value: EnemyDamagePartycle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1971,3 +2032,4 @@ SceneRoots:
   - {fileID: 1583987418}
   - {fileID: 7966145780067303297}
   - {fileID: 1936918396415785161}
+  - {fileID: 7996630961226559599}

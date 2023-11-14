@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_AlfaBullet : MonoBehaviour
 {
     [SerializeField] ParticleSystem destroyingPartycles;
+    [SerializeField] ParticleSystem enemyCollParticle;
     [SerializeField] float ShootVel;
     [SerializeField] double tiempo;
     private void Update()
@@ -22,6 +23,12 @@ public class Player_AlfaBullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Pared"))
         {
             Invoke("destroyBullet", 0.01f);
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            enemyCollParticle.transform.position = transform.position;
+            Instantiate(enemyCollParticle);
         }
     }
 
