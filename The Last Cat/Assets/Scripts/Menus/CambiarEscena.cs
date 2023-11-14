@@ -9,8 +9,14 @@ public class CambiarEscena : MonoBehaviour
     public static int CurrentLevel;
 
     [SerializeField] GameObject Fade;
+    [SerializeField] GameObject Secuence;
 
-    public void StartGame(string SceneName)
+    public void MainMenuStart()
+    {
+        Secuence.SetActive(true);
+    }
+
+    public void ChangeScene(string SceneName)
     {
         StartCoroutine(NextScene(SceneName));
     }
