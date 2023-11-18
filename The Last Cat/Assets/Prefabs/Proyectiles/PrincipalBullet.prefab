@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084d13980e5b4ab4397e9efe998a20b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyingPartycles: {fileID: 5380401604044198640, guid: 9c6c510d9beee4746b4dc7429b3f4636, type: 3}
+  destroyingPartycles: {fileID: 4574901505169958916, guid: 78b0f12ff9eac934fbb9d0fe7fa5cad9, type: 3}
   enemyCollParticle: {fileID: 521753069149893872, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
   ShootVel: 40
   tiempo: 0.4

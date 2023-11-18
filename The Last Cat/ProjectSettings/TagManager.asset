@@ -11,6 +11,8 @@ TagManager:
   - Pared
   - EnemyDamageObj
   - MovSprite
+  - Bombaratonx2
+  - ExplBR
   layers:
   - Default
   - TransparentFX

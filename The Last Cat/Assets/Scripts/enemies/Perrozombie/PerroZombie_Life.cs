@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PerroZombie_Life : MonoBehaviour
 {
-    [SerializeField] private float life;
+    public float life;
     public bool alive = true;
     public bool toCounter = true;
 
@@ -65,7 +65,7 @@ public class PerroZombie_Life : MonoBehaviour
 
         if (collision.CompareTag("ExplBR"))
         {
-            life -= 1;
+            life -= 2;
         }
     }
 
