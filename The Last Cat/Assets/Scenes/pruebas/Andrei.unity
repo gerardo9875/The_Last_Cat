@@ -922,7 +922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1496932759
 Transform:
   m_ObjectHideFlags: 0
@@ -1946,6 +1946,26 @@ PrefabInstance:
     - target: {fileID: 5116495541165804412, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
       propertyPath: m_Name
       value: lata de atun
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010974415739168730, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010974415739168730, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+      propertyPath: m_Color.g
+      value: 0.978371
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010974415739168730, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5896226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010974415739168730, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010974415739168730, guid: fd11fbb80f06a1d44bc1011e8ece6cd6, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

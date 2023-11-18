@@ -19,14 +19,14 @@ public class ArmaActuai_UI : MonoBehaviour
     [SerializeField] Image Secondary;
 
     [Header("Municion")]
-    [SerializeField] GameObject principalAmmo;
+    [SerializeField] GameObject[] principalAmmo;
     TextMeshProUGUI text;
 
     //Barra de recarga
     Image reloadBar;
     float startTime;
 
-    [SerializeField] GameObject secondaryAmmo;
+    [SerializeField] GameObject[] secondaryAmmo;
 
     Color white = Color.white;
     Color gray = Color.gray;
@@ -34,11 +34,11 @@ public class ArmaActuai_UI : MonoBehaviour
 
     private void Start()
     {
-        text = principalAmmo.GetComponent<TextMeshProUGUI>();
+        text = principalAmmo[0].GetComponent<TextMeshProUGUI>();
         disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
         lifeScript = GameObject.Find("Player").GetComponent<Player_Life>();
 
-        reloadBar = principalAmmo.GetComponentInChildren<Image>();
+        reloadBar = principalAmmo[0].GetComponentInChildren<Image>();
         startTime = Time.time;
     }
     private void Update()
@@ -46,8 +46,10 @@ public class ArmaActuai_UI : MonoBehaviour
         if (disparoScript.armaPrincipal)
         {
             //Municion actual
-            principalAmmo.SetActive(true);
-            secondaryAmmo.SetActive(false);
+            principalAmmo[0].SetActive(true);
+            principalAmmo[1].SetActive(true);
+            secondaryAmmo[0].SetActive(false);
+            secondaryAmmo[1].SetActive(false);
             //Arma Actual
             Principal.color = Color.white;
             Secondary.color = Color.gray;
@@ -61,8 +63,10 @@ public class ArmaActuai_UI : MonoBehaviour
         else
         {
             //Municion actual
-            principalAmmo.SetActive(false);
-            secondaryAmmo.SetActive(true);
+            principalAmmo[0].SetActive(false);
+            principalAmmo[1].SetActive(false);
+            secondaryAmmo[0].SetActive(true);
+            secondaryAmmo[1].SetActive(true);
             //Arma Actual
             Principal.color = gray;
             Secondary.color = white;
@@ -113,7 +117,7 @@ public class ArmaActuai_UI : MonoBehaviour
 
 
         //Municion beta UI
-        Image imagen = secondaryAmmo.GetComponent<Image>();
+        Image imagen = secondaryAmmo[0].GetComponent<Image>();
 
         imagen.fillAmount = disparoScript.BetaCurrentAmmo / disparoScript.BetaMaxAmmo;
     }
