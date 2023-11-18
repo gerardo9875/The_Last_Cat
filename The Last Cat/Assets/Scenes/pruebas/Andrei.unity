@@ -1594,6 +1594,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1496932759}
     m_Modifications:
+    - target: {fileID: -7740151959982427871, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
+      propertyPath: ShootMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 49a8b694039373f4093b3c51de1f44d6, type: 2}
     - target: {fileID: 6602995266145996319, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
       propertyPath: m_Name
       value: Gato Zombie

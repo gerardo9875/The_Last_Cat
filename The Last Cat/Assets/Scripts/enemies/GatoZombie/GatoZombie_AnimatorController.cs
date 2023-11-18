@@ -13,7 +13,7 @@ public class AnimatorController : MonoBehaviour
     SpriteRenderer Renderer;
     [SerializeField] Material idleMaterial;
     [SerializeField] Material WalkMaterial;
-    [SerializeField] Material defaulMaterial;
+    [SerializeField] Material ShootMaterial;
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -75,7 +75,7 @@ public class AnimatorController : MonoBehaviour
         }
 
         if (agent.velocity != Vector3.zero) Renderer.material = WalkMaterial;
-        else if (AI.isShooting) Renderer.material = defaulMaterial;
+        else if (AI.isShooting) Renderer.material = ShootMaterial;
         else Renderer.material = idleMaterial;
 
     }
