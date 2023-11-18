@@ -8,6 +8,9 @@ public class Player_AnimController : MonoBehaviour
     Player_Movement mov;
     Player_Disparo shoot;
     Player_Orientacion orientacion;
+    Player_Life life;
+
+    [SerializeField] GameObject pistola;
 
     [NonSerialized] public Animator playerAnimator;
     [SerializeField] Animator mainPistolAnimator;
@@ -21,6 +24,7 @@ public class Player_AnimController : MonoBehaviour
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
         orientacion = GetComponentInChildren<Player_Orientacion>();
+        life = GetComponent<Player_Life>();
     }
 
     private void Update()
@@ -47,6 +51,14 @@ public class Player_AnimController : MonoBehaviour
             canChangeDir = true;
         }
 
+        if (life.alive)
+        {
+            playerAnimator.SetBool("Alive", true);
+        }
+        else
+        {
+            playerAnimator.SetBool("Alive", false);
+        }
 
 
         if (!shoot.isShooting && !mov.isdashing)
@@ -75,6 +87,14 @@ public class Player_AnimController : MonoBehaviour
             //Pistola
             mainPistolAnimator.SetFloat("Horizontal", NoMoveDir.x);
             mainPistolAnimator.SetFloat("Vertical", NoMoveDir.y);
+        }
+        else if (!life.alive)
+        {
+            //Jugador
+            playerAnimator.SetFloat("Horizontal", NoMoveDir.x);
+            playerAnimator.SetFloat("Vertical", NoMoveDir.y);
+            //Pistola
+            pistola.SetActive(false);
         }
     }
 }

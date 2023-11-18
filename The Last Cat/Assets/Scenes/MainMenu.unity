@@ -1616,6 +1616,10 @@ PlayableDirector:
     value: {fileID: 928037511}
   - key: {fileID: -3968771597650882515, guid: e181d7b551a773e4dba6b4124bbc7e2c, type: 2}
     value: {fileID: 1534547414}
+  - key: {fileID: 7280686482679461587, guid: e181d7b551a773e4dba6b4124bbc7e2c, type: 2}
+    value: {fileID: 1749300215}
+  - key: {fileID: -6311661072786955987, guid: e181d7b551a773e4dba6b4124bbc7e2c, type: 2}
+    value: {fileID: 1749300214}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &967416301
@@ -2355,7 +2359,7 @@ ParticleSystemRenderer:
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
-  m_SortMode: 0
+  m_SortMode: 1
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
   m_CameraVelocityScale: 0

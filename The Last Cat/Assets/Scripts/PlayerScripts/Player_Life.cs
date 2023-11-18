@@ -12,6 +12,7 @@ public class Player_Life : MonoBehaviour
 
     public int maxLife;
     public int currentlife;
+    public bool alive = true;
 
     [NonSerialized] public bool canRecieveDamage = true;
     private void Awake()
@@ -30,6 +31,8 @@ public class Player_Life : MonoBehaviour
         {
             mov.canMove = false;
             shoot.canShoot = false;
+            alive = false;
+            canRecieveDamage = false;
 
             Rigidbody2D rgb = GetComponent<Rigidbody2D>();
             rgb.velocity = Vector3.zero;
@@ -48,12 +51,16 @@ public class Player_Life : MonoBehaviour
 
     public IEnumerator RecieveDamage(int value)
     {
-        canRecieveDamage = false;
-        currentlife += value;
+        if (alive)
+        {
+            canRecieveDamage = false;
+            currentlife += value;
 
-        yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1);
 
-        canRecieveDamage = true;
+            canRecieveDamage = true;
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -66,6 +73,9 @@ public class Player_Life : MonoBehaviour
                 if (canRecieveDamage)
                 {
                     StartCoroutine(RecieveDamage(-2));
+
+                    Vector2 dir = collision.gameObject.transform.position - transform.position;
+                    mov.DamageFeedback(dir);
                 }
             }
         }
