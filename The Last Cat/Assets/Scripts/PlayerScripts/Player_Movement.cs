@@ -118,4 +118,6 @@ public class Player_Movement : MonoBehaviour
         gettingDamage = false;
 
     }
+
+
 }

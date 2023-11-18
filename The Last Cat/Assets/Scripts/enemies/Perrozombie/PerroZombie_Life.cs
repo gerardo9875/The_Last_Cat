@@ -62,6 +62,11 @@ public class PerroZombie_Life : MonoBehaviour
             life -= 1;
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag("ExplBR"))
+        {
+            life -= 1;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

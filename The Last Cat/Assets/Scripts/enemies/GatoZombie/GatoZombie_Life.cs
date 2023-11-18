@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GatoZombie_Life : MonoBehaviour
@@ -59,6 +60,11 @@ public class GatoZombie_Life : MonoBehaviour
             life -= 1;
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag("ExplBR"))
+        {
+            life -= 1;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -68,4 +74,5 @@ public class GatoZombie_Life : MonoBehaviour
             life -= Time.deltaTime;
         }
     }
+    
 }
