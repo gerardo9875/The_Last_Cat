@@ -1,15 +1,19 @@
+using Autodesk.Fbx;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using TreeEditor;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class Player_Disparo : MonoBehaviour
 {
     Player_Orientacion orientacion;
     Player_Movement mov;
+
 
     [Header("Disparo Principal")]
     [SerializeField] public GameObject luzDisparo;
@@ -22,7 +26,8 @@ public class Player_Disparo : MonoBehaviour
     [NonSerialized] public bool isReloading = false;
 
     [Header("Disparo Secundario")]
-    [SerializeField] GameObject BetaBullet;
+    [SerializeField] Animator secondaryShootAnim;
+    [SerializeField] Collider2D BetaBullet;
     public float BetaMaxAmmo = 350;
     public float BetaCurrentAmmo;
     public bool betaShoting;
@@ -46,7 +51,7 @@ public class Player_Disparo : MonoBehaviour
         AlfaCurrentAmmo = AlfaMaxAmmo;
         BetaCurrentAmmo = BetaMaxAmmo;
 
-        BetaBullet.SetActive(false);
+        BetaBullet.enabled = false;
     }
     private void Update()
     {
@@ -134,6 +139,7 @@ public class Player_Disparo : MonoBehaviour
         {
             if (BetaCurrentAmmo > 0)
             {
+                secondaryShootAnim.SetBool("Active", true);
                 isShooting = true;
                 passedTime = 0;
 
@@ -148,13 +154,19 @@ public class Player_Disparo : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
+            secondaryShootAnim.SetBool("Active", false);
             betaShoting = false;
+            Invoke("DeactiveSecondaryShoot", 0.5f);
+
         }
 
-        if(betaShoting) BetaBullet.SetActive(true);
-        else BetaBullet.SetActive(false);
+        if (betaShoting) BetaBullet.enabled = true;
     }
 
+    private void DeactiveSecondaryShoot()
+    {
+        BetaBullet.enabled = false;
+    }
 
     void BombaRatonVoid()
     {
