@@ -14,6 +14,7 @@ public class AnimatorController : MonoBehaviour
     [SerializeField] Material idleMaterial;
     [SerializeField] Material WalkMaterial;
     [SerializeField] Material ShootMaterial;
+    [SerializeField] Material damageMaterial;
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -76,6 +77,7 @@ public class AnimatorController : MonoBehaviour
 
         if (agent.velocity != Vector3.zero) Renderer.material = WalkMaterial;
         else if (AI.isShooting) Renderer.material = ShootMaterial;
+        else if (AI.wet) Renderer.material = damageMaterial;
         else Renderer.material = idleMaterial;
 
     }

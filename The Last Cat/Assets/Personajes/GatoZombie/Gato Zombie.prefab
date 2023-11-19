@@ -250,7 +250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idleMaterial: {fileID: 2100000, guid: ed4cd534cf23f2648b316a83b61ef0eb, type: 2}
   WalkMaterial: {fileID: 2100000, guid: 2cd0c3d3e22e6bf408bbda9e245f2588, type: 2}
-  defaulMaterial: {fileID: 2100000, guid: 7abb9dda4e4b33746b6b08138d6bad6a, type: 2}
+  ShootMaterial: {fileID: 2100000, guid: 49a8b694039373f4093b3c51de1f44d6, type: 2}
+  damageMaterial: {fileID: 2100000, guid: c194b7ed2d618554fbe33690664b52ca, type: 2}
 --- !u!114 &2084000580723915108
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -307,10 +307,11 @@ public class PerroZombi_movement : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Invoke("OutOfWater", 0.7f);
+        if (collision.CompareTag("WaterShoot"))
+        {
+            Invoke("OutOfWater", 0.7f);
+        }
     }
-
-
 
     private void OnDrawGizmos()
     {

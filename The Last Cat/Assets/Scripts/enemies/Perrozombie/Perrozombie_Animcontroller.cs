@@ -13,6 +13,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
     [SerializeField] Material IdleMaterial;
     [SerializeField] Material RunMaterial;
     [SerializeField] Material AttackMaterial;
+    [SerializeField] Material damageMaterial;
     [SerializeField] Material DeathMaterial;
 
     private void Awake()
@@ -35,7 +36,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
         animator.SetBool("Wet", AI.wet);
 
 
-        if (AI.Deteccion)
+        if (AI.Deteccion && !AI.wet)
         {
             if (Vector2.Distance(transform.position, agent.steeringTarget) > agent.stoppingDistance) //Correr
             {
@@ -47,6 +48,11 @@ public class Perrozombie_Animcontroller:MonoBehaviour
                 animator.SetFloat("X", AI.lastDir.normalized.x);
                 animator.SetFloat("Y", AI.lastDir.normalized.y);
             }
+        }
+        else if (AI.wet)
+        {
+            animator.SetFloat("X", AI.lastDir.normalized.x);
+            animator.SetFloat("Y", AI.lastDir.normalized.y);
         }
         else //Direccion para el estado de patrulla
         {
@@ -63,6 +69,7 @@ public class Perrozombie_Animcontroller:MonoBehaviour
             }
         }
 
+
         if (!life.alive)
         {
             animator.SetFloat("X", AI.lastDir.normalized.x);
@@ -74,8 +81,9 @@ public class Perrozombie_Animcontroller:MonoBehaviour
 
         //MATERIALES
         if (!life.alive) Renderer.material = DeathMaterial;
-        else if(AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
+        else if (AI.isAttacking) Renderer.material = AttackMaterial; //Ataque
         else if (!AI.isAttacking && agent.velocity != Vector3.zero) Renderer.material = RunMaterial; //Corriendo
+        else if (AI.wet) Renderer.material = damageMaterial;
         else Renderer.material = IdleMaterial; //Ninguna de las anteriores
     }
 

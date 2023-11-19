@@ -1403,29 +1403,13 @@ PrefabInstance:
       propertyPath: movSprite
       value: 
       objectReference: {fileID: 642514209}
-    - target: {fileID: 3140578705212098022, guid: be389061599591649832503d0908cea8, type: 3}
-      propertyPath: isInEndless
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4031798782719259849, guid: be389061599591649832503d0908cea8, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5006356659052039964, guid: be389061599591649832503d0908cea8, type: 3}
       propertyPath: m_Name
       value: Perro Zombie
       objectReference: {fileID: 0}
     - target: {fileID: 5006356659052039964, guid: be389061599591649832503d0908cea8, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006356659052039964, guid: be389061599591649832503d0908cea8, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7763346342848340191, guid: be389061599591649832503d0908cea8, type: 3}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1594,13 +1578,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1496932759}
     m_Modifications:
-    - target: {fileID: -7740151959982427871, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
-      propertyPath: ShootMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 49a8b694039373f4093b3c51de1f44d6, type: 2}
     - target: {fileID: 6602995266145996319, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
       propertyPath: m_Name
       value: Gato Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6602995266145996319, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8883846716703670253, guid: c51cb39deb1b4f8429dd2f482b646c71, type: 3}
       propertyPath: m_LocalPosition.x

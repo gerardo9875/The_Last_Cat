@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9196544600653389688}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: AttackController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 4927569665761606231}
   - component: {fileID: 7654699122274890015}
   - component: {fileID: 5256767390386415132}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Perro Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5006356659052039964}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.88, y: 5.82, z: -149.71356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -261,6 +261,7 @@ MonoBehaviour:
   IdleMaterial: {fileID: 2100000, guid: 346bdb95cee11fa4cac0e95f58859832, type: 2}
   RunMaterial: {fileID: 2100000, guid: 63ccc994d06f1c74c8de0edd1597f294, type: 2}
   AttackMaterial: {fileID: 2100000, guid: 51f5dd69c57db714a9fb22e2ad12a606, type: 2}
+  damageMaterial: {fileID: 2100000, guid: 9a487b794f278224abb4ca20090905e8, type: 2}
   DeathMaterial: {fileID: 2100000, guid: a65956aa7ab75d04bbf810bb11295180, type: 2}
 --- !u!114 &7654699122274890015
 MonoBehaviour:
@@ -308,7 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1410639816953631973}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: attackPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}

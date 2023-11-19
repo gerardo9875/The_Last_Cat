@@ -273,7 +273,10 @@ public class GatoZombi_movement : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Invoke("outOfWater", 0.7f);
+        if (collision.CompareTag("WaterShoot"))
+        {
+            Invoke("outOfWater", 0.7f);
+        }
     }
 
 }
