@@ -10,6 +10,8 @@ public class Player_Life : MonoBehaviour
     Player_Movement mov;
     Player_Disparo shoot;
 
+    public Vida vidaUI;
+
     public int maxLife;
     public int currentlife;
     public bool alive = true;
@@ -55,6 +57,8 @@ public class Player_Life : MonoBehaviour
         {
             canRecieveDamage = false;
             currentlife += value;
+
+            vidaUI.Life(currentlife);
 
             yield return new WaitForSeconds(1);
 

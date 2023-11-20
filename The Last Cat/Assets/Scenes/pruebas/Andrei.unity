@@ -734,6 +734,17 @@ Transform:
   - {fileID: 1991386601}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &877864999 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7415487022004951163, guid: 104e9919e39e33144a777cc7872ee89f, type: 3}
+  m_PrefabInstance: {fileID: 1936918396415785161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272ac6ffcf5b277498a1d3416ad7a746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907177747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +1711,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8305537274019657156, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
+      propertyPath: vidaUI
+      value: 
+      objectReference: {fileID: 877864999}
     - target: {fileID: 8336848515592364353, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
       propertyPath: m_Name
       value: Player

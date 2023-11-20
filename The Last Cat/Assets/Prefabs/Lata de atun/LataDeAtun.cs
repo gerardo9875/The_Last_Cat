@@ -13,6 +13,7 @@ public class LataDeAtun : MonoBehaviour
             if(life.currentlife < life.maxLife)
             {
                 life.currentlife = life.maxLife;
+                life.vidaUI.Life(life.currentlife);
                 Destroy(gameObject);
             }
         }
