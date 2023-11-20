@@ -10,7 +10,7 @@ public class Player_Life : MonoBehaviour
     Player_Movement mov;
     Player_Disparo shoot;
 
-    public Vida vidaUI;
+    [NonSerialized] public Vida vidaUI;
 
     public int maxLife;
     public int currentlife;
@@ -29,7 +29,7 @@ public class Player_Life : MonoBehaviour
     }
     private void Update()
     {
-        if (vidaUI == null) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+        if (vidaUI == null && GameObject.Find("HUD")) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
 
         if (currentlife <= 0)
         {
