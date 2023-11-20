@@ -72,7 +72,9 @@ public class AnimatorController : MonoBehaviour
 
         if (!life.alive)
         {
-            //muerte animacion
+            animator.SetFloat("X", AI.lastDir.x);
+            animator.SetFloat("Y", AI.lastDir.y);
+            animator.Play("Death");
         }
 
         if (agent.velocity != Vector3.zero) Renderer.material = WalkMaterial;

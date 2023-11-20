@@ -27,6 +27,7 @@ public class GatoZombie_Life : MonoBehaviour
             mov.canMove = false;
             mov.canShoot = false;
             mov.isShooting = false;
+            mov.agent.SetDestination(transform.position);
             coll.enabled = false;
 
             alive = false;
@@ -47,8 +48,6 @@ public class GatoZombie_Life : MonoBehaviour
 
                 }
             }
-
-            Destroy(gameObject);
         }
 
     }

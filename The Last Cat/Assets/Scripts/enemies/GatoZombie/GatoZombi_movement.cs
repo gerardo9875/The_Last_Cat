@@ -8,7 +8,7 @@ using UnityEngine.AI;
 
 public class GatoZombi_movement : MonoBehaviour
 {
-    NavMeshAgent agent;
+    [NonSerialized]public NavMeshAgent agent;
 
     [Header("Deteccion")]
     [SerializeField] float radio;
