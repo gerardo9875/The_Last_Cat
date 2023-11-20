@@ -29,7 +29,7 @@ public class Player_Life : MonoBehaviour
     }
     private void Update()
     {
-        if (vidaUI != null) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+        if (vidaUI == null) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
 
         if (currentlife <= 0)
         {

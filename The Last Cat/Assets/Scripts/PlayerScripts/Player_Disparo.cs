@@ -129,6 +129,14 @@ public class Player_Disparo : MonoBehaviour
                 StartCoroutine(ShootLight());
                 Invoke("ShootDelay", 0.18f);
             }
+
+        }
+
+        if (BetaBullet.enabled == true)
+        {
+            secondaryShootAnim.SetBool("Active", false);
+            Invoke("DeactiveSecondaryShoot", 0.5f);
+            betaShoting = false;
         }
     }
 
