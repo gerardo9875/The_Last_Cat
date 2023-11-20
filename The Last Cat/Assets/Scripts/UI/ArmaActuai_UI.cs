@@ -8,10 +8,6 @@ using UnityEngine.UI;
 public class ArmaActuai_UI : MonoBehaviour
 {
     Player_Disparo disparoScript;
-    Player_Life lifeScript;
-
-    [Header("Vidas")]
-    [SerializeField] TextMeshProUGUI textVidas;
 
     [Header("Arma Seleccionada")]
     [SerializeField] Transform[] posiciones;
@@ -26,7 +22,7 @@ public class ArmaActuai_UI : MonoBehaviour
     Image reloadBar;
     float startTime;
 
-    [SerializeField] GameObject[] secondaryAmmo;
+    [SerializeField] GameObject secondaryAmmo;
 
     Color white = Color.white;
     Color gray = Color.gray;
@@ -36,7 +32,6 @@ public class ArmaActuai_UI : MonoBehaviour
     {
         text = principalAmmo[0].GetComponent<TextMeshProUGUI>();
         disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
-        lifeScript = GameObject.Find("Player").GetComponent<Player_Life>();
 
         reloadBar = principalAmmo[0].GetComponentInChildren<Image>();
         startTime = Time.time;
@@ -48,8 +43,8 @@ public class ArmaActuai_UI : MonoBehaviour
             //Municion actual
             principalAmmo[0].SetActive(true);
             principalAmmo[1].SetActive(true);
-            secondaryAmmo[0].SetActive(false);
-            secondaryAmmo[1].SetActive(false);
+            secondaryAmmo.SetActive(false);
+
             //Arma Actual
             Principal.color = Color.white;
             Secondary.color = Color.gray;
@@ -65,8 +60,7 @@ public class ArmaActuai_UI : MonoBehaviour
             //Municion actual
             principalAmmo[0].SetActive(false);
             principalAmmo[1].SetActive(false);
-            secondaryAmmo[0].SetActive(true);
-            secondaryAmmo[1].SetActive(true);
+            secondaryAmmo.SetActive(true);
             //Arma Actual
             Principal.color = gray;
             Secondary.color = white;
@@ -77,14 +71,6 @@ public class ArmaActuai_UI : MonoBehaviour
             Principal.transform.position = posiciones[1].position;
             Principal.transform.localScale = posiciones[1].localScale;
         }
-
-        //Vidas UI
-        int maxLife = lifeScript.maxLife;
-        int currentLife = lifeScript.currentlife;
-
-        string lifeformat = "{0}/{1}";
-        textVidas.SetText(lifeformat, currentLife, maxLife);
-
 
         //Municion alfa UI
         int currentAmmo = disparoScript.AlfaCurrentAmmo;
@@ -117,7 +103,7 @@ public class ArmaActuai_UI : MonoBehaviour
 
 
         //Municion beta UI
-        Image imagen = secondaryAmmo[0].GetComponent<Image>();
+        Image imagen = secondaryAmmo.GetComponent<Image>();
 
         imagen.fillAmount = disparoScript.BetaCurrentAmmo / disparoScript.BetaMaxAmmo;
     }

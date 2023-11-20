@@ -21,7 +21,6 @@ public class Player_Life : MonoBehaviour
     {
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
-        vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
     }
 
     private void Start()
@@ -30,6 +29,8 @@ public class Player_Life : MonoBehaviour
     }
     private void Update()
     {
+        if (vidaUI != null) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+
         if (currentlife <= 0)
         {
             mov.canMove = false;
