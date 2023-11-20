@@ -13,8 +13,4 @@ public class Vida : MonoBehaviour
             animator[i].SetBool("Active", i >= actualizar);
         }   
     }
-  
-
-
-
 }

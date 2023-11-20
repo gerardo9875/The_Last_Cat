@@ -21,6 +21,7 @@ public class Player_Life : MonoBehaviour
     {
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
+        vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
     }
 
     private void Start()
@@ -81,6 +82,19 @@ public class Player_Life : MonoBehaviour
                     Vector2 dir = collision.gameObject.transform.position - transform.position;
                     mov.DamageFeedback(dir);
                 }
+            }
+
+            if(collision.gameObject.GetComponent<BalaEnemigo>() != null)
+            {
+                if (canRecieveDamage)
+                {
+                    StartCoroutine(RecieveDamage(-1));
+
+                    Vector2 dir = collision.gameObject.transform.position - transform.position;
+                    mov.DamageFeedback(dir);
+                }
+
+                Destroy(collision.gameObject);
             }
         }
     }
