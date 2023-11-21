@@ -5,9 +5,12 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SpawnerControlado : MonoBehaviour
 {
+    private TextMeshProUGUI txt;
+
     [SerializeField] EstationStop station;
     [SerializeField] GameObject lataDeAtun;
     [SerializeField] Transform PosicionLata;
@@ -40,6 +43,9 @@ public class SpawnerControlado : MonoBehaviour
         arrayLists.Add(enemies6);
 
         currentEnemies = arrayLists[horda];
+
+        txt = GetComponent<TextMeshProUGUI>();
+        
     }
 
     // Update is called once per frame
@@ -48,6 +54,7 @@ public class SpawnerControlado : MonoBehaviour
         if(station.enemyCounter >= currentEnemies.Length)
         {
             horda++;
+            txt.text = horda.ToString("0");
         }
 
         if(horda != 0 && horda % 3 == 0 && canInstatiate && horda < arrayLists.Count)
