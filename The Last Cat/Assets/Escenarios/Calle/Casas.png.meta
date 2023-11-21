@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 43d0ea586704090449e0db80e7228b80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3144318983337763358
+    second: Casas_0
+  - first:
+      213: 4384580521732361696
+    second: Casas_1
+  - first:
+      213: 4604872825551005486
+    second: Casas_2
+  - first:
+      213: 1926323926396203748
+    second: Casas_3
+  - first:
+      213: 5691464126823551236
+    second: Casas_4
+  - first:
+      213: -3059637643247293291
+    second: Casas_5
+  - first:
+      213: -5926013200049280340
+    second: Casas_6
+  - first:
+      213: 7681970244154905456
+    second: Casas_7
+  - first:
+      213: -4625743843526854624
+    second: Casas_8
+  - first:
+      213: -405909883743536891
+    second: Casas_9
+  - first:
+      213: 3486559160344740890
+    second: Casas_10
+  - first:
+      213: 3798824470203171667
+    second: Casas_11
+  - first:
+      213: -7968040877715154982
+    second: Casas_12
+  - first:
+      213: -7096104536756903613
+    second: Casas_13
+  - first:
+      213: -2160852748302597374
+    second: Casas_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Casas_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 557
+        width: 279
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e126d5eb47dd2ab20800000000000000
+      internalID: 3144318983337763358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 554
+        width: 279
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed44f601c829dc30800000000000000
+      internalID: 4384580521732361696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 478
+        width: 281
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2721daef6bc7ef30800000000000000
+      internalID: 4604872825551005486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 458
+        width: 276
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27e2ba76dabba10800000000000000
+      internalID: 1926323926396203748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_4
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 397
+        width: 190
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401523bf7742cfe40800000000000000
+      internalID: 5691464126823551236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_5
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 349
+        width: 188
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ce4dc26cbf985d0800000000000000
+      internalID: -3059637643247293291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 216
+        width: 310
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa69c4546292cda0800000000000000
+      internalID: -5926013200049280340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 141
+        width: 188
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07359f97c37db9a60800000000000000
+      internalID: 7681970244154905456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 316
+        width: 361
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028b1a88b7e0ecfb0800000000000000
+      internalID: -4625743843526854624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_9
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 55
+        width: 291
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50975a08c1bed5af0800000000000000
+      internalID: -405909883743536891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 220
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35385868ab228b430800000000000000
+      internalID: 3798824470203171667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 54
+        width: 231
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad71ff7c905db6190800000000000000
+      internalID: -7968040877715154982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_13
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 27
+        width: 444
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34121954582958d90800000000000000
+      internalID: -7096104536756903613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 54
+        width: 220
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2034f75cfdb1302e0800000000000000
+      internalID: -2160852748302597374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c634acb4031a33c43ad2cb4d298f44a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Casas_0: 3144318983337763358
+      Casas_1: 4384580521732361696
+      Casas_10: 3486559160344740890
+      Casas_11: 3798824470203171667
+      Casas_12: -7968040877715154982
+      Casas_13: -7096104536756903613
+      Casas_14: -2160852748302597374
+      Casas_15: -458333234
+      Casas_2: 4604872825551005486
+      Casas_3: 1926323926396203748
+      Casas_4: 5691464126823551236
+      Casas_5: -3059637643247293291
+      Casas_6: -5926013200049280340
+      Casas_7: 7681970244154905456
+      Casas_8: -4625743843526854624
+      Casas_9: -405909883743536891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
