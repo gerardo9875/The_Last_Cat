@@ -13,7 +13,6 @@ public class Player_AnimController : MonoBehaviour
     [SerializeField] GameObject pistola;
 
     [NonSerialized] public Animator playerAnimator;
-    [SerializeField] Animator mainPistolAnimator;
 
     Vector2 NoMoveDir;
     bool canChangeDir;
@@ -63,38 +62,23 @@ public class Player_AnimController : MonoBehaviour
 
         if (!shoot.isShooting && !mov.isdashing)
         {
-            //Jugador
             playerAnimator.SetFloat("Horizontal", mov.lastInput.x);
             playerAnimator.SetFloat("Vertical", mov.lastInput.y);
-            //Pistola
-            mainPistolAnimator.SetFloat("Horizontal", mov.lastInput.x);
-            mainPistolAnimator.SetFloat("Vertical", mov.lastInput.y);
         }
         else if (shoot.isShooting)
         {
-            //Jugador
             playerAnimator.SetFloat("Horizontal", orientacion.direccion.normalized.x);
             playerAnimator.SetFloat("Vertical", orientacion.direccion.normalized.y);
-            //Pistola
-            mainPistolAnimator.SetFloat("Horizontal", orientacion.direccion.normalized.x);
-            mainPistolAnimator.SetFloat("Vertical", orientacion.direccion.normalized.y);
         }
         else if (mov.isdashing)
         {
-            //Jugador
             playerAnimator.SetFloat("Horizontal", NoMoveDir.x);
             playerAnimator.SetFloat("Vertical", NoMoveDir.y);
-            //Pistola
-            mainPistolAnimator.SetFloat("Horizontal", NoMoveDir.x);
-            mainPistolAnimator.SetFloat("Vertical", NoMoveDir.y);
         }
         else if (!life.alive)
         {
-            //Jugador
             playerAnimator.SetFloat("Horizontal", NoMoveDir.x);
             playerAnimator.SetFloat("Vertical", NoMoveDir.y);
-            //Pistola
-            pistola.SetActive(false);
         }
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfed886f46f1f4646b4fefcfbacc18e8
+guid: 741d7ebe3b34e504ea42a54bac2f5f96
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Arcadepix
+  - Arcade Normal
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
