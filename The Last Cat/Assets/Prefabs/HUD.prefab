@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2573403552928976348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,6 +1945,7 @@ MonoBehaviour:
   principalAmmo:
   - {fileID: 3654354793551979481}
   - {fileID: 2166565232773601510}
+  BombaTex: {fileID: 6646744596250276002}
   secondaryAmmo: {fileID: 3255369977240124728}
 --- !u!1 &8450171129947040160
 GameObject:

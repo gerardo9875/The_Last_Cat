@@ -16,7 +16,8 @@ public class ArmaActuai_UI : MonoBehaviour
 
     [Header("Municion")]
     [SerializeField] GameObject[] principalAmmo;
-    TextMeshProUGUI text;
+    TextMeshProUGUI MunicionTex;
+    public TextMeshProUGUI BombaTex;
 
     //Barra de recarga
     Image reloadBar;
@@ -30,7 +31,7 @@ public class ArmaActuai_UI : MonoBehaviour
 
     private void Start()
     {
-        text = principalAmmo[0].GetComponent<TextMeshProUGUI>();
+        MunicionTex = principalAmmo[0].GetComponent<TextMeshProUGUI>();
         disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
 
         reloadBar = principalAmmo[0].GetComponentInChildren<Image>();
@@ -73,12 +74,17 @@ public class ArmaActuai_UI : MonoBehaviour
         }
 
         //Municion alfa UI
-        int currentAmmo = disparoScript.AlfaCurrentAmmo;
+        int currentAmmo = disparoScript.AlfaCurrentAmmo; 
         int maxAmmo = disparoScript.AlfaMaxAmmo;
 
         string format = "{00}/{1}";
-        text.SetText(format, currentAmmo, maxAmmo);
+        MunicionTex.SetText(format, currentAmmo, maxAmmo);
 
+        int ratonCount = disparoScript.ratonCount;
+        
+
+        string Formato = "x{0}";
+       BombaTex.SetText(Formato, ratonCount);
 
         //Indicador de recarga
         if (disparoScript.isReloading)
