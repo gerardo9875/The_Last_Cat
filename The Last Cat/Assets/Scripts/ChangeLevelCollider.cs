@@ -8,6 +8,12 @@ public class ChangeLevelCollider : MonoBehaviour
 {
     public string levelName;
     public GameObject fade;
+    GameObject HUD;
+
+    private void Update()
+    {
+        if (HUD == null && GameObject.Find("HUD")) HUD = GameObject.Find("HUD");
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -19,6 +25,7 @@ public class ChangeLevelCollider : MonoBehaviour
 
     IEnumerator changeScene()
     {
+        HUD.SetActive(false);
         fade.SetActive(true);
         Animator anim = fade.GetComponent<Animator>();
         anim.Play("FadeOut");

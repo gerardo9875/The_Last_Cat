@@ -8,6 +8,8 @@ public class CambiarEscena : MonoBehaviour
 {
     public static int CurrentLevel;
 
+    [SerializeField] GameObject MainMenu;
+    [SerializeField] GameObject ComoJugarMenu;
     [SerializeField] GameObject Fade;
     [SerializeField] GameObject Secuence;
 
@@ -30,5 +32,17 @@ public class CambiarEscena : MonoBehaviour
         yield return new WaitForSeconds(1.6f);
 
         SceneManager.LoadScene(SceneName);
+    }
+
+    public void ActiveComoJugarMenu()
+    {
+        MainMenu.SetActive(false);
+        ComoJugarMenu.SetActive(true);
+    }
+
+    public void ActiveMainMenu()
+    {
+        MainMenu.SetActive(true);
+        ComoJugarMenu.SetActive(false);
     }
 }
