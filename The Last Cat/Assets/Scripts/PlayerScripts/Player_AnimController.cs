@@ -10,8 +10,6 @@ public class Player_AnimController : MonoBehaviour
     Player_Orientacion orientacion;
     Player_Life life;
 
-    [SerializeField] GameObject pistola;
-
     [NonSerialized] public Animator playerAnimator;
 
     Vector2 NoMoveDir;

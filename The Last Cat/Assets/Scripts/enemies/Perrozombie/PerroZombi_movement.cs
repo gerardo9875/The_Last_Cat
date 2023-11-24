@@ -47,7 +47,7 @@ public class PerroZombi_movement : MonoBehaviour
     [SerializeField] public float range;
     [SerializeField] Collider2D movSprite;
     private Vector2 wayPoint;
-    private float waitTime;
+    private float waitTime = 0;
     private bool patrolStay;
     public Vector2 patrolVel;
 
