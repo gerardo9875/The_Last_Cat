@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
@@ -10,6 +8,7 @@ public class EnemyZone : MonoBehaviour
 
     [SerializeField] CinemachineVirtualCamera camara;
     [SerializeField] Animator[] animators;
+    [SerializeField] GameObject EnemiesToHide;
 
     bool PlayerInArea = false;
 
@@ -18,6 +17,7 @@ public class EnemyZone : MonoBehaviour
         if (PlayerInArea)
         {
             camara.Priority = 11;
+            EnemiesToHide.SetActive(false);
 
             for(int i = 0; i < animators.Length; i++)
             {
@@ -27,6 +27,7 @@ public class EnemyZone : MonoBehaviour
         else
         {
             camara.Priority = 0;
+            EnemiesToHide.SetActive(true);
 
             for (int i = 0; i < animators.Length; i++)
             {

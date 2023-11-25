@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 8944514554725685503}
+  threshold: 1.2
 --- !u!1 &4961947899139378949
 GameObject:
   m_ObjectHideFlags: 0

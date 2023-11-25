@@ -5,8 +5,8 @@ using UnityEngine;
 public class MousePos : MonoBehaviour
 {
     [SerializeField] Transform player;
+    [SerializeField] float threshold = 1.5f;
     Camera cam;
-    float threshold = 1.5f;
 
     private void Awake()
     {
