@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyCounter : MonoBehaviour
 {
     [SerializeField] GameObject[] enemies;
-    int enemiesKilled;
+    [SerializeField] int enemiesKilled;
 
     [NonSerialized] public bool AllEnemiesKilled;
 
