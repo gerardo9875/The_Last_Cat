@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class ArmaActuai_UI : MonoBehaviour
 {
-    Player_Disparo disparoScript;
+    [SerializeField] Player_Disparo disparoScript;
 
     [Header("Arma Seleccionada")]
     [SerializeField] Transform[] posiciones;
@@ -31,8 +28,9 @@ public class ArmaActuai_UI : MonoBehaviour
 
     private void Start()
     {
+        if(disparoScript == null ) disparoScript = GameObject.Find("Player").GetComponentInChildren<Player_Disparo>();
+
         MunicionTex = principalAmmo[0].GetComponent<TextMeshProUGUI>();
-        disparoScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Disparo>();
 
         reloadBar = principalAmmo[0].GetComponentInChildren<Image>();
         startTime = Time.time;
