@@ -12,6 +12,7 @@ public class PerroZombie_Life : MonoBehaviour
 
     Collider2D coll;
     PerroZombi_movement mov;
+    EnemyCounter counter;
 
     bool canAdd = true;
 
@@ -20,6 +21,11 @@ public class PerroZombie_Life : MonoBehaviour
 
         mov = GetComponent < PerroZombi_movement>();
         coll = GetComponent < Collider2D>();
+
+        if(toCounter)
+        {
+            counter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
+        }
 
     }
 
@@ -46,9 +52,8 @@ public class PerroZombie_Life : MonoBehaviour
                     station.enemyCounter++;
                     canAdd = false;
                 }
-                else if (GameObject.Find("EnemyCounter") != null && canAdd)
+                else if (canAdd)
                 {
-                    EnemyCounter counter = GameObject.Find("EnemyConuter").GetComponent<EnemyCounter>();
                     counter.addEnemy();
                     canAdd = false;
                 }

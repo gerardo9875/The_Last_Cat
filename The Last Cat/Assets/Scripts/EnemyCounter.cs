@@ -8,7 +8,7 @@ public class EnemyCounter : MonoBehaviour
     [SerializeField] GameObject[] enemies;
     [SerializeField] int enemiesKilled;
 
-    [NonSerialized] public bool AllEnemiesKilled;
+    public bool AllEnemiesKilled;
 
 
     private void Update()

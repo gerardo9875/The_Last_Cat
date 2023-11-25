@@ -10,16 +10,15 @@ public class EnemyZone : MonoBehaviour
     [SerializeField] Animator[] animators;
     [SerializeField] GameObject EnemiesToHide;
 
-    bool PlayerInArea = false;
-
+    public bool PlayerInArea = false;
     private void Update()
     {
-        if (PlayerInArea)
+        if (PlayerInArea && !Contador.AllEnemiesKilled)
         {
             camara.Priority = 11;
             EnemiesToHide.SetActive(false);
 
-            for(int i = 0; i < animators.Length; i++)
+            for (int i = 0; i < animators.Length; i++)
             {
                 animators[i].SetBool("Active", true);
             }
@@ -38,11 +37,10 @@ public class EnemyZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerInArea = true;
+        if (collision.CompareTag("Player"))
+        {
+            PlayerInArea = true;
+        }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        PlayerInArea = false;
-    }
 }
