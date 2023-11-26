@@ -6,9 +6,9 @@ using UnityEngine;
 public class EnemyCounter : MonoBehaviour
 {
     [SerializeField] GameObject[] enemies;
-    [SerializeField] int enemiesKilled;
 
-    public bool AllEnemiesKilled;
+    [NonSerialized] public bool AllEnemiesKilled;
+    int enemiesKilled;
 
 
     private void Update()

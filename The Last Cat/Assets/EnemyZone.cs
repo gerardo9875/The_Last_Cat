@@ -1,5 +1,7 @@
 using UnityEngine;
 using Cinemachine;
+using System.Collections;
+using UnityEngine.Windows.Speech;
 
 public class EnemyZone : MonoBehaviour
 {
@@ -7,33 +9,64 @@ public class EnemyZone : MonoBehaviour
     [SerializeField] EnemyCounter Contador;
 
     [SerializeField] CinemachineVirtualCamera camara;
-    [SerializeField] Animator[] animators;
+    [SerializeField] Animator[] Tiles;
+    [SerializeField] GameObject[] DoorsToClose;
     [SerializeField] GameObject EnemiesToHide;
+    [SerializeField] GameObject Director;
 
-    public bool PlayerInArea = false;
+    bool PlayerInArea = false;
+
+    private void Awake()
+    {
+        Director.SetActive(false);
+    }
     private void Update()
     {
         if (PlayerInArea && !Contador.AllEnemiesKilled)
         {
             camara.Priority = 11;
+
+            //Esconder a los enemigos de otras zonas
             EnemiesToHide.SetActive(false);
 
-            for (int i = 0; i < animators.Length; i++)
+            //Esconder los tiles de otras zonas
+            for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", true);
+
+            //Animaciones de las puertas y encerrar al jugador
+            for (int i = 0; i < DoorsToClose.Length; i++)
             {
-                animators[i].SetBool("Active", true);
+                Animator anim = DoorsToClose[i].GetComponent<Animator>();
+                Collider2D coll = DoorsToClose[i].GetComponent<Collider2D>();
+
+                anim.SetBool("Active", true);
+                coll.enabled = true;
             }
+
+            //Animacion para mostrar a los enemigos
+            Director.SetActive(true); 
         }
         else
         {
             camara.Priority = 0;
+
+            //Mostrar de nuevo a los enemigos ocultos
             EnemiesToHide.SetActive(true);
 
-            for (int i = 0; i < animators.Length; i++)
+            //Mostrar los tiles de otras zonas
+            for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", false);
+
+            //Animaciones de las puertas y encerrar al jugador
+            for (int i = 0; i < DoorsToClose.Length; i++)
             {
-                animators[i].SetBool("Active", false);
+                Animator anim = DoorsToClose[i].GetComponent<Animator>();
+                Collider2D coll = DoorsToClose[i].GetComponent<Collider2D>();
+
+                anim.SetBool("Active", false);
+                coll.enabled = false;
             }
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
