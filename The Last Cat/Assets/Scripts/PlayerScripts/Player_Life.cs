@@ -9,6 +9,7 @@ public class Player_Life : MonoBehaviour
 {
     Player_Movement mov;
     Player_Disparo shoot;
+    AudioSource damage;
 
     [NonSerialized] public Vida vidaUI;
 
@@ -21,6 +22,7 @@ public class Player_Life : MonoBehaviour
     {
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
+        damage = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -65,6 +67,7 @@ public class Player_Life : MonoBehaviour
             yield return new WaitForSeconds(1);
 
             canRecieveDamage = true;
+            damage.Play();
 
         }
     }

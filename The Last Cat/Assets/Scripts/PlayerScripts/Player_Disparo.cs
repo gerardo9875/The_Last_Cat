@@ -6,6 +6,8 @@ public class Player_Disparo : MonoBehaviour
 {
     Player_Orientacion orientacion;
     Player_Movement mov;
+    AudioSource principalshoot;
+    AudioSource secondaryshoot;
 
 
     [Header("Disparo Principal")]
@@ -41,6 +43,8 @@ public class Player_Disparo : MonoBehaviour
     {
         orientacion = GetComponent<Player_Orientacion>();
         mov = GetComponentInParent<Player_Movement>();
+        principalshoot = GetComponent<AudioSource>();
+        secondaryshoot = GetComponent<AudioSource>();
         AlfaCurrentAmmo = AlfaMaxAmmo;
         BetaCurrentAmmo = BetaMaxAmmo;
 
@@ -121,6 +125,7 @@ public class Player_Disparo : MonoBehaviour
                 canShoot = false;
                 StartCoroutine(ShootLight());
                 Invoke("ShootDelay", 0.18f);
+                principalshoot.Play();
             }
 
         }
@@ -130,6 +135,7 @@ public class Player_Disparo : MonoBehaviour
             secondaryShootAnim.SetBool("Active", false);
             Invoke("DeactiveSecondaryShoot", 0.5f);
             betaShoting = false;
+            secondaryshoot.Play();
         }
     }
 

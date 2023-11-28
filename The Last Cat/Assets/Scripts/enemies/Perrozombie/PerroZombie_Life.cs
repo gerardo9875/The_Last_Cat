@@ -24,10 +24,10 @@ public class PerroZombie_Life : MonoBehaviour
         mov = GetComponent < PerroZombi_movement>();
         coll = GetComponent < Collider2D>();
 
-        if(toCounter)
-        {
-            counter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
-        }
+        //if(toCounter)
+        //{
+        //    counter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
+        //}
 
     }
 
