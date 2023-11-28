@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class SpawnerControlado : MonoBehaviour
 {
+
+    [SerializeField] Hordas hord;
     [SerializeField] EstationStop station;
     [SerializeField] GameObject lataDeAtun;
     [SerializeField] Transform PosicionLata;
@@ -40,14 +42,20 @@ public class SpawnerControlado : MonoBehaviour
         arrayLists.Add(enemies6);
 
         currentEnemies = arrayLists[horda];
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(station.enemyCounter >= currentEnemies.Length)
+
+        
+        if (station.enemyCounter >= currentEnemies.Length)
         {
             horda++;
+            hord.AumentarHorda(horda);
+
         }
 
         if(horda != 0 && horda % 3 == 0 && canInstatiate && horda < arrayLists.Count)

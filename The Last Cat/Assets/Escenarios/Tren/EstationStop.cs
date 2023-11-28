@@ -9,6 +9,7 @@ using UnityEngine;
 public class EstationStop : MonoBehaviour
 {
     public bool Random;
+    
 
     [SerializeField] Respawn spawner;
     [SerializeField] SpawnerControlado spawner2;
@@ -39,7 +40,7 @@ public class EstationStop : MonoBehaviour
         }
 
         rgb = GetComponent<Rigidbody2D>();
-
+        
         noiseProfile = VirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         noiseProfile.m_AmplitudeGain = 0.4f;
 
@@ -53,6 +54,7 @@ public class EstationStop : MonoBehaviour
             if (enemyCounter >= spawner.spawnCount)
             {
                 StartCoroutine(Arriving());
+                
             }
 
             if (Arrive && canArrive)
@@ -118,6 +120,7 @@ public class EstationStop : MonoBehaviour
 
     IEnumerator EnemiesLandingTime()
     {
+        
         controller.open = true;
         canArrive = false;
 
