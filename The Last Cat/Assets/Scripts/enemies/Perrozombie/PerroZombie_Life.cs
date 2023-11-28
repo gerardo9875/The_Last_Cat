@@ -68,6 +68,7 @@ public class PerroZombie_Life : MonoBehaviour
         {
             life -= 1;
             Destroy(collision.gameObject);
+            death.Play();
         }
 
         if (collision.CompareTag("ExplBR"))
