@@ -27,6 +27,7 @@ public class SpawnerControlado : MonoBehaviour
     [NonSerialized] public List<GameObject[]> arrayLists = new List<GameObject[]>();
 
     public int horda = 0;
+    public int sumarhorda = 1;
     [NonSerialized] public bool canSpawn;
     [NonSerialized] public int spawnLimit;
     [NonSerialized] public int spawnCount;
@@ -54,7 +55,7 @@ public class SpawnerControlado : MonoBehaviour
         if (station.enemyCounter >= currentEnemies.Length)
         {
             horda++;
-            hord.AumentarHorda(horda);
+            hord.AumentarHorda(sumarhorda);
 
         }
 
