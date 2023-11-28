@@ -43,7 +43,7 @@ public class Player_Life : MonoBehaviour
             Rigidbody2D rgb = GetComponent<Rigidbody2D>();
             rgb.velocity = Vector3.zero;
 
-            //StartCoroutine(ChangeScene());
+            StartCoroutine(ChangeScene());
         }
 
     }
