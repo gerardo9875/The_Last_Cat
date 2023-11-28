@@ -20,7 +20,7 @@ public class GatoZombie_Life : MonoBehaviour
         mov = GetComponent<GatoZombi_movement>();
         coll = GetComponent<Collider2D>();
 
-        if (toCounter)
+        if (toCounter && GameObject.Find("EnemyCounter"))
         {
             counter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
         }
@@ -46,7 +46,7 @@ public class GatoZombie_Life : MonoBehaviour
                     station.enemyCounter++;
                     canAdd = false;
                 }
-                else if (canAdd)
+                else if (counter != null && canAdd)
                 {
                     counter.addEnemy();
                     canAdd = false;
