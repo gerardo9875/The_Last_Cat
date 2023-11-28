@@ -9,6 +9,7 @@ public class PerroZombie_Life : MonoBehaviour
     public float life;
     public bool alive = true;
     public bool toCounter = true;
+    AudioSource death;
 
     Collider2D coll;
     PerroZombi_movement mov;
@@ -18,7 +19,8 @@ public class PerroZombie_Life : MonoBehaviour
 
     void Start()
     {
-
+        
+        death = GetComponent<AudioSource>();
         mov = GetComponent < PerroZombi_movement>();
         coll = GetComponent < Collider2D>();
 

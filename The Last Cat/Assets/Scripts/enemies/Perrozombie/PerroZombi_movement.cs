@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class PerroZombi_movement : MonoBehaviour
 {
+    AudioSource  detect;
     [NonSerialized] public Rigidbody2D rgb;
     [SerializeField]Player_Life playerLife;
     NavMeshAgent agent;
@@ -85,6 +86,7 @@ public class PerroZombi_movement : MonoBehaviour
         agent.acceleration = 1000;
 
         CurrentTime = UnfollowDelay;
+        detect = GetComponent<AudioSource>();
 
     }
     private void Start()
@@ -152,6 +154,7 @@ public class PerroZombi_movement : MonoBehaviour
                 if(!RatonInArea() && PlayerInArea())
                 {
                     agent.SetDestination(target.transform.position);
+                    detect.Play();
                 }
 
 
