@@ -263,6 +263,13 @@ public class GatoZombi_movement : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, currentRadio);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("PlayerBullet"))
+        {
+            Deteccion = true;
+        }
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("WaterShoot"))

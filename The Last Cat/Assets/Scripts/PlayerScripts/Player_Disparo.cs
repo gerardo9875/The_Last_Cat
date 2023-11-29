@@ -155,7 +155,9 @@ public class Player_Disparo : MonoBehaviour
             }
             else
             {
+                secondaryShootAnim.SetBool("Active", false);
                 betaShoting = false;
+                Invoke("DeactiveSecondaryShoot", 0.5f);
             }
         }
 

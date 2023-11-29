@@ -295,6 +295,15 @@ public class PerroZombi_movement : MonoBehaviour
         canDoDamage = true;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("PlayerBullet"))
+        {
+            Deteccion = true;
+            CurrentTime = UnfollowDelay;
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("WaterShoot"))

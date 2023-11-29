@@ -1,7 +1,5 @@
 using UnityEngine;
 using Cinemachine;
-using System.Collections;
-using UnityEngine.Windows.Speech;
 
 public class EnemyZone : MonoBehaviour
 {
@@ -18,19 +16,19 @@ public class EnemyZone : MonoBehaviour
 
     private void Awake()
     {
-        Director.SetActive(false);
+        if(Director != null) Director.SetActive(false);
     }
     private void Update()
     {
         if (PlayerInArea && !Contador.AllEnemiesKilled)
         {
-            camara.Priority = 11;
+            if(camara != null) camara.Priority = 11;
 
             //Esconder a los enemigos de otras zonas
-            EnemiesToHide.SetActive(false);
+            if(EnemiesToHide != null) EnemiesToHide.SetActive(false);
 
             //Esconder los tiles de otras zonas
-            for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", true);
+            if(Tiles != null) for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", true);
 
             //Animaciones de las puertas y encerrar al jugador
             for (int i = 0; i < DoorsToClose.Length; i++)
@@ -43,19 +41,19 @@ public class EnemyZone : MonoBehaviour
             }
 
             //Animacion para mostrar a los enemigos
-            Director.SetActive(true); 
+            if(Director != null) Director.SetActive(true); 
         }
         else
         {
-            camara.Priority = 0;
+            if (camara != null) camara.Priority = 0;
 
             //Mostrar de nuevo a los enemigos ocultos
-            EnemiesToHide.SetActive(true);
+            if(EnemiesToHide != null) EnemiesToHide.SetActive(true);
 
             //Mostrar los tiles de otras zonas
-            for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", false);
+            if(Tiles != null) for (int i = 0; i < Tiles.Length; i++) Tiles[i].SetBool("Active", false);
 
-            //Animaciones de las puertas y encerrar al jugador
+            //Animaciones de las puertas y encerrar al jugador)
             for (int i = 0; i < DoorsToClose.Length; i++)
             {
                 Animator anim = DoorsToClose[i].GetComponent<Animator>();
