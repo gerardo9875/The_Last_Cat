@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 53deb0a6df7590c459160adfca0685ae
+guid: 7fab1be0884642241add9c1eb1332dcc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4452340897333523850
-    second: barricadas_0
+      213: -4082776805375586760
+    second: barricadas 1_0
   - first:
-      213: -1973045295124197836
-    second: barricadas_1
+      213: -7907211650602797645
+    second: barricadas 1_1
   - first:
-      213: 8138361440203012607
-    second: barricadas_2
+      213: 2557591254219460365
+    second: barricadas 1_2
   - first:
-      213: -4262047540909770185
-    second: barricadas_3
+      213: 6876887913538764704
+    second: barricadas 1_3
   - first:
-      213: -2757636378080142950
-    second: barricadas_4
+      213: -5100362993086927637
+    second: barricadas 1_4
   - first:
-      213: -6392422216552435843
-    second: barricadas_5
+      213: -5520712349020409734
+    second: barricadas 1_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barricadas_0
+      name: barricadas 1_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 166
-        width: 42
-        height: 54
+        x: 40
+        y: 149
+        width: 19
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +127,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67acd7b1b8b1632c0800000000000000
-      internalID: -4452340897333523850
+      spriteID: 83e426280201757c0800000000000000
+      internalID: -4082776805375586760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barricadas_1
+      name: barricadas 1_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 194
+        x: 115
+        y: 145
+        width: 122
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b57df1e5e0f34290800000000000000
+      internalID: -7907211650602797645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barricadas 1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 129
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f856ce1b36e7320800000000000000
+      internalID: 2557591254219460365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barricadas 1_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 65
         width: 24
-        height: 155
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43ecd5af1c55e94e0800000000000000
-      internalID: -1973045295124197836
+      spriteID: 0afb7ae3f1d9f6f50800000000000000
+      internalID: 6876887913538764704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barricadas_2
+      name: barricadas 1_4
       rect:
         serializedVersion: 2
-        x: 275
-        y: 146
-        width: 24
-        height: 107
+        x: 21
+        y: 68
+        width: 74
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff979096c9441f070800000000000000
-      internalID: 8138361440203012607
+      spriteID: bec618371eed739b0800000000000000
+      internalID: -5100362993086927637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barricadas_3
+      name: barricadas 1_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 148
-        width: 49
-        height: 103
+        x: 274
+        y: 18
+        width: 16
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,50 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73afe34c75a2ad4c0800000000000000
-      internalID: -4262047540909770185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barricadas_4
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 79
-        width: 88
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9996d02358eab9d0800000000000000
-      internalID: -2757636378080142950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: barricadas_5
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 44
-        width: 175
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7fa310dcdd8947a0800000000000000
-      internalID: -6392422216552435843
+      spriteID: a70b6895e5d7263b0800000000000000
+      internalID: -5520712349020409734
       vertices: []
       indices: 
       edges: []
@@ -249,12 +249,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      barricadas_0: -4452340897333523850
-      barricadas_1: -1973045295124197836
-      barricadas_2: 8138361440203012607
-      barricadas_3: -4262047540909770185
-      barricadas_4: -2757636378080142950
-      barricadas_5: -6392422216552435843
+      barricadas 1_0: -4082776805375586760
+      barricadas 1_1: -7907211650602797645
+      barricadas 1_2: 2557591254219460365
+      barricadas 1_3: 6876887913538764704
+      barricadas 1_4: -5100362993086927637
+      barricadas 1_5: -5520712349020409734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
