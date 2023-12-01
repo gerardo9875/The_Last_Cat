@@ -32,6 +32,9 @@ public class ChangeLevelCollider : MonoBehaviour
         Destroy(player.GetComponent<Player_Movement>());
         Destroy(player.GetComponent<Player_Disparo>());
 
+        Rigidbody2D rgb = player.GetComponent<Rigidbody2D>();
+        rgb.velocity = Vector2.zero;
+
         yield return new WaitForSeconds(1.6f);
 
         SceneManager.LoadScene(levelName);

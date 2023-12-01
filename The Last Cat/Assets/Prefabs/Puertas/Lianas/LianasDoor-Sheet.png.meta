@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: 6c121a8ac5fee1e47b152d2b9e91f846
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3175256110379006070
+    second: LianasDoor-Sheet_0
+  - first:
+      213: -4702813242284061410
+    second: LianasDoor-Sheet_1
+  - first:
+      213: -6872203244186055100
+    second: LianasDoor-Sheet_2
+  - first:
+      213: -1346612991708818228
+    second: LianasDoor-Sheet_3
+  - first:
+      213: -723527726047592806
+    second: LianasDoor-Sheet_4
+  - first:
+      213: 3731394456225046547
+    second: LianasDoor-Sheet_5
+  - first:
+      213: -5569501054945808480
+    second: LianasDoor-Sheet_6
+  - first:
+      213: 8583843205436317315
+    second: LianasDoor-Sheet_7
+  - first:
+      213: 7285769079312041704
+    second: LianasDoor-Sheet_8
+  - first:
+      213: -8960443954826747706
+    second: LianasDoor-Sheet_9
+  - first:
+      213: -1900101944700651116
+    second: LianasDoor-Sheet_10
+  - first:
+      213: 4496573304280133990
+    second: LianasDoor-Sheet_11
+  - first:
+      213: -6526542040819611753
+    second: LianasDoor-Sheet_12
+  - first:
+      213: 2371536369630728566
+    second: LianasDoor-Sheet_13
+  - first:
+      213: -9090921516602234518
+    second: LianasDoor-Sheet_14
+  - first:
+      213: -2457724771397434576
+    second: LianasDoor-Sheet_15
+  - first:
+      213: -4929400317093906719
+    second: LianasDoor-Sheet_16
+  - first:
+      213: 6071101108669350743
+    second: LianasDoor-Sheet_17
+  - first:
+      213: -6774648995662166541
+    second: LianasDoor-Sheet_18
+  - first:
+      213: -5284608585955945779
+    second: LianasDoor-Sheet_19
+  - first:
+      213: -8004527590855095146
+    second: LianasDoor-Sheet_20
+  - first:
+      213: 2554924730627806453
+    second: LianasDoor-Sheet_21
+  - first:
+      213: -6739785075560209144
+    second: LianasDoor-Sheet_22
+  - first:
+      213: -526738853372204446
+    second: LianasDoor-Sheet_23
+  - first:
+      213: -447787278475334901
+    second: LianasDoor-Sheet_24
+  - first:
+      213: 3925802518048542610
+    second: LianasDoor-Sheet_25
+  - first:
+      213: -3526417083087739231
+    second: LianasDoor-Sheet_26
+  - first:
+      213: -2251675619575385446
+    second: LianasDoor-Sheet_27
+  - first:
+      213: 1782372957817497957
+    second: LianasDoor-Sheet_28
+  - first:
+      213: 6270363789904182252
+    second: LianasDoor-Sheet_29
+  - first:
+      213: -5165953545921980049
+    second: LianasDoor-Sheet_30
+  - first:
+      213: -5365452061673454524
+    second: LianasDoor-Sheet_31
+  - first:
+      213: 2293303230697754130
+    second: LianasDoor-Sheet_32
+  - first:
+      213: -8532939029777391143
+    second: LianasDoor-Sheet_33
+  - first:
+      213: 6411522840156134936
+    second: LianasDoor-Sheet_34
+  - first:
+      213: 5986461459951243412
+    second: LianasDoor-Sheet_35
+  - first:
+      213: -7723316839070408702
+    second: LianasDoor-Sheet_36
+  - first:
+      213: 8791370416559069445
+    second: LianasDoor-Sheet_37
+  - first:
+      213: -5896535966616883395
+    second: LianasDoor-Sheet_38
+  - first:
+      213: -4430569204600521799
+    second: LianasDoor-Sheet_39
+  - first:
+      213: -2573286283909253785
+    second: LianasDoor-Sheet_40
+  - first:
+      213: -4922650683017903466
+    second: LianasDoor-Sheet_41
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def042b9e6818c4e8bc2839a77d4589
+      internalID: -1370654725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 116
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1754560c32b5946a480fdda96af36a
+      internalID: 956175272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 116
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1858db322a9a0ab429bfea0e6ee99a65
+      internalID: 1898227547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 116
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c16a9d2b6a05954c92cecff2212a4f7
+      internalID: -1391569823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 116
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38434503df8273f4da1c863d8869cb2e
+      internalID: 635728571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b9dab87e67baf4f9ce67d754f35568
+      internalID: 2060445011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 58
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b02dcd28bb61194f8ecae919603a380
+      internalID: 1858360104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 58
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1977bf6165f309c49b08b19d677128fa
+      internalID: 318940616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061ddd67953986947bf3cf38e5c43669
+      internalID: 666629748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d2faace8e85d54c852dcd651a6f076
+      internalID: -2067789121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636abf6e5fc3f444f868f45ae0330080
+      internalID: -567718962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LianasDoor-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a33e514ff66848a21826e58ff0869
+      internalID: -333415498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 19adbd3bc12788447aa69c2005559b51
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LianasDoor-Sheet_0: -1370654725
+      LianasDoor-Sheet_1: 956175272
+      LianasDoor-Sheet_10: -567718962
+      LianasDoor-Sheet_11: -333415498
+      LianasDoor-Sheet_12: 70179076
+      LianasDoor-Sheet_2: 1898227547
+      LianasDoor-Sheet_3: -1391569823
+      LianasDoor-Sheet_4: 635728571
+      LianasDoor-Sheet_5: 2060445011
+      LianasDoor-Sheet_6: 1858360104
+      LianasDoor-Sheet_7: 318940616
+      LianasDoor-Sheet_8: 666629748
+      LianasDoor-Sheet_9: -2067789121
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
