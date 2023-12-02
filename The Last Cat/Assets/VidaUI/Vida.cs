@@ -6,8 +6,14 @@ using UnityEngine;
 public class Vida : MonoBehaviour
 {
     public GameObject[] vidas;
+    Controlador control;
 
-    public void Life(int actualizar) 
+    private void Start()
+    {
+        control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+        Life(control.life);
+    }
+    public void Life(int actualizar)
     {
         for (int i = 0; i < vidas.Length; i++)
         {
@@ -16,12 +22,12 @@ public class Vida : MonoBehaviour
             {
                 anim.SetBool("Active", i >= actualizar);
             }
-        }   
+        }
     }
 
     public void NewLIfe()
     {
-        for(int i = 0;i < vidas.Length;i++)
+        for (int i = 0; i < vidas.Length; i++)
         {
             Animator anim = vidas[i].GetComponent<Animator>();
             anim.SetBool("Active", false);

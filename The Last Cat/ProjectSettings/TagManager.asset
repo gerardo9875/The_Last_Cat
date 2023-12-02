@@ -13,6 +13,8 @@ TagManager:
   - MovSprite
   - Bombaratonx2
   - ExplBR
+  - ShootController
+  - Controlador
   layers:
   - Default
   - TransparentFX

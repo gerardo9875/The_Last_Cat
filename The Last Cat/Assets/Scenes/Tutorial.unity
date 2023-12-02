@@ -119516,6 +119516,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 517069364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974939794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974939796}
+  - component: {fileID: 974939795}
+  m_Layer: 0
+  m_Name: DataManager
+  m_TagString: Controlador
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &974939795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974939794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bcc31403145ef488865e65235b6db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 7
+  muni1: 30
+  bomba: 650
+  muni2: 5
+  vida: {fileID: 1711357600}
+  shoots: {fileID: 1628270541}
+--- !u!4 &974939796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974939794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.237358, y: -6.336069, z: 0.12794591}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1000955146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7592496341044857287, guid: 36f11448de6f6db46b4e3c20999f5921, type: 3}
@@ -123096,6 +123146,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1528758939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1628270541 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1809407743424763960, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
+  m_PrefabInstance: {fileID: 1774129767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae58eef45fa2d64182e240f1ab096a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1629313354
 GameObject:
   m_ObjectHideFlags: 0
@@ -123368,6 +123429,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2491197210683421480, guid: 4773b44da10eda44ab75b76898afb0f2, type: 3}
   m_PrefabInstance: {fileID: 4200643998374268775}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1711357600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8305537274019657156, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
+  m_PrefabInstance: {fileID: 1774129767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049f7bf140348cc41817bc91328d1c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1757403240
 GameObject:
   m_ObjectHideFlags: 0
@@ -123558,6 +123630,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1809407743424763960, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
+      propertyPath: bombaRaton
+      value: 
+      objectReference: {fileID: 9171476800433593737, guid: 99c865375dafcd24bb24cf86c7ae3619, type: 3}
     - target: {fileID: 7310609518189849837, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -123605,6 +123681,10 @@ PrefabInstance:
     - target: {fileID: 8944514554725685503, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9193794156970048048, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
+      propertyPath: m_TagString
+      value: ShootController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -125193,3 +125273,4 @@ SceneRoots:
   - {fileID: 2096899105}
   - {fileID: 727423853}
   - {fileID: 517069364}
+  - {fileID: 974939796}

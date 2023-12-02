@@ -6,6 +6,7 @@ public class Player_Disparo : MonoBehaviour
 {
     Player_Orientacion orientacion;
     Player_Movement mov;
+    Controlador control;
     AudioSource principalshoot;
     AudioSource secondaryshoot;
 
@@ -39,16 +40,25 @@ public class Player_Disparo : MonoBehaviour
     public float unshootingTime;
     public float passedTime;
 
-    private void Start()
+    private void Awake()
     {
+        control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
         orientacion = GetComponent<Player_Orientacion>();
         mov = GetComponentInParent<Player_Movement>();
         principalshoot = GetComponent<AudioSource>();
         secondaryshoot = GetComponent<AudioSource>();
+    }
+    private void Start()
+    {
+        
+        
         AlfaCurrentAmmo = AlfaMaxAmmo;
         BetaCurrentAmmo = BetaMaxAmmo;
 
         BetaBullet.enabled = false;
+
+        AlfaCurrentAmmo = control.muni1;
+        BetaCurrentAmmo = control.muni2;
     }
     private void Update()
     {

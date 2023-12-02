@@ -10,6 +10,7 @@ public class Player_Life : MonoBehaviour
     Player_Movement mov;
     Player_Disparo shoot;
     AudioSource damage;
+    Controlador control;
 
     [NonSerialized] public Vida vidaUI;
 
@@ -18,9 +19,10 @@ public class Player_Life : MonoBehaviour
     public bool alive = true;
 
     public bool canRecieveDamage = true;
-    [NonSerialized] public bool addExtraLife = true;
+    public bool addExtraLife = true;
     private void Awake()
     {
+        control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
         damage = GetComponent<AudioSource>();
@@ -28,7 +30,7 @@ public class Player_Life : MonoBehaviour
 
     private void Start()
     {
-        currentlife = maxLife;
+        currentlife = control.life;
     }
     private void Update()
     {
@@ -47,12 +49,12 @@ public class Player_Life : MonoBehaviour
             StartCoroutine(ChangeScene());
         }
 
-        if(maxLife == 8 && addExtraLife)
+        if (maxLife == 8 && addExtraLife)
         {
             vidaUI.NewLIfe();
             addExtraLife = false;
         }
-        else if(maxLife == 9)
+        else if (maxLife == 9)
         {
             vidaUI.NewLIfe();
             vidaUI.NewLIfe();
@@ -100,7 +102,7 @@ public class Player_Life : MonoBehaviour
                 }
             }
 
-            if(collision.gameObject.GetComponent<BalaEnemigo>() != null)
+            if (collision.gameObject.GetComponent<BalaEnemigo>() != null)
             {
                 if (canRecieveDamage)
                 {
