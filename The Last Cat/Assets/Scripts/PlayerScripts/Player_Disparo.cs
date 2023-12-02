@@ -57,6 +57,8 @@ public class Player_Disparo : MonoBehaviour
 
         if (mov.isdashing) canShoot = false;
 
+        if (ratonCount > 5) ratonCount = 5;
+
         if (isReloading) return;
 
 

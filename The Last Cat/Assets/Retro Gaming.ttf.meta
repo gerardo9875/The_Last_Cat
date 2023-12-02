@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: 741d7ebe3b34e504ea42a54bac2f5f96
+guid: 6a591a937fc250e4bbc2fefe649c3a06
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
+  fontSize: 100
+  forceTextureCase: 0
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Arcade Normal
+  - Retro Gaming
   fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
+  customCharacters: ABCDEFGHIJKLMNOPQRSTUVWXZ1234567890
+  fontRenderingMode: 1
+  ascentCalculationMode: 0
+  useLegacyBoundsCalculation: 1
   shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
