@@ -18,6 +18,7 @@ public class Player_Life : MonoBehaviour
     public bool alive = true;
 
     public bool canRecieveDamage = true;
+    bool addExtraLife = true;
     private void Awake()
     {
         mov = GetComponent<Player_Movement>();
@@ -46,6 +47,17 @@ public class Player_Life : MonoBehaviour
             StartCoroutine(ChangeScene());
         }
 
+        if(maxLife == 8 && addExtraLife)
+        {
+            vidaUI.NewLIfe();
+            addExtraLife = false;
+        }
+        else if(maxLife == 9)
+        {
+            vidaUI.NewLIfe();
+            vidaUI.NewLIfe();
+            addExtraLife = false;
+        }
     }
 
     IEnumerator ChangeScene()
