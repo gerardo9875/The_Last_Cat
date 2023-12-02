@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LataDeAtun : MonoBehaviour
 {
+    [SerializeField] ParticleSystem destroyParticles;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -14,6 +16,9 @@ public class LataDeAtun : MonoBehaviour
             {
                 life.currentlife = life.maxLife;
                 life.vidaUI.Life(life.currentlife);
+
+                Instantiate(destroyParticles, transform.position, destroyParticles.transform.rotation);
+
                 Destroy(gameObject);
             }
         }
