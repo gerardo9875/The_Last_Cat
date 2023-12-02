@@ -1,3 +1,4 @@
+using Autodesk.Fbx;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class ExtraLife : MonoBehaviour
             vidaUI.NewLIfe();
 
             Player_Life life = GameObject.Find("Player").GetComponent<Player_Life>();
+            life.addExtraLife = false;
             life.maxLife++;
             life.currentlife = life.maxLife;
 

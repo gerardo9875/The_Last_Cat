@@ -18,7 +18,7 @@ public class Player_Life : MonoBehaviour
     public bool alive = true;
 
     public bool canRecieveDamage = true;
-    bool addExtraLife = true;
+    [NonSerialized] public bool addExtraLife = true;
     private void Awake()
     {
         mov = GetComponent<Player_Movement>();
