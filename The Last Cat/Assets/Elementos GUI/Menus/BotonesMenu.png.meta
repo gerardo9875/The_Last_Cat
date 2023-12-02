@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 73981df61375c0646b01713bf3594d75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4933214187946340264
+    second: BotonesMenu_0
+  - first:
+      213: -5564515949037224004
+    second: BotonesMenu_1
+  - first:
+      213: -2306814087488552257
+    second: BotonesMenu_2
+  - first:
+      213: -3661888381794422175
+    second: BotonesMenu_3
+  - first:
+      213: 1459777075280658813
+    second: BotonesMenu_4
+  - first:
+      213: -1178827529858621485
+    second: BotonesMenu_5
+  - first:
+      213: -4354297669352049228
+    second: BotonesMenu_6
+  - first:
+      213: 3217619138799545011
+    second: BotonesMenu_7
+  - first:
+      213: 7079155121718730086
+    second: BotonesMenu_8
+  - first:
+      213: -5329142432351469576
+    second: BotonesMenu_9
+  - first:
+      213: -883133656301241949
+    second: BotonesMenu_10
+  - first:
+      213: -8950530101379444473
+    second: BotonesMenu_11
+  - first:
+      213: -5030740719082978569
+    second: BotonesMenu_12
+  - first:
+      213: -243043706935794368
+    second: BotonesMenu_13
+  - first:
+      213: -246886164249174943
+    second: BotonesMenu_14
+  - first:
+      213: 5971517951288887349
+    second: BotonesMenu_15
+  - first:
+      213: 2327432732034375616
+    second: BotonesMenu_16
+  - first:
+      213: -2199664128723027626
+    second: BotonesMenu_17
+  - first:
+      213: 4778571393221238138
+    second: BotonesMenu_18
+  - first:
+      213: -9155875993066631158
+    second: BotonesMenu_19
+  - first:
+      213: 4003880208529423218
+    second: BotonesMenu_20
+  - first:
+      213: 1599759199704778177
+    second: BotonesMenu_21
+  - first:
+      213: 8693511818965659598
+    second: BotonesMenu_22
+  - first:
+      213: -2554651333699733482
+    second: BotonesMenu_23
+  - first:
+      213: 2081539875935350580
+    second: BotonesMenu_24
+  - first:
+      213: 326855065993976010
+    second: BotonesMenu_25
+  - first:
+      213: -3639586941362795809
+    second: BotonesMenu_26
+  - first:
+      213: -1843347587075857433
+    second: BotonesMenu_27
+  - first:
+      213: -1040826388630240682
+    second: BotonesMenu_28
+  - first:
+      213: 388276943542330780
+    second: BotonesMenu_29
+  - first:
+      213: 3613381152372419444
+    second: BotonesMenu_30
+  - first:
+      213: -3627490548168697723
+    second: BotonesMenu_31
+  - first:
+      213: -195023985013624873
+    second: BotonesMenu_32
+  - first:
+      213: 7374146927101648792
+    second: BotonesMenu_33
+  - first:
+      213: 8567142904696203077
+    second: BotonesMenu_34
+  - first:
+      213: -9158536190980543716
+    second: BotonesMenu_35
+  - first:
+      213: -2567139975941989087
+    second: BotonesMenu_36
+  - first:
+      213: 1521084473998960544
+    second: BotonesMenu_37
+  - first:
+      213: 5408139361909967984
+    second: BotonesMenu_38
+  - first:
+      213: 6887366608093386223
+    second: BotonesMenu_39
+  - first:
+      213: -9179009628622696169
+    second: BotonesMenu_40
+  - first:
+      213: -5287274583649520912
+    second: BotonesMenu_41
+  - first:
+      213: 1511007572151388090
+    second: BotonesMenu_42
+  - first:
+      213: -1521930421287392246
+    second: BotonesMenu_43
+  - first:
+      213: 5967907984636140403
+    second: BotonesMenu_44
+  - first:
+      213: 6430438094806467317
+    second: BotonesMenu_45
+  - first:
+      213: -5486054607838762594
+    second: BotonesMenu_46
+  - first:
+      213: 6308492508905983131
+    second: BotonesMenu_47
+  - first:
+      213: -5285415247652773238
+    second: BotonesMenu_48
+  - first:
+      213: 5783997466022070331
+    second: BotonesMenu_49
+  - first:
+      213: 896629429251472934
+    second: BotonesMenu_50
+  - first:
+      213: -6114518163888619166
+    second: BotonesMenu_51
+  - first:
+      213: 2018295290759789194
+    second: BotonesMenu_52
+  - first:
+      213: -5311170448342881335
+    second: BotonesMenu_53
+  - first:
+      213: 993292076028263332
+    second: BotonesMenu_54
+  - first:
+      213: -6572667025254417238
+    second: BotonesMenu_55
+  - first:
+      213: -4044730711250189793
+    second: BotonesMenu_56
+  - first:
+      213: -1121897470859720348
+    second: BotonesMenu_57
+  - first:
+      213: -2359508642727532627
+    second: BotonesMenu_58
+  - first:
+      213: -1370311061521855293
+    second: BotonesMenu_59
+  - first:
+      213: -8781181815037623148
+    second: BotonesMenu_60
+  - first:
+      213: 7091524069185102937
+    second: BotonesMenu_61
+  - first:
+      213: 2790182050436534289
+    second: BotonesMenu_62
+  - first:
+      213: -3192240371502783601
+    second: BotonesMenu_63
+  - first:
+      213: -7715361660216745312
+    second: BotonesMenu_64
+  - first:
+      213: -8960440354979425918
+    second: BotonesMenu_65
+  - first:
+      213: 1336892837186996294
+    second: BotonesMenu_66
+  - first:
+      213: -8577157302538641096
+    second: BotonesMenu_67
+  - first:
+      213: 3534171857282231455
+    second: BotonesMenu_68
+  - first:
+      213: -3890043699810447526
+    second: BotonesMenu_69
+  - first:
+      213: 7469433811728495072
+    second: BotonesMenu_70
+  - first:
+      213: 8102232575715965910
+    second: BotonesMenu_71
+  - first:
+      213: -2008361406424661619
+    second: BotonesMenu_72
+  - first:
+      213: -3524635677754365209
+    second: BotonesMenu_73
+  - first:
+      213: -5209786882445598164
+    second: BotonesMenu_74
+  - first:
+      213: 1219099949566470169
+    second: BotonesMenu_75
+  - first:
+      213: 7324245238165231239
+    second: BotonesMenu_76
+  - first:
+      213: 439512751248333303
+    second: BotonesMenu_77
+  - first:
+      213: -3966441250768589186
+    second: BotonesMenu_78
+  - first:
+      213: 4467770802041286328
+    second: BotonesMenu_79
+  - first:
+      213: -5751790244898808363
+    second: BotonesMenu_80
+  - first:
+      213: -8424890961725838260
+    second: BotonesMenu_81
+  - first:
+      213: 5015282882259048014
+    second: BotonesMenu_82
+  - first:
+      213: 419844946411055869
+    second: BotonesMenu_83
+  - first:
+      213: 1408925455939312873
+    second: BotonesMenu_84
+  - first:
+      213: -6205417928715354610
+    second: BotonesMenu_85
+  - first:
+      213: 7885120351390546201
+    second: BotonesMenu_86
+  - first:
+      213: -8985490988873533111
+    second: BotonesMenu_87
+  - first:
+      213: 2062074104281525570
+    second: BotonesMenu_88
+  - first:
+      213: -4735309442873801387
+    second: BotonesMenu_89
+  - first:
+      213: -4102324051453883438
+    second: BotonesMenu_90
+  - first:
+      213: -4101134737501552463
+    second: BotonesMenu_91
+  - first:
+      213: 3806781934159944860
+    second: BotonesMenu_92
+  - first:
+      213: 7979511875538830770
+    second: BotonesMenu_93
+  - first:
+      213: 1033766418874503765
+    second: BotonesMenu_94
+  - first:
+      213: -8942216806840526977
+    second: BotonesMenu_95
+  - first:
+      213: 1575397749236879888
+    second: BotonesMenu_96
+  - first:
+      213: -4866990365722939258
+    second: BotonesMenu_97
+  - first:
+      213: -64940128761490748
+    second: BotonesMenu_98
+  - first:
+      213: -9194104848237453444
+    second: BotonesMenu_99
+  - first:
+      213: -7361666400379328481
+    second: BotonesMenu_100
+  - first:
+      213: 7585328887830516093
+    second: BotonesMenu_101
+  - first:
+      213: 7489392332436995295
+    second: BotonesMenu_102
+  - first:
+      213: -6911073822991704935
+    second: BotonesMenu_103
+  - first:
+      213: -4208773326705316094
+    second: BotonesMenu_104
+  - first:
+      213: -5458140745939732394
+    second: BotonesMenu_105
+  - first:
+      213: 4321273508805995139
+    second: BotonesMenu_106
+  - first:
+      213: 3143136968750462902
+    second: BotonesMenu_107
+  - first:
+      213: -1868743043577889935
+    second: BotonesMenu_108
+  - first:
+      213: -8016380019090729620
+    second: BotonesMenu_109
+  - first:
+      213: -2693746522708567406
+    second: BotonesMenu_110
+  - first:
+      213: -694850286498116162
+    second: BotonesMenu_111
+  - first:
+      213: 6447762130499317359
+    second: BotonesMenu_112
+  - first:
+      213: 6739776238874600129
+    second: BotonesMenu_113
+  - first:
+      213: 1175982720201756710
+    second: BotonesMenu_114
+  - first:
+      213: -5616598833033369200
+    second: BotonesMenu_115
+  - first:
+      213: 3898731341386595432
+    second: BotonesMenu_116
+  - first:
+      213: -3690709172554038431
+    second: BotonesMenu_117
+  - first:
+      213: 435827189329978341
+    second: BotonesMenu_118
+  - first:
+      213: 6395771193403137087
+    second: BotonesMenu_119
+  - first:
+      213: -6122252557088740025
+    second: BotonesMenu_120
+  - first:
+      213: 3888427759773682134
+    second: BotonesMenu_121
+  - first:
+      213: 2367505043911439062
+    second: BotonesMenu_122
+  - first:
+      213: 6470062725767624974
+    second: BotonesMenu_123
+  - first:
+      213: 8189809724260380644
+    second: BotonesMenu_124
+  - first:
+      213: -9016956925982593521
+    second: BotonesMenu_125
+  - first:
+      213: 6689627082352077050
+    second: BotonesMenu_126
+  - first:
+      213: -6425437943377566736
+    second: BotonesMenu_127
+  - first:
+      213: -1182592023516773479
+    second: BotonesMenu_128
+  - first:
+      213: 8502766511015492982
+    second: BotonesMenu_129
+  - first:
+      213: -3226797249871094643
+    second: BotonesMenu_130
+  - first:
+      213: 7111642340137752601
+    second: BotonesMenu_131
+  - first:
+      213: -7426216590373759059
+    second: BotonesMenu_132
+  - first:
+      213: -1869048305954701509
+    second: BotonesMenu_133
+  - first:
+      213: -5745178446440993380
+    second: BotonesMenu_134
+  - first:
+      213: 7949087420172409333
+    second: BotonesMenu_135
+  - first:
+      213: -7319091919264184295
+    second: BotonesMenu_136
+  - first:
+      213: -871562627933294405
+    second: BotonesMenu_137
+  - first:
+      213: 8964600168297469015
+    second: BotonesMenu_138
+  - first:
+      213: 2735396826635366106
+    second: BotonesMenu_139
+  - first:
+      213: -3629100443242961046
+    second: BotonesMenu_140
+  - first:
+      213: -5272482489926681223
+    second: BotonesMenu_141
+  - first:
+      213: -3998467092496524609
+    second: BotonesMenu_142
+  - first:
+      213: -5653029732268366967
+    second: BotonesMenu_143
+  - first:
+      213: 1549916040225569278
+    second: BotonesMenu_144
+  - first:
+      213: -8396501433879621811
+    second: BotonesMenu_145
+  - first:
+      213: -343644127117265670
+    second: BotonesMenu_146
+  - first:
+      213: -3230017922849898325
+    second: BotonesMenu_147
+  - first:
+      213: 649786045583947440
+    second: BotonesMenu_148
+  - first:
+      213: -7258071767886183542
+    second: BotonesMenu_149
+  - first:
+      213: -94168111062222529
+    second: BotonesMenu_150
+  - first:
+      213: -4839297879622182041
+    second: BotonesMenu_151
+  - first:
+      213: 4653203297907031604
+    second: BotonesMenu_152
+  - first:
+      213: 390004372668911751
+    second: BotonesMenu_153
+  - first:
+      213: -4942143841485169977
+    second: BotonesMenu_154
+  - first:
+      213: 6396425984632122533
+    second: BotonesMenu_155
+  - first:
+      213: -3867083718305180813
+    second: BotonesMenu_156
+  - first:
+      213: 1907747401351673260
+    second: BotonesMenu_157
+  - first:
+      213: 1372322087767287618
+    second: BotonesMenu_158
+  - first:
+      213: 3176348653167078079
+    second: BotonesMenu_159
+  - first:
+      213: 3431397613475496857
+    second: BotonesMenu_160
+  - first:
+      213: 4732061738088378514
+    second: BotonesMenu_161
+  - first:
+      213: 8383699895969389843
+    second: BotonesMenu_162
+  - first:
+      213: -5330619905508998208
+    second: BotonesMenu_163
+  - first:
+      213: 5883717016494697231
+    second: BotonesMenu_164
+  - first:
+      213: -2187252093271609963
+    second: BotonesMenu_165
+  - first:
+      213: 5892032295223486901
+    second: BotonesMenu_166
+  - first:
+      213: -7794419440119758762
+    second: BotonesMenu_167
+  - first:
+      213: -8337026880927709627
+    second: BotonesMenu_168
+  - first:
+      213: 1148504917746459566
+    second: BotonesMenu_169
+  - first:
+      213: 4811240742418833176
+    second: BotonesMenu_170
+  - first:
+      213: 1447029887222669122
+    second: BotonesMenu_171
+  - first:
+      213: 9215047088857189247
+    second: BotonesMenu_172
+  - first:
+      213: 8570330205059225548
+    second: BotonesMenu_173
+  - first:
+      213: -1447241014499000171
+    second: BotonesMenu_174
+  - first:
+      213: 7887547868693016813
+    second: BotonesMenu_175
+  - first:
+      213: -3877000033767369078
+    second: BotonesMenu_176
+  - first:
+      213: 559944830300470778
+    second: BotonesMenu_177
+  - first:
+      213: -1862472007958545375
+    second: BotonesMenu_178
+  - first:
+      213: 7669670894209695535
+    second: BotonesMenu_179
+  - first:
+      213: -5985297676339986790
+    second: BotonesMenu_180
+  - first:
+      213: 2970215820110274658
+    second: BotonesMenu_181
+  - first:
+      213: 5365150077377356873
+    second: BotonesMenu_182
+  - first:
+      213: -4289735335910696617
+    second: BotonesMenu_183
+  - first:
+      213: -6549784438005849310
+    second: BotonesMenu_184
+  - first:
+      213: 6070642541726748793
+    second: BotonesMenu_185
+  - first:
+      213: -382905698607425468
+    second: BotonesMenu_186
+  - first:
+      213: -759851811604040164
+    second: BotonesMenu_187
+  - first:
+      213: -6241511148140389645
+    second: BotonesMenu_188
+  - first:
+      213: -67577776331420362
+    second: BotonesMenu_189
+  - first:
+      213: -1576612416538445126
+    second: BotonesMenu_190
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Reiniciar1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 160
+        width: 124
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8509a8655d3b98bb0800000000000000
+      internalID: -4933214187946340264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reiniciar2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 144
+        width: 124
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbff3a6f93ed6c2b0800000000000000
+      internalID: -5564515949037224004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reiniciar3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 124
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c0683fcc8cffd0800000000000000
+      internalID: -2306814087488552257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reanudar1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 112
+        width: 133
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16273041beb5e2dc0800000000000000
+      internalID: -3661888381794422175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reanudar2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 133
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71cc57048b224410800000000000000
+      internalID: 1459777075280658813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reanudar3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 80
+        width: 133
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df53577b96f3afe0800000000000000
+      internalID: -1178827529858621485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 183
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5b5fbf65d6293c0800000000000000
+      internalID: -4354297669352049228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 183
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba25ae1f8747ac20800000000000000
+      internalID: 3217619138799545011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 183
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d9ee383163e3260800000000000000
+      internalID: 7079155121718730086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salir1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 160
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7265c67592004e54aa7242f30a31b4cc
+      internalID: -435103968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salir2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 144
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20ff28386bab934a92d64dd63e4a545
+      internalID: 1415118192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salir3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 128
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04905d49684b9774db3f9807353fe434
+      internalID: -732646716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creditos1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 112
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09c743f5f77c414282b1c3339b6a489
+      internalID: -1801180859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creditos2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 96
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04dd0c2171a1064f9934ed2b2f9788b
+      internalID: 261092624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creditos3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 80
+        width: 96
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f59217a8178d4a9ad62800879c8a0
+      internalID: -1483737297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volver1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80a07d5ad4a1a14599d64daf660e1d1
+      internalID: 1807925375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volver2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea8247a7c7ff344a1e571ff1e27b67
+      internalID: 908780802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volver3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d52b47df7be8e45a32913edbabfa50
+      internalID: 1894090312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jugar1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 150
+        width: 71
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809c4fd779e577d418997a63b7923c60
+      internalID: 1145764657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jugar2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 118
+        width: 71
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79adf499e361aff49830ba3542be3c6e
+      internalID: -807315172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jugar3
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 86
+        width: 71
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8545667832935a94b975951e1a09484b
+      internalID: -318705387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 146
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf02e9884943082438c34519884c943e
+      internalID: 671268791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel2
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 114
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6891d2b7d66540919d6d00d78e346
+      internalID: -1841273090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nivel3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 82
+        width: 69
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ebbc9756542784ba4ce4ff45d9b420
+      internalID: 310916173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BotonesMenu_0
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 7
+        width: 105
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aac47119c1e1043bb9d03d67a03c7b
+      internalID: 1218078829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 20a939dad4c22794380756cdfeb4c753
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BotonesMenu_0: 1218078829
+      Jugar1: 1145764657
+      Jugar2: -807315172
+      Jugar3: -318705387
+      Reanudar1: -3661888381794422175
+      Reanudar2: 1459777075280658813
+      Reanudar3: -1178827529858621485
+      Reiniciar1: -4933214187946340264
+      Reiniciar2: -5564515949037224004
+      Reiniciar3: -2306814087488552257
+      creditos1: -1801180859
+      creditos2: 261092624
+      creditos3: -1483737297
+      menu1: -4354297669352049228
+      menu2: 3217619138799545011
+      menu3: 7079155121718730086
+      nivel1: 671268791
+      nivel2: -1841273090
+      nivel3: 310916173
+      salir1: -435103968
+      salir2: 1415118192
+      salir3: -732646716
+      volver1: 1807925375
+      volver2: 908780802
+      volver3: 1894090312
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
