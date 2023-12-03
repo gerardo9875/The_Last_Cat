@@ -59,6 +59,7 @@ public class Player_Disparo : MonoBehaviour
 
         AlfaCurrentAmmo = control.muni1;
         BetaCurrentAmmo = control.muni2;
+        ratonCount = control.bomba;
     }
     private void Update()
     {

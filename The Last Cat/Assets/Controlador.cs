@@ -34,5 +34,6 @@ public class Controlador : MonoBehaviour
         life = vida.currentlife;
         muni1 = shoots.AlfaCurrentAmmo;
         muni2 = shoots.BetaCurrentAmmo;
+        bomba = shoots.ratonCount;
     }
 }

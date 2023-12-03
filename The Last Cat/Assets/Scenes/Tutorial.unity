@@ -124175,12 +124175,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< Updated upstream
-    - target: {fileID: 1809407743424763960, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
-      propertyPath: bombaRaton
-      value: 
-      objectReference: {fileID: 9171476800433593737, guid: 99c865375dafcd24bb24cf86c7ae3619, type: 3}
-=======
     - target: {fileID: 856907299557442181, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -124189,7 +124183,6 @@ PrefabInstance:
       propertyPath: canShoot
       value: 0
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 7310609518189849837, guid: 3b7ee66bd1396d64e8f54385732fb698, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
