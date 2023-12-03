@@ -16,7 +16,7 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] private float speed;
     [NonSerialized] public Vector2 moveInput;
     [NonSerialized] public Vector2 lastInput;
-    [NonSerialized] public bool canMove = true;
+    public bool canMove = true;
 
     [Header("Dash/Rodada")]
     public float distancedash;

@@ -15,7 +15,7 @@ public class Player_Disparo : MonoBehaviour
     [SerializeField] public GameObject luzDisparo;
     [SerializeField] GameObject AlfaBullet;
     [SerializeField] Transform shootPoint;
-    [NonSerialized] public bool canShoot = true;
+    public bool canShoot = true;
     public int AlfaMaxAmmo = 30;
     public int AlfaCurrentAmmo;
     public float reloadTime = 2.0f;
