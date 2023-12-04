@@ -196,7 +196,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -529,6 +529,7 @@ MonoBehaviour:
   currentlife: 0
   alive: 1
   canRecieveDamage: 1
+  addExtraLife: 1
 --- !u!114 &7935896794279326089
 MonoBehaviour:
   m_ObjectHideFlags: 0
