@@ -7,7 +7,7 @@ public class Player_AlfaBullet : MonoBehaviour
     [SerializeField] ParticleSystem destroyingPartycles;
     [SerializeField] ParticleSystem enemyCollParticle;
     [SerializeField] float ShootVel;
-    [SerializeField] double tiempo;
+    public double tiempo;
     private void Update()
     {
         //Direccion de la bala
