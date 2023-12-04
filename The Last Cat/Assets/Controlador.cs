@@ -29,11 +29,34 @@ public class Controlador : MonoBehaviour
 
     private void Update()
     {
-        vida = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>();
-        shoots = GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>();
-        life = vida.currentlife;
-        muni1 = shoots.AlfaCurrentAmmo;
-        muni2 = shoots.BetaCurrentAmmo;
-        bomba = shoots.ratonCount;
+        if(vida == null)
+        {
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>())
+            {
+                vida = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>();
+            }
+        }
+        else
+        {
+            life = vida.currentlife;
+
+        }
+
+        if(shoots == null)
+        {
+            Debug.Log("1");
+            if (GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>())
+            {
+                Debug.Log("2");
+                shoots = GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>();
+            }
+
+        }
+        else
+        {
+            muni1 = shoots.AlfaCurrentAmmo;
+            muni2 = shoots.BetaCurrentAmmo;
+            bomba = shoots.ratonCount;
+        }
     }
 }
