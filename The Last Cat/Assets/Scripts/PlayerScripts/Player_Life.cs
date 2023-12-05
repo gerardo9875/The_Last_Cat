@@ -22,16 +22,26 @@ public class Player_Life : MonoBehaviour
     public bool addExtraLife = true;
     private void Awake()
     {
-        control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+        if(control != null){
+            if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
+            {
+                control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+                currentlife = control.life;
+            }
+        }
+
+        else
+        {
+            currentlife = maxLife;
+        }
+        
+        
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
         damage = GetComponent<AudioSource>();
     }
 
-    private void Start()
-    {
-        currentlife = control.life;
-    }
+    
     private void Update()
     {
         if (vidaUI == null && GameObject.Find("HUD")) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();

@@ -42,7 +42,25 @@ public class Player_Disparo : MonoBehaviour
 
     private void Awake()
     {
-        control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+        if (control = null)
+        {
+            if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
+            {
+                control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+                AlfaCurrentAmmo = control.muni1;
+                BetaCurrentAmmo = control.muni2;
+                ratonCount = control.bomba;
+            }
+        }
+
+        else
+        {
+            AlfaCurrentAmmo = AlfaMaxAmmo;
+            BetaCurrentAmmo = BetaMaxAmmo;
+        }
+
+
+
         orientacion = GetComponent<Player_Orientacion>();
         mov = GetComponentInParent<Player_Movement>();
         principalshoot = GetComponent<AudioSource>();
@@ -52,17 +70,15 @@ public class Player_Disparo : MonoBehaviour
     {
         
         
-        AlfaCurrentAmmo = AlfaMaxAmmo;
-        BetaCurrentAmmo = BetaMaxAmmo;
-
         BetaBullet.enabled = false;
 
-        AlfaCurrentAmmo = control.muni1;
-        BetaCurrentAmmo = control.muni2;
-        ratonCount = control.bomba;
+        
+
     }
     private void Update()
     {
+
+        
 
         shootingBoolDelay();
 
