@@ -42,7 +42,7 @@ public class Player_Disparo : MonoBehaviour
 
     private void Awake()
     {
-        if (control = null)
+        if (control != null)
         {
             if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
             {

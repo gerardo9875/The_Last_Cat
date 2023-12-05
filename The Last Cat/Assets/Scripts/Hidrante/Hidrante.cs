@@ -16,6 +16,11 @@ public class Hidrante : MonoBehaviour
         return Physics2D.OverlapCircle(transform.position, radio, capa);
     }
 
+
+    private void Awake()
+    {
+        disparo = GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>();
+    }
     void Update()
     {
         animator.SetBool("Activo", broken); //Animacion

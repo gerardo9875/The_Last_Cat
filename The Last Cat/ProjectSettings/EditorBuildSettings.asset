@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/NivelesInteriores/Interior1.unity
     guid: d9903a808fcb68945a0a828c1b0252bf
   - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: e314a7a47778ee643884c9993a7335c2
+  - enabled: 1
     path: Assets/Scenes/Nivel Tren/IntroTrainLevel.unity
     guid: c06a0ac5230ad7e4ba51ab84c5dfd06c
   - enabled: 1
@@ -23,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel Tren/TrainLevelFinal.unity
     guid: bf5ef50ec31a5bf49aaaa43ff95d303f
+  - enabled: 1
+    path: Assets/Scenes/NivelMiraflores.unity
+    guid: 0d5b95631fc449f4fb9281132c2735bc
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 848936f47b3db4e47aa477145ddadd4f

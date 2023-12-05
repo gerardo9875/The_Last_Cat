@@ -1,8 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using TreeEditor;
-using Unity.Collections.LowLevel.Unsafe;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class NoDieEvent : MonoBehaviour

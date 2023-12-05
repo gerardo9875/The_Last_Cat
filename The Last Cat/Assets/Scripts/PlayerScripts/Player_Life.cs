@@ -44,7 +44,11 @@ public class Player_Life : MonoBehaviour
     
     private void Update()
     {
-        if (vidaUI == null && GameObject.Find("HUD")) vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+        if (vidaUI == null && GameObject.Find("HUD"))
+        {
+            vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+            vidaUI.Life(currentlife);
+        }
 
         if (currentlife <= 0)
         {
@@ -76,7 +80,7 @@ public class Player_Life : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
 
-        SceneManager.LoadScene("GameOver1");
+        //SceneManager.LoadScene("GameOver1");
     }
 
     public IEnumerator RecieveDamage(int value)

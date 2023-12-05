@@ -6,11 +6,8 @@ public class BalaEnemigo : MonoBehaviour
 {
     [SerializeField] float ShootVel;
     [SerializeField] double tiempo;
+    [SerializeField] ParticleSystem particulas;
 
-    private void Start()
-    {
-        
-    }
     private void Update()
     {
         //Direccion de la bala
@@ -18,13 +15,19 @@ public class BalaEnemigo : MonoBehaviour
 
         //Destruir objeto
         tiempo -= Time.deltaTime;
-        if (tiempo < 0) Destroy(gameObject);
+        if (tiempo < 0)
+        {
+            Instantiate(particulas, transform.position, transform.rotation);
+
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Pared"))
         {
+            Instantiate(particulas, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
