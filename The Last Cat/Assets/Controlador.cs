@@ -39,7 +39,7 @@ public class Controlador : MonoBehaviour
         else
         {
             life = vida.currentlife;
-
+            
         }
 
         if(shoots == null)
@@ -57,6 +57,8 @@ public class Controlador : MonoBehaviour
             muni1 = shoots.AlfaCurrentAmmo;
             muni2 = shoots.BetaCurrentAmmo;
             bomba = shoots.ratonCount;
+            
+            
         }
     }
 }

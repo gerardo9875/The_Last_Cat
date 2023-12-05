@@ -23,16 +23,18 @@ public class Player_Life : MonoBehaviour
     private void Awake()
     {
         if(control != null){
+            currentlife = maxLife;
+        }
+
+        else
+        
+        {
             if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
             {
                 control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
                 currentlife = control.life;
             }
-        }
-
-        else
-        {
-            currentlife = maxLife;
+            
         }
         
         

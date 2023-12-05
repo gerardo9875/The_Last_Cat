@@ -17,7 +17,7 @@ public class Player_BombaR : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && shootScript.ratonCount < 5)
         {
             shootScript.ratonCount += ammo;
-            Instantiate(destroyParticles, transform.position, destroyParticles.transform.rotation);
+            //Instantiate(destroyParticles, transform.position, destroyParticles.transform.rotation);
             Destroy(gameObject);
         }
     }

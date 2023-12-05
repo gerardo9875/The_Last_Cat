@@ -17,7 +17,7 @@ public class BalaEnemigo : MonoBehaviour
         tiempo -= Time.deltaTime;
         if (tiempo < 0)
         {
-            Instantiate(particulas, transform.position, transform.rotation);
+            //Instantiate(particulas, transform.position, transform.rotation);
 
             Destroy(gameObject);
         }
@@ -27,7 +27,7 @@ public class BalaEnemigo : MonoBehaviour
     {
         if(collision.CompareTag("Pared"))
         {
-            Instantiate(particulas, transform.position, transform.rotation);
+            //Instantiate(particulas, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
