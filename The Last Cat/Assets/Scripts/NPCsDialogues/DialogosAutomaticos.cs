@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public struct Dialogue
 {
     public Sprite sprite;
-    [TextArea(4, 6)] public string line;
+    [TextArea(4,6)] public string line;
 }
 
 public class DialogosAutomaticos : MonoBehaviour

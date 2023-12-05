@@ -1128,6 +1128,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &387094449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1106.8202
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 512.8235
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6960183
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932260475417084686, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3302445581383738636, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_Name
+      value: Menus In Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 4117796172720961586, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: actualscene
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5305900656073017062, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: actualscene
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697172296598303570, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: actualscene
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055367857969027895, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: actualscene
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
 --- !u!1 &430606880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1785,7 @@ Tilemap:
       - {fileID: 1768870882, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -1905853061, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -310110649, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 7, z: 0}
@@ -1727,7 +1800,7 @@ Tilemap:
       - {fileID: 1768870882, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -1905853061, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -310110649, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 8, z: 0}
@@ -12737,3 +12810,4 @@ SceneRoots:
   - {fileID: 2072817005}
   - {fileID: 1595589708}
   - {fileID: 2136990730}
+  - {fileID: 387094449}

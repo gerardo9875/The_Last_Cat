@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &343327803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3302445581383738636, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+  m_PrefabInstance: {fileID: 7008858020306335553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343327805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343327803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c2b6e5a63934e8a1bb4e55a86bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPausa: {fileID: 0}
+  botonPausa: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,14 +392,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2581654153849780217, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3302445581383738636, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
       propertyPath: m_Name
       value: Menus In Game
       objectReference: {fileID: 0}
+    - target: {fileID: 4231416763547096766, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8531450827855651420, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3302445581383738636, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 343327805}
   m_SourcePrefab: {fileID: 100100000, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

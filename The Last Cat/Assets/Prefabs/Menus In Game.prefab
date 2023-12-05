@@ -169,6 +169,7 @@ GameObject:
   - component: {fileID: 6900677567586047441}
   - component: {fileID: 6550036600645076339}
   - component: {fileID: 5905978801130311711}
+  - component: {fileID: 94563391688575295}
   m_Layer: 5
   m_Name: Reanudar
   m_TagString: Untagged
@@ -276,7 +277,45 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6550036600645076339}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 94563391688575295}
+        m_TargetAssemblyTypeName: MEnuPausa, Assembly-CSharp
+        m_MethodName: Reanudar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &94563391688575295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21873213664401646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c2b6e5a63934e8a1bb4e55a86bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualscene: 0
+  menuPausa: {fileID: 4231416763547096766}
 --- !u!1 &326276783089289819
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +448,7 @@ GameObject:
   - component: {fileID: 5480765330240644638}
   - component: {fileID: 4393540941833623292}
   - component: {fileID: 6388289349099023244}
+  - component: {fileID: 9055367857969027895}
   m_Layer: 5
   m_Name: Reiniciar
   m_TagString: Untagged
@@ -516,7 +556,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4393540941833623292}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9055367857969027895}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: Reiniciar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &9055367857969027895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779494033999098024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648cca4a49a068f449d32df45f5f5674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuGameOver: {fileID: 0}
+  actualscene: 3
 --- !u!1 &1761759240277622776
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +595,7 @@ GameObject:
   - component: {fileID: 8880901036411289936}
   - component: {fileID: 2322231178874914776}
   - component: {fileID: 1652985446982958350}
+  - component: {fileID: 1488650347579039553}
   m_Layer: 5
   m_Name: Salir
   m_TagString: Untagged
@@ -636,7 +703,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2322231178874914776}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1488650347579039553}
+        m_TargetAssemblyTypeName: MEnuPausa, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1488650347579039553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761759240277622776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c2b6e5a63934e8a1bb4e55a86bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualscene: 0
+  menuPausa: {fileID: 1761759240277622776}
 --- !u!1 &3126976206586971443
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,13 +837,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1932260475417084686}
+  - component: {fileID: 6697172296598303570}
+  - component: {fileID: 4117796172720961586}
   m_Layer: 0
   m_Name: Menus In Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1932260475417084686
 Transform:
   m_ObjectHideFlags: 0
@@ -768,6 +863,34 @@ Transform:
   - {fileID: 2581654153849780217}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6697172296598303570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302445581383738636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c2b6e5a63934e8a1bb4e55a86bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualscene: 0
+  menuPausa: {fileID: 4231416763547096766}
+--- !u!114 &4117796172720961586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302445581383738636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648cca4a49a068f449d32df45f5f5674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuGameOver: {fileID: 8531450827855651420}
+  actualscene: 0
 --- !u!1 &3515910215003250109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1185,7 @@ GameObject:
   - component: {fileID: 8572279010953645315}
   - component: {fileID: 2538644790129513268}
   - component: {fileID: 4536420959509040603}
+  - component: {fileID: 5305900656073017062}
   m_Layer: 5
   m_Name: Reiniciar
   m_TagString: Untagged
@@ -1169,7 +1293,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2538644790129513268}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5305900656073017062}
+        m_TargetAssemblyTypeName: MEnuPausa, Assembly-CSharp
+        m_MethodName: Reiniciar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5305900656073017062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5039264986680278877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa75c2b6e5a63934e8a1bb4e55a86bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualscene: 3
+  menuPausa: {fileID: 5039264986680278877}
 --- !u!1 &5501878345610739590
 GameObject:
   m_ObjectHideFlags: 0
