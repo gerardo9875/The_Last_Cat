@@ -45,6 +45,7 @@ public class DialogosAutomaticos : MonoBehaviour
         lineaIndex++;
         if (lineaIndex < dialogueLine.Length)
         {
+            StopAllCoroutines();
             StartCoroutine(ShowLine());
         }
 
