@@ -55,7 +55,11 @@ public class SpawnerControlado : MonoBehaviour
         if (station.enemyCounter >= currentEnemies.Length)
         {
             horda++;
-            hord.AumentarHorda(sumarhorda);
+            if(horda < arrayLists.Count){
+
+                hord.AumentarHorda(sumarhorda);
+            }
+            
 
         }
 
