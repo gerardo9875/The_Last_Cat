@@ -38536,9 +38536,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menus In Game
       objectReference: {fileID: 0}
+    - target: {fileID: 3302445581383738636, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4117796172720961586, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
       propertyPath: actualscene
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231416763547096766, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5305900656073017062, guid: 7e2844f2d9630cc4c8377097783988ff, type: 3}
       propertyPath: actualscene
@@ -120320,6 +120328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81bcc31403145ef488865e65235b6db5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxlife: 7
   life: 7
   muni1: 30
   bomba: 0
@@ -124828,7 +124837,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.105622455, y: 0.2191257}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -124838,7 +124847,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.10753819, y: 0.56174856}
   m_EdgeRadius: 0
 --- !u!4 &1602990509
 Transform:
@@ -124849,7 +124858,7 @@ Transform:
   m_GameObject: {fileID: 1602990505}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.11, y: -20.07, z: 7.668535}
+  m_LocalPosition: {x: -38.11, y: -19.35, z: 7.668535}
   m_LocalScale: {x: 15.604623, y: 2.425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

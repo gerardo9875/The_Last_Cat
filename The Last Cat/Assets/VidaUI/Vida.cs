@@ -27,9 +27,9 @@ public class Vida : MonoBehaviour
     {
         for (int i = 0; i < vidas.Length; i++)
         {
-            Animator anim = vidas[i].GetComponent<Animator>();
-            if (anim.enabled == true)
+            if (vidas[i].activeInHierarchy == true)
             {
+                Animator anim = vidas[i].GetComponent<Animator>();
                 anim.SetBool("Active", i >= actualizar);
             }
         }
