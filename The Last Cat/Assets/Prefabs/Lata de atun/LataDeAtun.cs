@@ -17,7 +17,7 @@ public class LataDeAtun : MonoBehaviour
                 life.currentlife = life.maxLife;
                 life.vidaUI.Life(life.currentlife);
 
-                Instantiate(destroyParticles, transform.position, destroyParticles.transform.rotation);
+                //Instantiate(destroyParticles, transform.position, destroyParticles.transform.rotation);
 
                 Destroy(gameObject);
             }

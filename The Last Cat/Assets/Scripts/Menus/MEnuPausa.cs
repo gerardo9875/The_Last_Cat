@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class MEnuPausa : MonoBehaviour
 {
+
+    public int actualscene;
     [SerializeField] private GameObject menuPausa;
-    [SerializeField] private GameObject botonPausa;
+
 
     private bool juegoPausado=false;
     private void Update()
@@ -32,21 +34,21 @@ public class MEnuPausa : MonoBehaviour
     {
         juegoPausado = true;
         Time.timeScale = 0f;
-        botonPausa.SetActive(false);
+
         menuPausa.SetActive(true);
     }
     public void Reanudar()
     {
         juegoPausado=false;
         Time.timeScale = 1f;
-        botonPausa.SetActive(true);
+
         menuPausa.SetActive(false);
     }
     public void Reiniciar()
     {
         juegoPausado = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(CambiarEscena.CurrentLevel);
+        SceneManager.LoadScene(actualscene);
     }
     public void MainMenu()
     {

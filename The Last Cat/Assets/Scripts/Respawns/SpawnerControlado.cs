@@ -31,7 +31,7 @@ public class SpawnerControlado : MonoBehaviour
     [NonSerialized] public bool canSpawn;
     [NonSerialized] public int spawnLimit;
     [NonSerialized] public int spawnCount;
-    public int sceneNum;
+    public string nextSceneName;
 
     private void Start()
     {
@@ -105,7 +105,7 @@ public class SpawnerControlado : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        SceneManager.LoadScene(sceneNum); //Nombre de la siguiente escena
+        SceneManager.LoadScene(nextSceneName); //Nombre de la siguiente escena
     }
 
 }

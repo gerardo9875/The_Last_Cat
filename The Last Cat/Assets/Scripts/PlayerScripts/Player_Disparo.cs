@@ -42,7 +42,14 @@ public class Player_Disparo : MonoBehaviour
 
     private void Awake()
     {
-        if (control = null)
+        if (control != null)
+        {
+            AlfaCurrentAmmo = AlfaMaxAmmo;
+            BetaCurrentAmmo = BetaMaxAmmo;
+
+        }
+
+        else
         {
             if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
             {
@@ -51,12 +58,8 @@ public class Player_Disparo : MonoBehaviour
                 BetaCurrentAmmo = control.muni2;
                 ratonCount = control.bomba;
             }
-        }
+            
 
-        else
-        {
-            AlfaCurrentAmmo = AlfaMaxAmmo;
-            BetaCurrentAmmo = BetaMaxAmmo;
         }
 
 
