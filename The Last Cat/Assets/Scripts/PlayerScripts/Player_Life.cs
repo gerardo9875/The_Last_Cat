@@ -62,12 +62,12 @@ public class Player_Life : MonoBehaviour
             }
         }
 
-        if (maxLife == 8 && addExtraLife)
+        if (maxLife == 8 && addExtraLife && vidaUI != null)
         {
             vidaUI.NewLIfe();
             addExtraLife = false;
         }
-        else if (maxLife == 9)
+        else if (maxLife == 9 && vidaUI != null)
         {
             vidaUI.NewLIfe();
             vidaUI.NewLIfe();
