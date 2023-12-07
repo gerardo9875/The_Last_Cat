@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShootVel: 13
   tiempo: 0.8
-  particulas: {fileID: 521753069149893872, guid: fa3ac5a3db2d5fa4790b1d40b2a42873, type: 3}
+  particulas: {fileID: 4679845679867843063, guid: dc33afbabf2646d43b6b8ba268e55a8c, type: 3}
 --- !u!58 &2664609466670903182
 CircleCollider2D:
   m_ObjectHideFlags: 0

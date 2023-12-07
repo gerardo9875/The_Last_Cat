@@ -42,7 +42,7 @@ public class Player_Disparo : MonoBehaviour
 
     private void Awake()
     {
-        if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>() != null)
+        if (GameObject.FindGameObjectWithTag("Controlador") != null)
         {
             control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
             AlfaCurrentAmmo = control.muni1;

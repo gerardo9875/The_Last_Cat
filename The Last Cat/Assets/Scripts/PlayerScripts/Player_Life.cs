@@ -22,7 +22,7 @@ public class Player_Life : MonoBehaviour
     public bool addExtraLife = true;
     private void Awake()
     {
-        if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
+        if (GameObject.FindGameObjectWithTag("Controlador"))
         {
             control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
             maxLife = control.maxlife;
