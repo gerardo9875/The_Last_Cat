@@ -717,7 +717,7 @@ MonoBehaviour:
   BetaMaxAmmo: 650
   BetaCurrentAmmo: 0
   betaShoting: 0
-  bombaRaton: {fileID: 5346470218648484024, guid: b3aed76932974d844abc8648663395d2, type: 3}
+  bombaRaton: {fileID: 8994846576921326992, guid: b5aebae39cfaa46489f073204ecc09e7, type: 3}
   RatonVel: 50
   ratonCount: 5
   isShooting: 0
