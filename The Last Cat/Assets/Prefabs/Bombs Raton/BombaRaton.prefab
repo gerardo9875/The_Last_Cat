@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03439a8c382b355458468eec67266e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Contador: 3
+  Contador: 1.5
   Explosion: {fileID: 4621039884170526469, guid: 17bd043d3238d824e8cbe090b358e7a9, type: 3}
 --- !u!50 &4034160795383683200
 Rigidbody2D:
