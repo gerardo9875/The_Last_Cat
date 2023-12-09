@@ -9701,7 +9701,7 @@ GameObject:
   - component: {fileID: 1531066917}
   m_Layer: 0
   m_Name: Controlador
-  m_TagString: Untagged
+  m_TagString: Controlador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
