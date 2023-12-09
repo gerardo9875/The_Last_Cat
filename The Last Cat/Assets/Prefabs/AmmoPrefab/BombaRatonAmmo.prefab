@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: 1
-  destroyParticles: {fileID: 8569274685565997657, guid: b891fa2322f811b4591ae44fadb4fce1, type: 3}
+  destroyParticles: {fileID: 2797741851526618653, guid: 3ecce8cd71778c840a02a0b34d5d0baa, type: 3}
 --- !u!58 &3246160675438119832
 CircleCollider2D:
   m_ObjectHideFlags: 0

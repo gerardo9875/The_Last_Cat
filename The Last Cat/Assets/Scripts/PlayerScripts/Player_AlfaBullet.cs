@@ -27,16 +27,13 @@ public class Player_AlfaBullet : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            //enemyCollParticle.transform.position = transform.position;
-            //Instantiate(enemyCollParticle);
+            Instantiate(enemyCollParticle, transform.position, enemyCollParticle.transform.rotation);
         }
     }
 
     void destroyBullet()
     {
-        //destroyingPartycles.transform.position = transform.position;
-        //Instantiate(destroyingPartycles);
-
+        Instantiate(destroyingPartycles, transform.position, destroyingPartycles.transform.rotation);
         Destroy(gameObject);
     }
 }

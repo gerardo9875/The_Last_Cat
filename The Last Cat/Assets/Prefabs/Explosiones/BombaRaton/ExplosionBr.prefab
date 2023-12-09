@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5491701983814916348
+--- !u!1 &4621039884170526469
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,44 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6937955079427868866}
-  - component: {fileID: 3975905161403134412}
-  - component: {fileID: 8283291714282767145}
-  - component: {fileID: 3834760884394611919}
-  - component: {fileID: 3102893830885274812}
+  - component: {fileID: 5535247747940444041}
+  - component: {fileID: 2771941725421548748}
+  - component: {fileID: 6697568802048001647}
+  - component: {fileID: 140467337952537962}
+  - component: {fileID: 5956528272442019314}
   m_Layer: 0
-  m_Name: Explosion Br
+  m_Name: ExplosionBr
   m_TagString: ExplBR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6937955079427868866
+--- !u!4 &5535247747940444041
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491701983814916348}
+  m_GameObject: {fileID: 4621039884170526469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 15.213925, y: 22.086437, z: 0}
-=======
-  m_LocalPosition: {x: 13.830664, y: 19.883787, z: 0}
->>>>>>> 882fde4812524243dc7f84b4e89f6bea5ca1a2c1
+  m_LocalPosition: {x: -16.691397, y: 3.3245835, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3975905161403134412
+--- !u!212 &2771941725421548748
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491701983814916348}
+  m_GameObject: {fileID: 4621039884170526469}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -80,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 580339587, guid: 2af5b9cf446664c409d727ab058b94bf, type: 3}
+  m_Sprite: {fileID: -2125834899, guid: 2af5b9cf446664c409d727ab058b94bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -91,14 +87,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8283291714282767145
+--- !u!95 &6697568802048001647
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491701983814916348}
+  m_GameObject: {fileID: 4621039884170526469}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 372686dbd98519a4bb3d082d79fe0925, type: 2}
@@ -113,25 +109,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3834760884394611919
+--- !u!114 &140467337952537962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491701983814916348}
+  m_GameObject: {fileID: 4621039884170526469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f58e06ad8d762584380af83aac37b42f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &3102893830885274812
+--- !u!58 &5956528272442019314
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491701983814916348}
+  m_GameObject: {fileID: 4621039884170526469}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -155,7 +151,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

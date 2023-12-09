@@ -5,7 +5,7 @@ using UnityEngine;
 public class Controlador : MonoBehaviour
 {
     public static Controlador gamestate;
-    public int life, muni1, bomba;
+    public int maxlife, life, muni1, bomba;
     public float muni2;
     public Player_Life vida;
     public Player_Disparo shoots;
@@ -29,36 +29,38 @@ public class Controlador : MonoBehaviour
 
     private void Update()
     {
-        if(vida == null)
+        if (GameObject.FindGameObjectWithTag("Player") != null)
         {
-            if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>())
+            if(vida == null)
             {
-                vida = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>();
+                if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>())
+                {
+                    vida = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Life>();
+                }
             }
-        }
-        else
-        {
-            life = vida.currentlife;
-            
-        }
-
-        if(shoots == null)
-        {
-            Debug.Log("1");
-            if (GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>())
+            else
             {
-                Debug.Log("2");
-                shoots = GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>();
+                maxlife = vida.maxLife;
+                life = vida.currentlife;
             }
 
-        }
-        else
-        {
-            muni1 = shoots.AlfaCurrentAmmo;
-            muni2 = shoots.BetaCurrentAmmo;
-            bomba = shoots.ratonCount;
+            if(shoots == null)
+            {
+                if (GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>() != null)
+                {
+                    shoots = GameObject.FindGameObjectWithTag("ShootController").GetComponent<Player_Disparo>();
+                }
+
+            }
+            else
+            {
+                muni1 = shoots.AlfaCurrentAmmo;
+                muni2 = shoots.BetaCurrentAmmo;
+                bomba = shoots.ratonCount;
             
             
+            }
+
         }
     }
 }

@@ -30,8 +30,7 @@ public class Player_bombaRaton : MonoBehaviour
     {
         if (Explosion != null)
         {
-            Explosion.transform.position = transform.position;
-            Instantiate(Explosion);
+            Instantiate(Explosion, transform.position, transform.rotation);
         }
 
         Destroy(gameObject);

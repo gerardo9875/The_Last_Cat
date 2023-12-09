@@ -107,232 +107,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hidrante_EstadoInicial
+      name: Hidrante-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 79
-        width: 28
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 383d0bb97343fc049838670c41650918
-      internalID: 1260129553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hidrante-Rompiendose1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 46
-        width: 20
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e407d88344a6ace4799299743c92d5b1
-      internalID: -800512070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hidrante-Rompiendose2
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 46
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2eb8b770722c2c6499d2eadf66630d06
-      internalID: -530151354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hidrante-Rompiendose3
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 46
+        x: 0
+        y: 80
         width: 32
-        height: 30
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e333ea9d80761b4eb7b1cb6bea50cb2
-      internalID: 877754708
+      spriteID: 62ec4e3047b78fe469beabfd3d514161
+      internalID: -1618881881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante-Rompiendose4
+      name: Hidrante-Sheet_1
       rect:
         serializedVersion: 2
-        x: 189
-        y: 46
-        width: 42
-        height: 30
+        x: 0
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c530c10fec51ff49a5aff9acb3ef12a
-      internalID: -1316722050
+      spriteID: b6d1d50f06dba2d4fb96fbe2ada45f91
+      internalID: 297886614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante-Rompiendose5
+      name: Hidrante-Sheet_2
       rect:
         serializedVersion: 2
-        x: 245
-        y: 46
-        width: 50
-        height: 30
+        x: 60
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1152406626bbcb048a1966c6b5de8677
-      internalID: 1112994948
+      spriteID: 1be9700e17d39584b82b5b2e3ccef317
+      internalID: 261135464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante-Rompiendose6
+      name: Hidrante-Sheet_3
       rect:
         serializedVersion: 2
-        x: 303
-        y: 46
-        width: 54
-        height: 30
+        x: 120
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68d1e45ba13f2184b95e4df8621819f6
-      internalID: -531641227
+      spriteID: 104743144b3f6194093809fda092901a
+      internalID: -1216788997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante-Rompiendose7
+      name: Hidrante-Sheet_4
       rect:
         serializedVersion: 2
-        x: 361
-        y: 46
-        width: 58
-        height: 30
+        x: 180
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 735c142c80b9a024b867dbb69fb49e0b
-      internalID: -942055803
+      spriteID: fa4011cbb8232634b8e5455fc3f52506
+      internalID: -1133230373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante_Activo1
+      name: Hidrante-Sheet_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 6
-        width: 56
-        height: 30
+        x: 240
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc85b48c37536b42a93acdabcdd15fd
-      internalID: 958067094
+      spriteID: ee909cf1cee336042b04ae31310e5f9f
+      internalID: -1337843949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante_Activo2
+      name: Hidrante-Sheet_6
       rect:
         serializedVersion: 2
-        x: 61
-        y: 6
-        width: 58
-        height: 30
+        x: 300
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f592b7667f5a40a4e8d668c9cae87608
-      internalID: -1153361218
+      spriteID: adfac4afb5144fa4ea44df6eef7b86b5
+      internalID: -770934111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hidrante_Activo3
+      name: Hidrante-Sheet_7
       rect:
         serializedVersion: 2
-        x: 122
-        y: 6
-        width: 56
-        height: 30
+        x: 360
+        y: 40
+        width: 60
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1c514b151b844448ed4d583dca74d4
-      internalID: -1005043970
+      spriteID: 2dfc2e1c8dc97d143ad11a7f35c2d0fb
+      internalID: 937778054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3ed16e0158624985e9afe820c58d7
+      internalID: 952438120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9affc76ee91e4494f89fd833fd2cdef5
+      internalID: -462799649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hidrante-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e274468b0c903846966a561be39c869
+      internalID: -1264245682
       vertices: []
       indices: 
       edges: []
@@ -348,17 +348,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hidrante-Rompiendose1: -800512070
-      Hidrante-Rompiendose2: -530151354
-      Hidrante-Rompiendose3: 877754708
-      Hidrante-Rompiendose4: -1316722050
-      Hidrante-Rompiendose5: 1112994948
-      Hidrante-Rompiendose6: -531641227
-      Hidrante-Rompiendose7: -942055803
-      Hidrante_Activo1: 958067094
-      Hidrante_Activo2: -1153361218
-      Hidrante_Activo3: -1005043970
-      Hidrante_EstadoInicial: 1260129553
+      Hidrante-Sheet_0: -1618881881
+      Hidrante-Sheet_1: 297886614
+      Hidrante-Sheet_10: -1264245682
+      Hidrante-Sheet_2: 261135464
+      Hidrante-Sheet_3: -1216788997
+      Hidrante-Sheet_4: -1133230373
+      Hidrante-Sheet_5: -1337843949
+      Hidrante-Sheet_6: -770934111
+      Hidrante-Sheet_7: 937778054
+      Hidrante-Sheet_8: 952438120
+      Hidrante-Sheet_9: -462799649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

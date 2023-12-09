@@ -22,20 +22,17 @@ public class Player_Life : MonoBehaviour
     public bool addExtraLife = true;
     private void Awake()
     {
-        if(control != null){
+        if (GameObject.FindGameObjectWithTag("Controlador"))
+        {
+            control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+            maxLife = control.maxlife;
+            currentlife = control.life;
+        }
+        else
+        {
             currentlife = maxLife;
         }
 
-        else
-        
-        {
-            if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
-            {
-                control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
-                currentlife = control.life;
-            }
-            
-        }
         
         
         mov = GetComponent<Player_Movement>();
@@ -46,10 +43,35 @@ public class Player_Life : MonoBehaviour
     
     private void Update()
     {
-        if (vidaUI == null && GameObject.Find("HUD"))
+        if (vidaUI == null)
         {
-            vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
-            vidaUI.Life(currentlife);
+            if (GameObject.Find("HUD"))
+            {
+                vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+            }
+        }
+        else
+        {
+            for (int i = 0; i < vidaUI.vidas.Length; i++)
+            {
+                if (!vidaUI.vidas[i].activeInHierarchy == true)
+                {
+                    vidaUI.Life(currentlife);
+                }
+
+            }
+        }
+
+        if (maxLife == 8 && addExtraLife && vidaUI != null)
+        {
+            vidaUI.NewLIfe();
+            addExtraLife = false;
+        }
+        else if (maxLife == 9 && vidaUI != null)
+        {
+            vidaUI.NewLIfe();
+            vidaUI.NewLIfe();
+            addExtraLife = false;
         }
 
         if (currentlife <= 0)
@@ -61,28 +83,8 @@ public class Player_Life : MonoBehaviour
 
             Rigidbody2D rgb = GetComponent<Rigidbody2D>();
             rgb.velocity = Vector3.zero;
-
-            StartCoroutine(ChangeScene());
         }
 
-        if (maxLife == 8 && addExtraLife)
-        {
-            vidaUI.NewLIfe();
-            addExtraLife = false;
-        }
-        else if (maxLife == 9)
-        {
-            vidaUI.NewLIfe();
-            vidaUI.NewLIfe();
-            addExtraLife = false;
-        }
-    }
-
-    IEnumerator ChangeScene()
-    {
-        yield return new WaitForSeconds(1);
-
-        //SceneManager.LoadScene("GameOver1");
     }
 
     public IEnumerator RecieveDamage(int value)

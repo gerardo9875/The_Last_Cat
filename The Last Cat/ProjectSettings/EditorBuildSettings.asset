@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 750396aefd81ef0429bf5165fce8ab6f
   - enabled: 1
-    path: Assets/Scenes/NivelesInteriores/Interior1.unity
+    path: Assets/Scenes/NivelesInteriores/Interiortutorial.unity
     guid: d9903a808fcb68945a0a828c1b0252bf
   - enabled: 1
     path: Assets/Scenes/Nivel1.unity
@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NivelMiraflores.unity
     guid: 0d5b95631fc449f4fb9281132c2735bc
+  - enabled: 1
+    path: Assets/Scenes/NivelesInteriores/interior3.unity
+    guid: 679fd199b6d4e8445b3a88f8ab00cacf
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 848936f47b3db4e47aa477145ddadd4f

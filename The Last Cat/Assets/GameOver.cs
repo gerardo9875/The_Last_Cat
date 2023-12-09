@@ -7,11 +7,13 @@ public class GameOver : MonoBehaviour
 {
     [SerializeField] private GameObject menuGameOver;
     Player_Life life;
-    private bool muerte= false;
     public int actualscene;
+
+    Player_Disparo shoot;
     private void Update()
     {
         life = GameObject.Find("Player").GetComponent<Player_Life>();
+        shoot = GameObject.Find("Player").GetComponentInChildren<Player_Disparo>();
 
         if (menuGameOver == null)
         {
@@ -26,14 +28,16 @@ public class GameOver : MonoBehaviour
 
     public void Reiniciar()
     {
-
-       muerte = false;
+        life.currentlife = life.maxLife;
+        shoot.AlfaCurrentAmmo = shoot.AlfaMaxAmmo;
+        shoot.BetaCurrentAmmo = shoot.BetaMaxAmmo;
         Time.timeScale = 1f;
         SceneManager.LoadScene(actualscene);
     }
 
     public void MainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 }

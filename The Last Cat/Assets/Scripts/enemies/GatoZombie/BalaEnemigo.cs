@@ -17,18 +17,21 @@ public class BalaEnemigo : MonoBehaviour
         tiempo -= Time.deltaTime;
         if (tiempo < 0)
         {
-            //Instantiate(particulas, transform.position, transform.rotation);
-
-            Destroy(gameObject);
+            OnDestroy();
         }
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(particulas, transform.position, particulas.transform.rotation);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Pared"))
+        if (collision.CompareTag("Pared") || collision.CompareTag("Player"))
         {
-            //Instantiate(particulas, transform.position, transform.rotation);
-            Destroy(gameObject);
+            OnDestroy();
         }
     }
 }

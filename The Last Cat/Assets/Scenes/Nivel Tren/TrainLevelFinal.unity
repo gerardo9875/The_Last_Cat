@@ -1785,7 +1785,7 @@ Tilemap:
       - {fileID: 1768870882, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -1905853061, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -310110649, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 7, z: 0}
@@ -12643,7 +12643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a861a74c0a6d5740979f88610e539bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: MainMenu
+  levelName: NIvelMiraflores
   fade: {fileID: 931490123}
 --- !u!61 &2136990729
 BoxCollider2D:

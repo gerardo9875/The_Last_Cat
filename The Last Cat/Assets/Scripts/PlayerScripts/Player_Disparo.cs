@@ -42,24 +42,18 @@ public class Player_Disparo : MonoBehaviour
 
     private void Awake()
     {
-        if (control != null)
+        if (GameObject.FindGameObjectWithTag("Controlador") != null)
         {
-            AlfaCurrentAmmo = AlfaMaxAmmo;
-            BetaCurrentAmmo = BetaMaxAmmo;
-
+            control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
+            AlfaCurrentAmmo = control.muni1;
+            BetaCurrentAmmo = control.muni2;
+            ratonCount = control.bomba;
         }
 
         else
         {
-            if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
-            {
-                control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
-                AlfaCurrentAmmo = control.muni1;
-                BetaCurrentAmmo = control.muni2;
-                ratonCount = control.bomba;
-            }
-            
-
+            AlfaCurrentAmmo = AlfaMaxAmmo;
+            BetaCurrentAmmo = BetaMaxAmmo;
         }
 
 
@@ -215,8 +209,7 @@ public class Player_Disparo : MonoBehaviour
         {
             if (ratonCount > 0)
             {
-                bombaRaton.transform.position = transform.position;
-                GameObject bomba = Instantiate(bombaRaton);
+                GameObject bomba = Instantiate(bombaRaton, transform.position, bombaRaton.transform.rotation);
                 ratonCount--;
                 Rigidbody2D bombaRb = bomba.GetComponent<Rigidbody2D>();
                 orientacion.direccion.Normalize();

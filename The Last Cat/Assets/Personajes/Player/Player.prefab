@@ -288,7 +288,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.443
   m_Color: {r: 0.990566, g: 0.9411774, b: 0.80833924, a: 0.8666667}
-  m_Intensity: 0.5
+  m_Intensity: 0.2
   m_LightVolumeIntensity: 0.1
   m_LightVolumeEnabled: 1
   m_ApplyToSortingLayers: 00000000
@@ -311,7 +311,7 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 2.84
+  m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 6.9802685
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
@@ -717,7 +717,7 @@ MonoBehaviour:
   BetaMaxAmmo: 650
   BetaCurrentAmmo: 0
   betaShoting: 0
-  bombaRaton: {fileID: 5346470218648484024, guid: b3aed76932974d844abc8648663395d2, type: 3}
+  bombaRaton: {fileID: 8994846576921326992, guid: b5aebae39cfaa46489f073204ecc09e7, type: 3}
   RatonVel: 50
   ratonCount: 5
   isShooting: 0
