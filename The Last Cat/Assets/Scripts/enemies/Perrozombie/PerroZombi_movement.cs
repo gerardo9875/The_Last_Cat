@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class PerroZombi_movement : MonoBehaviour
 {
-    AudioSource  detect;
     [NonSerialized] public Rigidbody2D rgb;
     [SerializeField]Player_Life playerLife;
     NavMeshAgent agent;
@@ -54,6 +53,9 @@ public class PerroZombi_movement : MonoBehaviour
     [Header("Endless Mode")]
     public bool isInEndless = true;
 
+    [Header("Sonidos")]
+    public AudioSource audioSourse;
+    public AudioClip AttackSound;
 
     bool PlayerInArea()
     {
@@ -86,7 +88,7 @@ public class PerroZombi_movement : MonoBehaviour
         agent.acceleration = 1000;
 
         CurrentTime = UnfollowDelay;
-        detect = GetComponent<AudioSource>();
+        audioSourse = GetComponent<AudioSource>();
 
     }
     private void Start()
@@ -154,7 +156,6 @@ public class PerroZombi_movement : MonoBehaviour
                 if(!RatonInArea() && PlayerInArea())
                 {
                     agent.SetDestination(target.transform.position);
-                    detect.Play();
                 }
 
 
@@ -260,6 +261,8 @@ public class PerroZombi_movement : MonoBehaviour
             canAtack = false;
             canRotate = false;
             canMove = false;
+
+            audioSourse.PlayOneShot(AttackSound);
 
             yield return new WaitForSeconds(passedTime);
 
