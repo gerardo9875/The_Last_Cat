@@ -50840,10 +50840,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1471125321}
     m_Modifications:
-    - target: {fileID: -8431113744694583580, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1066758159910448905, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
       propertyPath: movSprite
       value: 
@@ -119430,10 +119426,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1471125321}
     m_Modifications:
-    - target: {fileID: -8431113744694583580, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1066758159910448905, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
       propertyPath: movSprite
       value: 
@@ -123681,10 +123673,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1471125321}
     m_Modifications:
-    - target: {fileID: -8431113744694583580, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -4490340663252457346, guid: 143d521b6b3e2dc4fb58227d8236bf04, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0

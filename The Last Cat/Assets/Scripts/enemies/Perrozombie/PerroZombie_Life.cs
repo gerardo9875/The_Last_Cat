@@ -9,7 +9,10 @@ public class PerroZombie_Life : MonoBehaviour
     public float life;
     public bool alive = true;
     public bool toCounter = true;
-    AudioSource death;
+
+    [Header("Sonidos")]
+    [SerializeField] AudioClip deathSound;
+    bool canSound = true;
 
     Collider2D coll;
     PerroZombi_movement mov;
@@ -19,8 +22,6 @@ public class PerroZombie_Life : MonoBehaviour
 
     void Start()
     {
-        
-        death = GetComponent<AudioSource>();
         mov = GetComponent < PerroZombi_movement>();
         coll = GetComponent < Collider2D>();
 
@@ -43,6 +44,13 @@ public class PerroZombie_Life : MonoBehaviour
             coll.enabled = false;
 
             mov.lastDir = mov.dir;
+
+            if (canSound)
+            {
+                mov.AttackSound = null;
+                mov.audioSourse.PlayOneShot(deathSound);
+                canSound = false;
+            }
 
             alive = false;
 
@@ -68,7 +76,6 @@ public class PerroZombie_Life : MonoBehaviour
         {
             life -= 1;
             Destroy(collision.gameObject);
-            death.Play();
         }
 
         if (collision.CompareTag("ExplBR"))

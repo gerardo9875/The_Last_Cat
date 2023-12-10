@@ -7,8 +7,6 @@ public class Player_Disparo : MonoBehaviour
     Player_Orientacion orientacion;
     Player_Movement mov;
     Controlador control;
-    AudioSource principalshoot;
-    AudioSource secondaryshoot;
 
 
     [Header("Disparo Principal")]
@@ -35,6 +33,12 @@ public class Player_Disparo : MonoBehaviour
 
     [NonSerialized] public bool armaPrincipal = true;
 
+    [Header("Sonidos")]
+    [SerializeField] AudioClip PrincipalShootClip;
+    [SerializeField] AudioClip SecondaryShootClip;
+    AudioSource audioSource;
+    bool canSound = true;
+
     [Header("Verificar cuando dispara")]
     public bool isShooting;
     public float unshootingTime;
@@ -60,8 +64,7 @@ public class Player_Disparo : MonoBehaviour
 
         orientacion = GetComponent<Player_Orientacion>();
         mov = GetComponentInParent<Player_Movement>();
-        principalshoot = GetComponent<AudioSource>();
-        secondaryshoot = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -151,7 +154,7 @@ public class Player_Disparo : MonoBehaviour
                 canShoot = false;
                 StartCoroutine(ShootLight());
                 Invoke("ShootDelay", 0.18f);
-                principalshoot.Play();
+                audioSource.PlayOneShot(PrincipalShootClip);
             }
 
         }
@@ -161,7 +164,6 @@ public class Player_Disparo : MonoBehaviour
             secondaryShootAnim.SetBool("Active", false);
             Invoke("DeactiveSecondaryShoot", 0.5f);
             betaShoting = false;
-            secondaryshoot.Play();
         }
     }
 
@@ -178,6 +180,9 @@ public class Player_Disparo : MonoBehaviour
 
                 betaShoting = true;
                 BetaCurrentAmmo--;
+
+                if(canSound)
+                StartCoroutine(WaterShootSound());
             }
             else
             {
@@ -196,6 +201,15 @@ public class Player_Disparo : MonoBehaviour
         }
 
         if (betaShoting) BetaBullet.enabled = true;
+    }
+
+    IEnumerator WaterShootSound()
+    {
+        audioSource.PlayOneShot(SecondaryShootClip);
+        canSound = false;
+
+        yield return new WaitForSeconds(0.5f);
+        canSound = true;
     }
 
     private void DeactiveSecondaryShoot()

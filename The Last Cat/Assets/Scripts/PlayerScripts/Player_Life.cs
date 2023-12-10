@@ -9,8 +9,10 @@ public class Player_Life : MonoBehaviour
 {
     Player_Movement mov;
     Player_Disparo shoot;
-    AudioSource damage;
     Controlador control;
+
+    AudioSource audioSource;
+    [SerializeField] AudioClip Daño;
 
     [NonSerialized] public Vida vidaUI;
 
@@ -37,7 +39,7 @@ public class Player_Life : MonoBehaviour
         
         mov = GetComponent<Player_Movement>();
         shoot = GetComponentInChildren<Player_Disparo>();
-        damage = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     
@@ -91,6 +93,8 @@ public class Player_Life : MonoBehaviour
     {
         if (alive)
         {
+            audioSource.PlayOneShot(Daño);
+
             canRecieveDamage = false;
             currentlife += value;
 
@@ -99,7 +103,6 @@ public class Player_Life : MonoBehaviour
             yield return new WaitForSeconds(1);
 
             canRecieveDamage = true;
-            damage.Play();
 
         }
     }
