@@ -8,7 +8,8 @@ public class CambiarEscena : MonoBehaviour
 
     [SerializeField] GameObject MainMenu;
     [SerializeField] GameObject ComoJugarMenu;
-    [SerializeField] GameObject Fade;
+    [SerializeField] GameObject SelectorDeNivelMenu;
+    [SerializeField] Animator Fade;
     [SerializeField] GameObject Secuence;
 
     public void MainMenuStart()
@@ -21,26 +22,47 @@ public class CambiarEscena : MonoBehaviour
         StartCoroutine(NextScene(SceneName));
     }
 
+    public void QuitGame()
+    {
+        StartCoroutine(Salir());
+    }
+
     IEnumerator NextScene(string SceneName)
     {
-        Fade.SetActive(true);
-        Animator anim = Fade.GetComponent<Animator>();
-        anim.Play("FadeOut");
+        Fade.Play("FadeOut");
 
         yield return new WaitForSeconds(1.6f);
 
         SceneManager.LoadScene(SceneName);
     }
+    IEnumerator Salir()
+    {
+        Fade.Play("FadeOut");
 
-    public void ActiveComoJugarMenu()
+        yield return new WaitForSeconds(1.6f);
+
+        Application.Quit();
+    }
+
+    public void ActiveComoJugar()
     {
         MainMenu.SetActive(false);
         ComoJugarMenu.SetActive(true);
+        SelectorDeNivelMenu.SetActive(false);
+    }
+
+    public void ActiveSelectorDeNivel()
+    {
+        MainMenu.SetActive(false);
+        ComoJugarMenu.SetActive(false);
+        SelectorDeNivelMenu.SetActive(true);
     }
 
     public void ActiveMainMenu()
     {
         MainMenu.SetActive(true);
         ComoJugarMenu.SetActive(false);
+        SelectorDeNivelMenu.SetActive(false);
     }
+
 }

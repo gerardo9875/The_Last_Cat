@@ -1140,7 +1140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenu: {fileID: 0}
   ComoJugarMenu: {fileID: 0}
-  Fade: {fileID: 166930846}
+  SelectorDeNivelMenu: {fileID: 0}
+  Fade: {fileID: 166930847}
   Secuence: {fileID: 0}
 --- !u!4 &1107738216
 Transform:

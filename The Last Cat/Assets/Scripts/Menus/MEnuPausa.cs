@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Recorder.OutputPath;
 
 public class MEnuPausa : MonoBehaviour
 {
