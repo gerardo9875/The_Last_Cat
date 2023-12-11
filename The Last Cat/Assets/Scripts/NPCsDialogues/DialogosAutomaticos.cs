@@ -45,7 +45,7 @@ public class DialogosAutomaticos : MonoBehaviour
         lineaIndex++;
         if (lineaIndex < dialogueLine.Length)
         {
-            StopAllCoroutines();
+            StopCoroutine(ShowLine());
             StartCoroutine(ShowLine());
         }
 
@@ -62,7 +62,20 @@ public class DialogosAutomaticos : MonoBehaviour
         if (!didDialogueStart || lineaIndex >= dialogueLine.Length) return; 
         if(Input.GetKeyDown(KeyCode.E))
         {
-            NexDialogueLine();
+            if(dialogueText.text.Length < dialogueLine[lineaIndex].line.Length)
+            {
+                StopAllCoroutines();
+                dialogueText.text = "";
+                foreach (char ch in dialogueLine[lineaIndex].line)
+                {
+                    dialogueText.text += ch;
+                }
+            }
+            else
+            {
+                NexDialogueLine();
+            }
+
         }
     }
 }

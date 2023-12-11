@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -82,6 +83,7 @@ public class Player_Life : MonoBehaviour
             shoot.canShoot = false;
             alive = false;
             canRecieveDamage = false;
+            gameObject.layer = 0;
 
             Rigidbody2D rgb = GetComponent<Rigidbody2D>();
             rgb.velocity = Vector3.zero;
