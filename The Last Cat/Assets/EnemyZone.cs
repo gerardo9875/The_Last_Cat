@@ -37,7 +37,7 @@ public class EnemyZone : MonoBehaviour
                 Collider2D coll = DoorsToClose[i].GetComponent<Collider2D>();
 
                 anim.SetBool("Active", true);
-                coll.enabled = true;
+                coll.isTrigger = false;
             }
 
             //Animacion para mostrar a los enemigos
@@ -60,8 +60,13 @@ public class EnemyZone : MonoBehaviour
                 Collider2D coll = DoorsToClose[i].GetComponent<Collider2D>();
 
                 anim.SetBool("Active", false);
-                coll.enabled = false;
+                coll.isTrigger = true;
             }
+        }
+
+        if(Contador.AllEnemiesKilled)
+        {
+            Destroy(gameObject);
         }
     }
 
