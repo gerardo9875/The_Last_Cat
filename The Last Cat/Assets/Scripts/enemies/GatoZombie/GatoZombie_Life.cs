@@ -66,7 +66,7 @@ public class GatoZombie_Life : MonoBehaviour
 
         if (collision.CompareTag("ExplBR"))
         {
-            life -= 2;
+            life -= 3;
         }
     }
 

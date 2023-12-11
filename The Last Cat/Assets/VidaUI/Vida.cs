@@ -5,24 +5,27 @@ public class Vida : MonoBehaviour
     public GameObject[] vidas;
     Controlador control;
 
+    Player_Life life;
+
     private void Start()
     {
-        
+        life = GameObject.Find("Player").GetComponent<Player_Life>();
+
         if (control != null)
         {
             if (GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>())
             {
                 control = GameObject.FindGameObjectWithTag("Controlador").GetComponent<Controlador>();
-                Life(control.life);
             }
-        }
-
-        else
-        {
-            Life(7);
         }
         
     }
+
+    private void Update()
+    {
+        Life(life.currentlife);
+    }
+
     public void Life(int actualizar)
     {
         for (int i = 0; i < vidas.Length; i++)

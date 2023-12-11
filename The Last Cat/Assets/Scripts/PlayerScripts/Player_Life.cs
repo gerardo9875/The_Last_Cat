@@ -51,6 +51,17 @@ public class Player_Life : MonoBehaviour
             if (GameObject.Find("HUD"))
             {
                 vidaUI = GameObject.Find("HUD").GetComponentInChildren<Vida>();
+                if (maxLife == 8 && addExtraLife && vidaUI != null)
+                {
+                    vidaUI.NewLIfe();
+                    addExtraLife = false;
+                }
+                else if (maxLife == 9 && vidaUI != null)
+                {
+                    vidaUI.NewLIfe();
+                    vidaUI.NewLIfe();
+                    addExtraLife = false;
+                }
             }
         }
         else
@@ -65,17 +76,6 @@ public class Player_Life : MonoBehaviour
             }
         }
 
-        if (maxLife == 8 && addExtraLife && vidaUI != null)
-        {
-            vidaUI.NewLIfe();
-            addExtraLife = false;
-        }
-        else if (maxLife == 9 && vidaUI != null)
-        {
-            vidaUI.NewLIfe();
-            vidaUI.NewLIfe();
-            addExtraLife = false;
-        }
 
         if (currentlife <= 0)
         {

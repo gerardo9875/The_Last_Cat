@@ -8,6 +8,8 @@ public class Player_Disparo : MonoBehaviour
     Player_Movement mov;
     Controlador control;
 
+    public bool canChangeGun = true;
+
 
     [Header("Disparo Principal")]
     [SerializeField] public GameObject luzDisparo;
@@ -92,7 +94,7 @@ public class Player_Disparo : MonoBehaviour
         ShootControllerVoid();
 
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && canChangeGun)
         {
             armaPrincipal = !armaPrincipal;
         }
