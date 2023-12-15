@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 052c6482e3ff0284fbef5346bb45464c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -215768055621201818
+    second: ExplosionBombCar-Sheet_0
+  - first:
+      213: -758598833281829099
+    second: ExplosionBombCar-Sheet_1
+  - first:
+      213: 570107573004819135
+    second: ExplosionBombCar-Sheet_2
+  - first:
+      213: 5568421468141670094
+    second: ExplosionBombCar-Sheet_3
+  - first:
+      213: 1923003871090231911
+    second: ExplosionBombCar-Sheet_4
+  - first:
+      213: 2902123136291254365
+    second: ExplosionBombCar-Sheet_5
+  - first:
+      213: 5181839954582859854
+    second: ExplosionBombCar-Sheet_6
+  - first:
+      213: 19529449563477557
+    second: ExplosionBombCar-Sheet_7
+  - first:
+      213: -2710772704090341630
+    second: ExplosionBombCar-Sheet_8
+  - first:
+      213: -2386347904126123174
+    second: ExplosionBombCar-Sheet_9
+  - first:
+      213: -5150881493416633930
+    second: ExplosionBombCar-Sheet_10
+  - first:
+      213: -4455940201637616748
+    second: ExplosionBombCar-Sheet_11
+  - first:
+      213: 6691987883250622306
+    second: ExplosionBombCar-Sheet_12
+  - first:
+      213: 7818422174216703998
+    second: ExplosionBombCar-Sheet_13
+  - first:
+      213: -2039216549596701295
+    second: ExplosionBombCar-Sheet_14
+  - first:
+      213: 3731953793905863643
+    second: ExplosionBombCar-Sheet_15
+  - first:
+      213: -453208326576469224
+    second: ExplosionBombCar-Sheet_16
+  - first:
+      213: -8483424610705155800
+    second: ExplosionBombCar-Sheet_17
+  - first:
+      213: -8567583492328005959
+    second: ExplosionBombCar-Sheet_18
+  - first:
+      213: 1405596569939575923
+    second: ExplosionBombCar-Sheet_19
+  - first:
+      213: -906190829557526947
+    second: ExplosionBombCar-Sheet_20
+  - first:
+      213: 7731809270680307776
+    second: ExplosionBombCar-Sheet_21
+  - first:
+      213: 2744207671614184885
+    second: ExplosionBombCar-Sheet_22
+  - first:
+      213: 5725951009381338127
+    second: ExplosionBombCar-Sheet_23
+  - first:
+      213: -7375871790220736219
+    second: ExplosionBombCar-Sheet_24
+  - first:
+      213: 5399941286715878218
+    second: ExplosionBombCar-Sheet_25
+  - first:
+      213: -4086754257061359148
+    second: ExplosionBombCar-Sheet_26
+  - first:
+      213: 8102099155350824620
+    second: ExplosionBombCar-Sheet_27
+  - first:
+      213: -261112418036685863
+    second: ExplosionBombCar-Sheet_28
+  - first:
+      213: 5598006149423516388
+    second: ExplosionBombCar-Sheet_29
+  - first:
+      213: 294936803142049653
+    second: ExplosionBombCar-Sheet_30
+  - first:
+      213: 8085967670420608830
+    second: ExplosionBombCar-Sheet_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66052dab810710df0800000000000000
+      internalID: -215768055621201818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517f53f516ae875f0800000000000000
+      internalID: -758598833281829099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba56bc21dd69e700800000000000000
+      internalID: 570107573004819135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece4e3092d1074d40800000000000000
+      internalID: 5568421468141670094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ac80e05d1efaa10800000000000000
+      internalID: 1923003871090231911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionBombCar-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d503519cd99664820800000000000000
+      internalID: 2902123136291254365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 65768296169f1964d988ef3cf1990801
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 0e5c2d0d52d00df4fa5e005f6f6aca90, type: 3}
+      name: emission
+    nameFileIdTable:
+      ExplosionBombCar-Sheet_0: -215768055621201818
+      ExplosionBombCar-Sheet_1: -758598833281829099
+      ExplosionBombCar-Sheet_2: 570107573004819135
+      ExplosionBombCar-Sheet_3: 5568421468141670094
+      ExplosionBombCar-Sheet_4: 1923003871090231911
+      ExplosionBombCar-Sheet_5: 2902123136291254365
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

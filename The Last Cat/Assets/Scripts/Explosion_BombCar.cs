@@ -5,14 +5,11 @@ using UnityEngine;
 
 public class Explosion_BombCar : MonoBehaviour
 {
-    float timer = 1.5f;
-
-    private void Update()
+    public void OnDestroy()
     {
-        timer -= Time.deltaTime;
-
-        if(timer < 0 ) Destroy(gameObject);
+        Destroy(gameObject);
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
