@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/NivelesInteriores/interior3.unity
     guid: 679fd199b6d4e8445b3a88f8ab00cacf
   - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 17d6d51091c53d2488c0efdeb4d35219
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 848936f47b3db4e47aa477145ddadd4f
   m_configObjects: {}

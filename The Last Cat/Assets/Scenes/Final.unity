@@ -248,7 +248,11 @@ MonoBehaviour:
   dialogueText: {fileID: 1535347744}
   dialogueLine:
   - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
-    line: fkfaklfhkhfa
+    line: ...
+  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+    line: "\xBFDonde estoy?"
+  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+    line: "\xBFSe acab\xF3 todo'"
 --- !u!4 &145400918
 Transform:
   m_ObjectHideFlags: 0
@@ -1689,6 +1693,63 @@ Transform:
   - {fileID: 1160939538}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &637238140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 637238142}
+  - component: {fileID: 637238141}
+  m_Layer: 0
+  m_Name: DirectorFinal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!320 &637238141
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637238140}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c3156dccd4624154e81e69bd79c8fb1d, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 751260489578312346, guid: c3156dccd4624154e81e69bd79c8fb1d, type: 2}
+    value: {fileID: 38849094}
+  - key: {fileID: -6899028899667971574, guid: c3156dccd4624154e81e69bd79c8fb1d, type: 2}
+    value: {fileID: 38849094}
+  - key: {fileID: -8552865552733174491, guid: c3156dccd4624154e81e69bd79c8fb1d, type: 2}
+    value: {fileID: 1882616428}
+  - key: {fileID: -6935105733256737160, guid: c3156dccd4624154e81e69bd79c8fb1d, type: 2}
+    value: {fileID: 701752697}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &637238142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637238140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2166436, y: 20.282583, z: -0.0043678284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &672886130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,6 +1796,51 @@ Transform:
   - {fileID: 310299120}
   - {fileID: 1916915998}
   - {fileID: 340444263}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &701752697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701752699}
+  - component: {fileID: 701752698}
+  m_Layer: 0
+  m_Name: ChangeLevelObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &701752698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701752697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5e07f5e0f0bc8419392532540c190a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameLevel: MainMenu
+--- !u!4 &701752699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701752697}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6013248, y: 23.475498, z: -0.030998472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &877962548
@@ -2347,9 +2453,12 @@ MonoBehaviour:
   dialogueText: {fileID: 1535347744}
   dialogueLine:
   - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
-    line: Ya lo recuerdo, creo que ya deberia descansar.
+    line: Ya lo recuerdo...
   - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
-    line: El refugio puede esperar un poco...
+    line: "Mis amigos y yo quedamos atrapados entre un mont\xF3n de zombies de camino
+      al refugio, creo que no lo logramos... Aunque esto tampoco est\xE1 mal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+    line: Supongo que este es el refugio que necesitaba
 --- !u!114 &1567573140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2377,6 +2486,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 637238140}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &1571618400
 GameObject:
@@ -6519,3 +6640,5 @@ SceneRoots:
   - {fileID: 92001310}
   - {fileID: 145400918}
   - {fileID: 1567573138}
+  - {fileID: 637238142}
+  - {fileID: 701752699}

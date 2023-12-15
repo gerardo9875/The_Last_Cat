@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a861a74c0a6d5740979f88610e539bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: MainMenu
+  levelName: Final
   fade: {fileID: 104225420}
 --- !u!61 &32543762
 BoxCollider2D:
@@ -18077,7 +18077,7 @@ Tilemap:
       - {fileID: -86463818, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -2127360546, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
       - {fileID: -1317359474, guid: 3bc02954fe29da046b325a82cd34a1af, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 13, y: 34, z: 0}
