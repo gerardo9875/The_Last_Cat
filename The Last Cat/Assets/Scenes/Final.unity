@@ -247,11 +247,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1622958397}
   dialogueText: {fileID: 1535347744}
   dialogueLine:
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
     line: ...
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
     line: "\xBFDonde estoy?"
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
     line: "\xBFSe acab\xF3 todo'"
 --- !u!4 &145400918
 Transform:
@@ -2452,13 +2452,17 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1622958397}
   dialogueText: {fileID: 1535347744}
   dialogueLine:
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
     line: Ya lo recuerdo...
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
     line: "Mis amigos y yo quedamos atrapados entre un mont\xF3n de zombies de camino
-      al refugio, creo que no lo logramos... Aunque esto tampoco est\xE1 mal.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
-  - sprite: {fileID: -716836810481105732, guid: c822ef0e0c73eb1438dad86f9134290d, type: 3}
-    line: Supongo que este es el refugio que necesitaba
+      al refugio."
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
+    line: ...
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
+    line: Estoy cansado.
+  - sprite: {fileID: -7676698153574860202, guid: 53525c8bb10da964fb024792c5bebd72, type: 3}
+    line: "Quiz\xE1s vaya en otro momento..."
 --- !u!114 &1567573140
 MonoBehaviour:
   m_ObjectHideFlags: 0
