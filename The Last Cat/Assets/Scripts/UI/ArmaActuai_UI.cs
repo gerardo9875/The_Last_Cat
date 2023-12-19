@@ -17,7 +17,7 @@ public class ArmaActuai_UI : MonoBehaviour
     public TextMeshProUGUI BombaTex;
 
     //Barra de recarga
-    Image reloadBar;
+    [SerializeField] Image reloadBar;
     float startTime;
 
     [SerializeField] GameObject secondaryAmmo;
@@ -32,8 +32,8 @@ public class ArmaActuai_UI : MonoBehaviour
 
         MunicionTex = principalAmmo[0].GetComponent<TextMeshProUGUI>();
 
-        reloadBar = principalAmmo[0].GetComponentInChildren<Image>();
         startTime = Time.time;
+
     }
     private void Update()
     {
